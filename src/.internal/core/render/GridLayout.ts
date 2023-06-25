@@ -1,7 +1,7 @@
-import { Layout, ILayoutSettings, ILayoutPrivate, eachChildren } from "./Layout";
-import * as $array from "../util/Array";
-import * as $math from "../util/Math";
-import type { Container } from "./Container";
+import { Layout, ILayoutSettings, ILayoutPrivate, eachChildren } from "./Layout.js";
+import * as $array from "../util/Array.js";
+import * as $math from "../util/Math.js";
+import type { Container } from "./Container.js";
 
 
 export interface IGridLayoutSettings extends ILayoutSettings {

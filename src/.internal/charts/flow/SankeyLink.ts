@@ -1,12 +1,12 @@
-import type { DataItem } from "../../core/render/Component";
-import type { FlowNode } from "./FlowNode";
-import type { Sankey, ISankeyDataItem } from "./Sankey";
-import type { ISankeyNodesDataItem } from "./SankeyNodes";
-import type { IOrientationPoint } from "../../core/util/IPoint";
+import type { DataItem } from "../../core/render/Component.js";
+import type { FlowNode } from "./FlowNode.js";
+import type { Sankey, ISankeyDataItem } from "./Sankey.js";
+import type { ISankeyNodesDataItem } from "./SankeyNodes.js";
+import type { IOrientationPoint } from "../../core/util/IPoint.js";
 
-import { FlowLink, IFlowLinkPrivate, IFlowLinkSettings } from "./FlowLink";
-import type { IPoint } from "../../core/util/IPoint";
-import * as $math from "../../core/util/Math";
+import { FlowLink, IFlowLinkPrivate, IFlowLinkSettings } from "./FlowLink.js";
+import type { IPoint } from "../../core/util/IPoint.js";
+import * as $math from "../../core/util/Math.js";
 
 
 export interface ISankeyLinkSettings extends IFlowLinkSettings {

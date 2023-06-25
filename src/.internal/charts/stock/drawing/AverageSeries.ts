@@ -1,5 +1,5 @@
-import { SimpleLineSeries, ISimpleLineSeriesSettings, ISimpleLineSeriesPrivate, ISimpleLineSeriesDataItem } from "./SimpleLineSeries";
-import * as $math from "../../../core/util/Math";
+import { SimpleLineSeries, ISimpleLineSeriesSettings, ISimpleLineSeriesPrivate, ISimpleLineSeriesDataItem } from "./SimpleLineSeries.js";
+import * as $math from "../../../core/util/Math.js";
 
 export interface IAverageSeriesDataItem extends ISimpleLineSeriesDataItem {
 

@@ -1,4 +1,4 @@
-import { LineSeries, ILineSeriesSettings, ILineSeriesPrivate, ILineSeriesDataItem } from "./LineSeries";
+import { LineSeries, ILineSeriesSettings, ILineSeriesPrivate, ILineSeriesDataItem } from "./LineSeries.js";
 import { curveCardinal, CurveCardinalFactory } from "d3-shape";
 
 export interface SmoothedXYLineSeriesDataItem extends ILineSeriesDataItem {

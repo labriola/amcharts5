@@ -1,22 +1,22 @@
-import type { IPoint } from "../../core/util/IPoint";
-import type { XYChart } from "./XYChart"
-import type { XYSeries } from "./series/XYSeries";
-import type { IPointerEvent } from "../../core/render/backend/Renderer";
-import type { Axis } from "./axes/Axis";
-import type { AxisRenderer } from "./axes/AxisRenderer";
-import type { Tooltip } from "../../core/render/Tooltip";
+import type { IPoint } from "../../core/util/IPoint.js";
+import type { XYChart } from "./XYChart.js"
+import type { XYSeries } from "./series/XYSeries.js";
+import type { IPointerEvent } from "../../core/render/backend/Renderer.js";
+import type { Axis } from "./axes/Axis.js";
+import type { AxisRenderer } from "./axes/AxisRenderer.js";
+import type { Tooltip } from "../../core/render/Tooltip.js";
 
-import { Container, IContainerSettings, IContainerPrivate, IContainerEvents } from "../../core/render/Container";
-import { p100 } from "../../core/util/Percent";
-import { Graphics } from "../../core/render/Graphics";
-import { Grid } from "./axes/Grid";
+import { Container, IContainerSettings, IContainerPrivate, IContainerEvents } from "../../core/render/Container.js";
+import { p100 } from "../../core/util/Percent.js";
+import { Graphics } from "../../core/render/Graphics.js";
+import { Grid } from "./axes/Grid.js";
 //import { Animations } from "../core/util/Animation";
 
-import * as $type from "../../core/util/Type";
-import * as $utils from "../../core/util/Utils";
-import * as $math from "../../core/util/Math";
-import * as $array from "../../core/util/Array";
-import * as $object from "../../core/util/Object";
+import * as $type from "../../core/util/Type.js";
+import * as $utils from "../../core/util/Utils.js";
+import * as $math from "../../core/util/Math.js";
+import * as $array from "../../core/util/Array.js";
+import * as $object from "../../core/util/Object.js";
 
 export interface IXYCursorSettings extends IContainerSettings {
 

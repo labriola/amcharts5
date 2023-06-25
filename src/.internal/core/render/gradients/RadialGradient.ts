@@ -1,13 +1,13 @@
-import type { IGradient } from "../backend/Renderer";
-import type { Sprite } from "../Sprite";
-import type { Percent } from "../../util/Percent";
+import type { IGradient } from "../backend/Renderer.js";
+import type { Sprite } from "../Sprite.js";
+import type { Percent } from "../../util/Percent.js";
 
-import { Gradient, IGradientSettings, IGradientPrivate } from "./Gradient";
-import { Color } from "../../util/Color";
+import { Gradient, IGradientSettings, IGradientPrivate } from "./Gradient.js";
+import { Color } from "../../util/Color.js";
 
-import * as $array from "../../util/Array";
-import * as $type from "../../util/Type";
-import * as $utils from "../../util/Utils";
+import * as $array from "../../util/Array.js";
+import * as $type from "../../util/Type.js";
+import * as $utils from "../../util/Utils.js";
 
 
 export interface IRadialGradientSettings extends IGradientSettings {

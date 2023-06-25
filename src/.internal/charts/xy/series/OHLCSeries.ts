@@ -1,11 +1,11 @@
-import type { DataItem } from "../../../core/render/Component";
+import type { DataItem } from "../../../core/render/Component.js";
 
-import { CandlestickSeries, ICandlestickSeriesPrivate, ICandlestickSeriesSettings, ICandlestickSeriesDataItem, ICandlestickSeriesAxisRange } from "./CandlestickSeries";
-import { OHLC } from "./OHLC";
-import { Template } from "../../../core/util/Template";
-import { ListTemplate } from "../../../core/util/List";
+import { CandlestickSeries, ICandlestickSeriesPrivate, ICandlestickSeriesSettings, ICandlestickSeriesDataItem, ICandlestickSeriesAxisRange } from "./CandlestickSeries.js";
+import { OHLC } from "./OHLC.js";
+import { Template } from "../../../core/util/Template.js";
+import { ListTemplate } from "../../../core/util/List.js";
 
-import * as $utils from "../../../core/util/Utils";
+import * as $utils from "../../../core/util/Utils.js";
 
 export interface IOHLCSeriesDataItem extends ICandlestickSeriesDataItem {
 }

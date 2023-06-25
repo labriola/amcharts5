@@ -1,5 +1,5 @@
-import { Graphics, IGraphicsSettings, IGraphicsPrivate } from "../../core/render/Graphics";
-import type { IPoint } from "../../core/util/IPoint";
+import { Graphics, IGraphicsSettings, IGraphicsPrivate } from "../../core/render/Graphics.js";
+import type { IPoint } from "../../core/util/IPoint.js";
 
 export interface IFunnelSliceSettings extends IGraphicsSettings {
 

@@ -1,6 +1,6 @@
-import type { Container } from "./Container";
-import type { Sprite } from "./Sprite";
-import { Entity, IEntitySettings, IEntityPrivate } from "../util/Entity";
+import type { Container } from "./Container.js";
+import type { Sprite } from "./Sprite.js";
+import { Entity, IEntitySettings, IEntityPrivate } from "../util/Entity.js";
 
 export interface ILayoutSettings extends IEntitySettings {
 }

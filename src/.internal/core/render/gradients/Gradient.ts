@@ -1,8 +1,8 @@
-import type { IBounds } from "../../util/IBounds"
-import type { IGradient, IGradientStop } from "../backend/Renderer";
-import type { Sprite } from "../Sprite";
+import type { IBounds } from "../../util/IBounds.js"
+import type { IGradient, IGradientStop } from "../backend/Renderer.js";
+import type { Sprite } from "../Sprite.js";
 
-import { Entity, IEntitySettings, IEntityPrivate } from "../../util/Entity"
+import { Entity, IEntitySettings, IEntityPrivate } from "../../util/Entity.js"
 
 
 export interface IGradientSettings extends IEntitySettings {

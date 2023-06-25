@@ -1,8 +1,8 @@
-import { StockControl, IStockControlSettings, IStockControlPrivate, IStockControlEvents } from "./StockControl";
-import { DropdownList, IDropdownListItem } from "./DropdownList";
-import { StockIcons } from "./StockIcons";
+import { StockControl, IStockControlSettings, IStockControlPrivate, IStockControlEvents } from "./StockControl.js";
+import { DropdownList, IDropdownListItem } from "./DropdownList.js";
+import { StockIcons } from "./StockIcons.js";
 
-import * as $array from "../../../core/util/Array";
+import * as $array from "../../../core/util/Array.js";
 
 export type DrawingTools = "Average" | "Callout" | "Doodle" | "Ellipse" | "Fibonacci" | "Fibonacci Timezone" | "Horizontal Line" | "Horizontal Ray" | "Arrows &amp; Icons" | "Label" | "Line" | "Polyline" | "Quadrant Line" | "Rectangle" | "Regression" | "Trend Line" | "Vertical Line";
 

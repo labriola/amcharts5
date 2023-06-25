@@ -1,2 +1,2 @@
-import { SpiritedTheme } from "../.internal/themes/SpiritedTheme";
+import { SpiritedTheme } from "../.internal/themes/SpiritedTheme.js";
 export default SpiritedTheme;

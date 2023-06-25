@@ -1,8 +1,8 @@
-import { StockControl, IStockControlSettings, IStockControlPrivate, IStockControlEvents } from "./StockControl";
-import { DropdownList, IDropdownListItem } from "./DropdownList";
+import { StockControl, IStockControlSettings, IStockControlPrivate, IStockControlEvents } from "./StockControl.js";
+import { DropdownList, IDropdownListItem } from "./DropdownList.js";
 
-import * as $array from "../../../core/util/Array";
-import * as $type from "../../../core/util/Type";
+import * as $array from "../../../core/util/Array.js";
+import * as $type from "../../../core/util/Type.js";
 
 export interface IDropdownListControlSettings extends IStockControlSettings {
 	currentItem?: string | IDropdownListItem;

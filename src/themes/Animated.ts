@@ -1,2 +1,2 @@
-import { AnimatedTheme } from "../.internal/themes/AnimatedTheme";
+import { AnimatedTheme } from "../.internal/themes/AnimatedTheme.js";
 export default AnimatedTheme;

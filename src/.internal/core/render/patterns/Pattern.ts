@@ -1,7 +1,7 @@
-import type { IGraphics, IPattern } from "../backend/Renderer";
-import type { Color } from "../../util/Color";
+import type { IGraphics, IPattern } from "../backend/Renderer.js";
+import type { Color } from "../../util/Color.js";
 
-import { Entity, IEntitySettings, IEntityPrivate, IEntityEvents } from "../../util/Entity";
+import { Entity, IEntitySettings, IEntityPrivate, IEntityEvents } from "../../util/Entity.js";
 
 export interface IPatternSettings extends IEntitySettings {
 

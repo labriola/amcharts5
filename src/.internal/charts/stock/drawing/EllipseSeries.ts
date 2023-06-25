@@ -1,12 +1,12 @@
-import type { ISpritePointerEvent } from "../../../core/render/Sprite";
-import type { DataItem } from "../../../core/render/Component";
+import type { ISpritePointerEvent } from "../../../core/render/Sprite.js";
+import type { DataItem } from "../../../core/render/Component.js";
 
-import { DrawingSeries, IDrawingSeriesSettings, IDrawingSeriesPrivate, IDrawingSeriesDataItem } from "./DrawingSeries";
-import { Ellipse } from "../../../core/render/Ellipse";
-import { ListTemplate } from "../../../core/util/List";
-import { Template } from "../../../core/util/Template";
+import { DrawingSeries, IDrawingSeriesSettings, IDrawingSeriesPrivate, IDrawingSeriesDataItem } from "./DrawingSeries.js";
+import { Ellipse } from "../../../core/render/Ellipse.js";
+import { ListTemplate } from "../../../core/util/List.js";
+import { Template } from "../../../core/util/Template.js";
 
-import * as $array from "../../../core/util/Array";
+import * as $array from "../../../core/util/Array.js";
 
 export interface IEllipseSeriesDataItem extends IDrawingSeriesDataItem {
 }

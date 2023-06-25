@@ -1,7 +1,7 @@
-import type { DataItem } from "../../core/render/Component";
-import type { IPoint } from "../../core/util/IPoint";
+import type { DataItem } from "../../core/render/Component.js";
+import type { IPoint } from "../../core/util/IPoint.js";
 
-import { LinkedHierarchy, ILinkedHierarchyPrivate, ILinkedHierarchySettings, ILinkedHierarchyDataItem, ILinkedHierarchyEvents } from "./LinkedHierarchy";
+import { LinkedHierarchy, ILinkedHierarchyPrivate, ILinkedHierarchySettings, ILinkedHierarchyDataItem, ILinkedHierarchyEvents } from "./LinkedHierarchy.js";
 
 import * as d3hierarchy from "d3-hierarchy";
 

@@ -1,8 +1,8 @@
-import type { IDropdownListItem } from "./DropdownList";
-import type { TimeUnit } from "../../../core/util/Time";
+import type { IDropdownListItem } from "./DropdownList.js";
+import type { TimeUnit } from "../../../core/util/Time.js";
 
-import { DropdownListControl, IDropdownListControlSettings, IDropdownListControlPrivate, IDropdownListControlEvents } from "./DropdownListControl";
-import { StockIcons } from "./StockIcons";
+import { DropdownListControl, IDropdownListControlSettings, IDropdownListControlPrivate, IDropdownListControlEvents } from "./DropdownListControl.js";
+import { StockIcons } from "./StockIcons.js";
 
 export interface IIntervalControlItem extends IDropdownListItem {
 	interval: {

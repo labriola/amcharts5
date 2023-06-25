@@ -1,13 +1,13 @@
-import type { TimeUnit } from "../../../core/util/Time"
-import type { DateAxis } from "../../xy/axes/DateAxis";
-import type { AxisRenderer } from "../../xy/axes/AxisRenderer";
+import type { TimeUnit } from "../../../core/util/Time.js"
+import type { DateAxis } from "../../xy/axes/DateAxis.js";
+import type { AxisRenderer } from "../../xy/axes/AxisRenderer.js";
 
-import { StockControl, IStockControlSettings, IStockControlPrivate, IStockControlEvents } from "./StockControl";
-import { MultiDisposer, IDisposer } from "../../../core/util/Disposer";
+import { StockControl, IStockControlSettings, IStockControlPrivate, IStockControlEvents } from "./StockControl.js";
+import { MultiDisposer, IDisposer } from "../../../core/util/Disposer.js";
 
-import * as $utils from "../../../core/util/Utils";
-import * as $time from "../../../core/util/Time";
-import * as $array from "../../../core/util/Array";
+import * as $utils from "../../../core/util/Utils.js";
+import * as $time from "../../../core/util/Time.js";
+import * as $array from "../../../core/util/Array.js";
 
 export interface IPeriod {
 	timeUnit: TimeUnit | "ytd" | "max";

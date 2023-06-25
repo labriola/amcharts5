@@ -1,11 +1,11 @@
-import { StockControl, IStockControlSettings, IStockControlPrivate, IStockControlEvents } from "./StockControl";
-import { Dropdown } from "./Dropdown";
-import { StockIcons } from "./StockIcons";
-import { StyleSheet } from "../../../core/util/Utils";
+import { StockControl, IStockControlSettings, IStockControlPrivate, IStockControlEvents } from "./StockControl.js";
+import { Dropdown } from "./Dropdown.js";
+import { StockIcons } from "./StockIcons.js";
+import { StyleSheet } from "../../../core/util/Utils.js";
 import flatpickr from "flatpickr";
 
-import * as $utils from "../../../core/util/Utils";
-import * as $type from "../../../core/util/Type";
+import * as $utils from "../../../core/util/Utils.js";
+import * as $type from "../../../core/util/Type.js";
 
 export interface IDateRangeSelectorSettings extends IStockControlSettings {
 

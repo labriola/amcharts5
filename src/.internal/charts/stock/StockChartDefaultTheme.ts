@@ -1,11 +1,11 @@
-import { Theme } from "../../core/Theme";
-import { p100, p50, p0, percent } from "../../core/util/Percent";
-import { setColor } from "../../themes/DefaultTheme";
-import { color } from "../../core/util/Color";
-import { ColorSet } from "../../core/util/ColorSet";
-import { StockIcons } from "./toolbar/StockIcons";
+import { Theme } from "../../core/Theme.js";
+import { p100, p50, p0, percent } from "../../core/util/Percent.js";
+import { setColor } from "../../themes/DefaultTheme.js";
+import { color } from "../../core/util/Color.js";
+import { ColorSet } from "../../core/util/ColorSet.js";
+import { StockIcons } from "./toolbar/StockIcons.js";
 
-import * as $math from "../../core/util/Math";
+import * as $math from "../../core/util/Math.js";
 
 /**
  * @ignore

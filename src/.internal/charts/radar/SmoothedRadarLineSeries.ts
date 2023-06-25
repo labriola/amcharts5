@@ -1,4 +1,4 @@
-import { RadarLineSeries, IRadarLineSeriesSettings, IRadarLineSeriesPrivate, IRadarLineSeriesDataItem } from "./RadarLineSeries";
+import { RadarLineSeries, IRadarLineSeriesSettings, IRadarLineSeriesPrivate, IRadarLineSeriesDataItem } from "./RadarLineSeries.js";
 import { curveCardinalClosed, CurveCardinalFactory, curveCardinal } from "d3-shape";
 
 export interface ISmoothedRadarLineSeriesDataItem extends IRadarLineSeriesDataItem {

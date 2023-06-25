@@ -1,20 +1,20 @@
-import type { DataItem } from "../../core/render/Component";
+import type { DataItem } from "../../core/render/Component.js";
 
-import { Flow, IFlowSettings, IFlowDataItem, IFlowPrivate, IFlowEvents } from "./Flow";
-import { SankeyNodes, ISankeyNodesDataItem } from "./SankeyNodes";
-import { SankeyLink } from "./SankeyLink";
+import { Flow, IFlowSettings, IFlowDataItem, IFlowPrivate, IFlowEvents } from "./Flow.js";
+import { SankeyNodes, ISankeyNodesDataItem } from "./SankeyNodes.js";
+import { SankeyLink } from "./SankeyLink.js";
 import { area, line } from "d3-shape";
-import { curveMonotoneXTension } from "../../core/render/MonotoneXTension";
-import { curveMonotoneYTension } from "../../core/render/MonotoneYTension";
-import { Template } from "../../core/util/Template";
-import { ListTemplate } from "../../core/util/List";
+import { curveMonotoneXTension } from "../../core/render/MonotoneXTension.js";
+import { curveMonotoneYTension } from "../../core/render/MonotoneYTension.js";
+import { Template } from "../../core/util/Template.js";
+import { ListTemplate } from "../../core/util/List.js";
 
-import * as $array from "../../core/util/Array";
-import * as $type from "../../core/util/Type";
-import * as $utils from "../../core/util/Utils";
+import * as $array from "../../core/util/Array.js";
+import * as $type from "../../core/util/Type.js";
+import * as $utils from "../../core/util/Utils.js";
 import * as d3sankey from "d3-sankey";
 
-import type { Bullet } from "../../core/render/Bullet";
+import type { Bullet } from "../../core/render/Bullet.js";
 
 export interface ISankeyDataItem extends IFlowDataItem {
 

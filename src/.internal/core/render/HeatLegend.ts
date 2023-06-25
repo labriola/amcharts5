@@ -1,17 +1,17 @@
-import type { IPoint } from "../../core/util/IPoint";
+import type { IPoint } from "../../core/util/IPoint.js";
 
-import { Container, IContainerSettings, IContainerPrivate } from "./Container";
-import { Label } from "../../core/render/Label";
-import { p100 } from "../../core/util/Percent";
-import { RoundedRectangle } from "../../core/render/RoundedRectangle";
-import { Template } from "../../core/util/Template";
-import { ListTemplate } from "../../core/util/List";
-import { Color } from "../../core/util/Color";
-import { Tooltip } from "../../core/render/Tooltip";
-import { LinearGradient } from "../../core/render/gradients/LinearGradient";
+import { Container, IContainerSettings, IContainerPrivate } from "./Container.js";
+import { Label } from "../../core/render/Label.js";
+import { p100 } from "../../core/util/Percent.js";
+import { RoundedRectangle } from "../../core/render/RoundedRectangle.js";
+import { Template } from "../../core/util/Template.js";
+import { ListTemplate } from "../../core/util/List.js";
+import { Color } from "../../core/util/Color.js";
+import { Tooltip } from "../../core/render/Tooltip.js";
+import { LinearGradient } from "../../core/render/gradients/LinearGradient.js";
 
-import * as $utils from "../../core/util/Utils";
-import * as $type from "../../core/util/Type";
+import * as $utils from "../../core/util/Utils.js";
+import * as $type from "../../core/util/Type.js";
 
 export interface IHeatLegendSettings extends IContainerSettings {
 

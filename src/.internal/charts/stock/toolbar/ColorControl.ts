@@ -1,12 +1,12 @@
-import type { ColorSet } from "../../../core/util/ColorSet";
-import type { Color } from "../../../core/util/Color";
+import type { ColorSet } from "../../../core/util/ColorSet.js";
+import type { Color } from "../../../core/util/Color.js";
 
-import { StockControl, IStockControlSettings, IStockControlPrivate, IStockControlEvents } from "./StockControl";
-import { DropdownColors } from "./DropdownColors";
-import { StockIcons } from "./StockIcons";
+import { StockControl, IStockControlSettings, IStockControlPrivate, IStockControlEvents } from "./StockControl.js";
+import { DropdownColors } from "./DropdownColors.js";
+import { StockIcons } from "./StockIcons.js";
 
-import * as $utils from "../../../core/util/Utils";
-import StockToolbarCSS from "./StockToolbarCSS";
+import * as $utils from "../../../core/util/Utils.js";
+import StockToolbarCSS from "./StockToolbarCSS.js";
 
 export interface IColorControlSettings extends IStockControlSettings {
 	colors?: ColorSet;

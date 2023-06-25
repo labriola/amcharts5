@@ -1,15 +1,15 @@
-import { DataItem } from "../../../core/render/Component";
-import type { AxisRenderer } from "./AxisRenderer";
-import type { XYSeries, IXYSeriesDataItem } from "../series/XYSeries";
-import { ValueAxis, IValueAxisSettings, IValueAxisPrivate, IValueAxisDataItem, IMinMaxStep, IValueAxisEvents } from "./ValueAxis";
-import * as $type from "../../../core/util/Type";
-import * as $order from "../../../core/util/Order";
-import * as $array from "../../../core/util/Array";
-import * as $object from "../../../core/util/Object";
-import * as $utils from "../../../core/util/Utils";
-import * as $time from "../../../core/util/Time";
-import type { ITimeInterval } from "../../../core/util/Time";
-import type { TimeUnit } from "../../../core/util/Time";
+import { DataItem } from "../../../core/render/Component.js";
+import type { AxisRenderer } from "./AxisRenderer.js";
+import type { XYSeries, IXYSeriesDataItem } from "../series/XYSeries.js";
+import { ValueAxis, IValueAxisSettings, IValueAxisPrivate, IValueAxisDataItem, IMinMaxStep, IValueAxisEvents } from "./ValueAxis.js";
+import * as $type from "../../../core/util/Type.js";
+import * as $order from "../../../core/util/Order.js";
+import * as $array from "../../../core/util/Array.js";
+import * as $object from "../../../core/util/Object.js";
+import * as $utils from "../../../core/util/Utils.js";
+import * as $time from "../../../core/util/Time.js";
+import type { ITimeInterval } from "../../../core/util/Time.js";
+import type { TimeUnit } from "../../../core/util/Time.js";
 
 export interface IDateAxisSettings<R extends AxisRenderer> extends IValueAxisSettings<R> {
 

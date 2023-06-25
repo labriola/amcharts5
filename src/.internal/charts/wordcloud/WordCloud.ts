@@ -1,24 +1,24 @@
-import type { DataItem } from "../../core/render/Component";
-import type { CanvasLayer } from "../../core/render/backend/CanvasRenderer";
-import type { ColorSet } from "../../core/util/ColorSet";
-import type { Percent } from "../../core/util/Percent";
-import type { IPoint } from "../../core/util/IPoint";
-import type { IDisposer } from "../../core/util/Disposer";
-import type { Time } from "../../core/util/Animation";
+import type { DataItem } from "../../core/render/Component.js";
+import type { CanvasLayer } from "../../core/render/backend/CanvasRenderer.js";
+import type { ColorSet } from "../../core/util/ColorSet.js";
+import type { Percent } from "../../core/util/Percent.js";
+import type { IPoint } from "../../core/util/IPoint.js";
+import type { IDisposer } from "../../core/util/Disposer.js";
+import type { Time } from "../../core/util/Animation.js";
 
-import { WordCloudDefaultTheme } from "./WordCloudDefaultTheme";
-import { Series, ISeriesSettings, ISeriesDataItem, ISeriesPrivate } from "../../core/render/Series";
-import { Template } from "../../core/util/Template";
-import { Label } from "../../core/render/Label";
-import { Container } from "../../core/render/Container";
-import { ListTemplate } from "../../core/util/List";
-import { Color } from "../../core/util/Color";
-import type { IBounds } from "../../core/util/IBounds";
+import { WordCloudDefaultTheme } from "./WordCloudDefaultTheme.js";
+import { Series, ISeriesSettings, ISeriesDataItem, ISeriesPrivate } from "../../core/render/Series.js";
+import { Template } from "../../core/util/Template.js";
+import { Label } from "../../core/render/Label.js";
+import { Container } from "../../core/render/Container.js";
+import { ListTemplate } from "../../core/util/List.js";
+import { Color } from "../../core/util/Color.js";
+import type { IBounds } from "../../core/util/IBounds.js";
 
-import * as $utils from "../../core/util/Utils";
-import * as $array from "../../core/util/Array";
-import * as $math from "../../core/util/Math";
-import * as $type from "../../core/util/Type";
+import * as $utils from "../../core/util/Utils.js";
+import * as $array from "../../core/util/Array.js";
+import * as $math from "../../core/util/Math.js";
+import * as $type from "../../core/util/Type.js";
 
 export interface IWordCloudDataItem extends ISeriesDataItem {
 

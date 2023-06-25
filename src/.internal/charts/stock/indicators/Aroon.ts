@@ -1,9 +1,9 @@
-import type { IIndicatorEditableSetting } from "./Indicator";
-import { Color } from "../../../core/util/Color";
-import { ChartIndicator, IChartIndicatorSettings, IChartIndicatorPrivate, IChartIndicatorEvents } from "./ChartIndicator";
-import { LineSeries } from "../../xy/series/LineSeries";
+import type { IIndicatorEditableSetting } from "./Indicator.js";
+import { Color } from "../../../core/util/Color.js";
+import { ChartIndicator, IChartIndicatorSettings, IChartIndicatorPrivate, IChartIndicatorEvents } from "./ChartIndicator.js";
+import { LineSeries } from "../../xy/series/LineSeries.js";
 
-import * as $array from "../../../core/util/Array";
+import * as $array from "../../../core/util/Array.js";
 
 export interface IAroonSettings extends IChartIndicatorSettings {
 

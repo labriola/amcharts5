@@ -1,8 +1,8 @@
 /** @ignore *//** */
 
-import type { IPoint } from "./IPoint"
-import * as $math from "./Math";
-import type { IGraphics } from "../render/backend/Renderer";
+import type { IPoint } from "./IPoint.js"
+import * as $math from "./Math.js";
+import type { IGraphics } from "../render/backend/Renderer.js";
 
 /**
  * @ignore

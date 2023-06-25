@@ -1,7 +1,7 @@
-import type { IHierarchyDataItem } from "./Hierarchy";
-import type { DataItem } from "../../core/render/Component";
+import type { IHierarchyDataItem } from "./Hierarchy.js";
+import type { DataItem } from "../../core/render/Component.js";
 
-import { Graphics, IGraphicsSettings, IGraphicsPrivate } from "../../core/render/Graphics";
+import { Graphics, IGraphicsSettings, IGraphicsPrivate } from "../../core/render/Graphics.js";
 
 export interface IHierarchyLinkSettings extends IGraphicsSettings {
 

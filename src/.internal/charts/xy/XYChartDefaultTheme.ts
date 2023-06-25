@@ -1,21 +1,21 @@
-import type { ITimeInterval } from "../../core/util/Time";
-import type { DataItem } from "../../core/render/Component";
-import type { IValueAxisDataItem, ValueAxis } from "./axes/ValueAxis";
-import type { AxisRenderer } from "./axes/AxisRenderer";
-import type { DateAxis } from "./axes/DateAxis";
-import type { ICategoryAxisDataItem } from "./axes/CategoryAxis";
-import type { IGaplessDateAxisDataItem } from "./axes/GaplessDateAxis";
+import type { ITimeInterval } from "../../core/util/Time.js";
+import type { DataItem } from "../../core/render/Component.js";
+import type { IValueAxisDataItem, ValueAxis } from "./axes/ValueAxis.js";
+import type { AxisRenderer } from "./axes/AxisRenderer.js";
+import type { DateAxis } from "./axes/DateAxis.js";
+import type { ICategoryAxisDataItem } from "./axes/CategoryAxis.js";
+import type { IGaplessDateAxisDataItem } from "./axes/GaplessDateAxis.js";
 
-import { Theme } from "../../core/Theme";
-import { percent, p50, p100 } from "../../core/util/Percent";
-import { ColorSet } from "../../core/util/ColorSet";
-import { setColor } from "../../themes/DefaultTheme";
+import { Theme } from "../../core/Theme.js";
+import { percent, p50, p100 } from "../../core/util/Percent.js";
+import { ColorSet } from "../../core/util/ColorSet.js";
+import { setColor } from "../../themes/DefaultTheme.js";
 
-import * as $time from "../../core/util/Time";
-import * as $type from "../../core/util/Type";
-import * as $math from "../../core/util/Math";
-import * as $object from "../../core/util/Object";
-import * as $array from "../../core/util/Array";
+import * as $time from "../../core/util/Time.js";
+import * as $type from "../../core/util/Type.js";
+import * as $math from "../../core/util/Math.js";
+import * as $object from "../../core/util/Object.js";
+import * as $array from "../../core/util/Array.js";
 
 /**
  * @ignore

@@ -1,16 +1,16 @@
-import type { XYSeries } from "../../xy/series/XYSeries";
-import type { AxisRenderer } from "../../xy/axes/AxisRenderer";
+import type { XYSeries } from "../../xy/series/XYSeries.js";
+import type { AxisRenderer } from "../../xy/axes/AxisRenderer.js";
 
-import { Indicator, IIndicatorSettings, IIndicatorPrivate, IIndicatorEvents } from "./Indicator";
-import { StockPanel } from "../StockPanel";
-import { XYCursor } from "../../xy/XYCursor";
-import { DateAxis } from "../../xy/axes/DateAxis";
-import { GaplessDateAxis } from "../../xy/axes/GaplessDateAxis";
-import { ValueAxis } from "../../xy/axes/ValueAxis";
-import { AxisRendererX } from "../../xy/axes/AxisRendererX";
-import { AxisRendererY } from "../../xy/axes/AxisRendererY";
-import { Tooltip } from "../../../core/render/Tooltip";
-import { StockLegend } from "../StockLegend";
+import { Indicator, IIndicatorSettings, IIndicatorPrivate, IIndicatorEvents } from "./Indicator.js";
+import { StockPanel } from "../StockPanel.js";
+import { XYCursor } from "../../xy/XYCursor.js";
+import { DateAxis } from "../../xy/axes/DateAxis.js";
+import { GaplessDateAxis } from "../../xy/axes/GaplessDateAxis.js";
+import { ValueAxis } from "../../xy/axes/ValueAxis.js";
+import { AxisRendererX } from "../../xy/axes/AxisRendererX.js";
+import { AxisRendererY } from "../../xy/axes/AxisRendererY.js";
+import { Tooltip } from "../../../core/render/Tooltip.js";
+import { StockLegend } from "../StockLegend.js";
 
 
 export interface IChartIndicatorSettings extends IIndicatorSettings {

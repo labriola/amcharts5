@@ -1,4 +1,4 @@
-import type { Countries } from "../.internal/Data";
+import type { Countries } from "../.internal/Data.js";
 
 const countries: Countries = {
 	"AL": [ "albaniaLow", "albaniaHigh" ],

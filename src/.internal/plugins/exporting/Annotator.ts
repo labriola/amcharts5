@@ -1,9 +1,9 @@
-import { Entity, IEntitySettings, IEntityPrivate, IEntityEvents } from "../../core/util/Entity"
-import { Container } from "../../core/render/Container";
-import { Picture } from "../../core/render/Picture";
-import * as $utils from "../../core/util/Utils";
+import { Entity, IEntitySettings, IEntityPrivate, IEntityEvents } from "../../core/util/Entity.js"
+import { Container } from "../../core/render/Container.js";
+import { Picture } from "../../core/render/Picture.js";
+import * as $utils from "../../core/util/Utils.js";
 
-import { p100 } from "../../core/util/Percent";
+import { p100 } from "../../core/util/Percent.js";
 
 export interface IAnnotatorSettings extends IEntitySettings {
 

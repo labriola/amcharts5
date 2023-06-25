@@ -1,4 +1,4 @@
-import type { Lang } from "../.internal/Lang";
+import type { Lang } from "../.internal/Lang.js";
 
 // ROMANIAN
 const lang: Lang = {

@@ -24,7 +24,7 @@
  * THE SOFTWARE.
  */
 
-import type { IPoint } from "./IPoint";
+import type { IPoint } from "./IPoint.js";
 
 /**
  * @ignore

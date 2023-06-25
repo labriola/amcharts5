@@ -1,13 +1,13 @@
-import type { DataItem } from "../../core/render/Component";
+import type { DataItem } from "../../core/render/Component.js";
 
-import { MapSeries, IMapSeriesSettings, IMapSeriesDataItem, IMapSeriesPrivate } from "./MapSeries";
-import { MapPolygon } from "./MapPolygon";
-import { Template } from "../../core/util/Template";
-import { ListTemplate } from "../../core/util/List";
+import { MapSeries, IMapSeriesSettings, IMapSeriesDataItem, IMapSeriesPrivate } from "./MapSeries.js";
+import { MapPolygon } from "./MapPolygon.js";
+import { Template } from "../../core/util/Template.js";
+import { ListTemplate } from "../../core/util/List.js";
 
-import * as $array from "../../core/util/Array";
-import * as $mapUtils from "./MapUtils";
-import type { Animation } from "../../core/util/Entity";
+import * as $array from "../../core/util/Array.js";
+import * as $mapUtils from "./MapUtils.js";
+import type { Animation } from "../../core/util/Entity.js";
 
 export interface IMapPolygonSeriesPrivate extends IMapSeriesPrivate {
 }

@@ -1,44 +1,44 @@
-import type { XYSeries } from "../../xy/series/XYSeries";
-import type { Color } from "../../../core/util/Color";
-import type { ColorSet } from "../../../core/util/ColorSet";
-import type { IDropdownListItem } from "./DropdownList";
+import type { XYSeries } from "../../xy/series/XYSeries.js";
+import type { Color } from "../../../core/util/Color.js";
+import type { ColorSet } from "../../../core/util/ColorSet.js";
+import type { IDropdownListItem } from "./DropdownList.js";
 
-import { color } from "../../../core/util/Color";
+import { color } from "../../../core/util/Color.js";
 
-import { StockControl, IStockControlSettings, IStockControlPrivate, IStockControlEvents } from "./StockControl";
-import { DrawingToolControl, DrawingTools } from "./DrawingToolControl";
-import { ColorControl } from "./ColorControl";
-import { DropdownListControl } from "./DropdownListControl";
-import { IconControl, IIcon } from "./IconControl";
-import { StockIcons } from "./StockIcons";
-import { DrawingSeries } from "../drawing/DrawingSeries";
+import { StockControl, IStockControlSettings, IStockControlPrivate, IStockControlEvents } from "./StockControl.js";
+import { DrawingToolControl, DrawingTools } from "./DrawingToolControl.js";
+import { ColorControl } from "./ColorControl.js";
+import { DropdownListControl } from "./DropdownListControl.js";
+import { IconControl, IIcon } from "./IconControl.js";
+import { StockIcons } from "./StockIcons.js";
+import { DrawingSeries } from "../drawing/DrawingSeries.js";
 
-import { AverageSeries } from "../drawing/AverageSeries";
-import { CalloutSeries } from "../drawing/CalloutSeries";
-import { EllipseSeries } from "../drawing/EllipseSeries";
-import { DoodleSeries } from "../drawing/DoodleSeries";
-import { FibonacciSeries } from "../drawing/FibonacciSeries";
-import { FibonacciTimezoneSeries } from "../drawing/FibonacciTimezoneSeries";
-import { HorizontalLineSeries } from "../drawing/HorizontalLineSeries";
-import { HorizontalRaySeries } from "../drawing/HorizontalRaySeries";
-import { IconSeries } from "../drawing/IconSeries";
-import { LabelSeries } from "../drawing/LabelSeries";
-import { SimpleLineSeries } from "../drawing/SimpleLineSeries";
-import { PolylineSeries } from "../drawing/PolylineSeries";
-import { QuadrantLineSeries } from "../drawing/QuadrantLineSeries";
-import { RectangleSeries } from "../drawing/RectangleSeries";
-import { RegressionSeries } from "../drawing/RegressionSeries";
-import { TrendLineSeries } from "../drawing/TrendLineSeries";
-import { VerticalLineSeries } from "../drawing/VerticalLineSeries";
-import { JsonParser } from "../../../plugins/json/Json";
-import { Serializer } from "../../../plugins/json/Serializer";
-import type { StockPanel } from "../StockPanel";
+import { AverageSeries } from "../drawing/AverageSeries.js";
+import { CalloutSeries } from "../drawing/CalloutSeries.js";
+import { EllipseSeries } from "../drawing/EllipseSeries.js";
+import { DoodleSeries } from "../drawing/DoodleSeries.js";
+import { FibonacciSeries } from "../drawing/FibonacciSeries.js";
+import { FibonacciTimezoneSeries } from "../drawing/FibonacciTimezoneSeries.js";
+import { HorizontalLineSeries } from "../drawing/HorizontalLineSeries.js";
+import { HorizontalRaySeries } from "../drawing/HorizontalRaySeries.js";
+import { IconSeries } from "../drawing/IconSeries.js";
+import { LabelSeries } from "../drawing/LabelSeries.js";
+import { SimpleLineSeries } from "../drawing/SimpleLineSeries.js";
+import { PolylineSeries } from "../drawing/PolylineSeries.js";
+import { QuadrantLineSeries } from "../drawing/QuadrantLineSeries.js";
+import { RectangleSeries } from "../drawing/RectangleSeries.js";
+import { RegressionSeries } from "../drawing/RegressionSeries.js";
+import { TrendLineSeries } from "../drawing/TrendLineSeries.js";
+import { VerticalLineSeries } from "../drawing/VerticalLineSeries.js";
+import { JsonParser } from "../../../plugins/json/Json.js";
+import { Serializer } from "../../../plugins/json/Serializer.js";
+import type { StockPanel } from "../StockPanel.js";
 
 
-import * as $array from "../../../core/util/Array";
-import * as $object from "../../../core/util/Object";
-import * as $type from "../../../core/util/Type";
-import * as $utils from "../../../core/util/Utils";
+import * as $array from "../../../core/util/Array.js";
+import * as $object from "../../../core/util/Object.js";
+import * as $type from "../../../core/util/Type.js";
+import * as $utils from "../../../core/util/Utils.js";
 
 export interface IDrawingControlSettings extends IStockControlSettings {
 

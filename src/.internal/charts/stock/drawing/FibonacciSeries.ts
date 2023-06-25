@@ -1,14 +1,14 @@
-import type { Graphics } from "../../../core/render/Graphics";
-import type { DataItem } from "../../../core/render/Component";
-import type { Color } from "../../../core/util/Color";
+import type { Graphics } from "../../../core/render/Graphics.js";
+import type { DataItem } from "../../../core/render/Component.js";
+import type { Color } from "../../../core/util/Color.js";
 
-import { SimpleLineSeries, ISimpleLineSeriesSettings, ISimpleLineSeriesPrivate, ISimpleLineSeriesDataItem } from "./SimpleLineSeries";
-import { Label } from "../../../core/render/Label";
-import { ListTemplate } from "../../../core/util/List";
-import { Template } from "../../../core/util/Template";
+import { SimpleLineSeries, ISimpleLineSeriesSettings, ISimpleLineSeriesPrivate, ISimpleLineSeriesDataItem } from "./SimpleLineSeries.js";
+import { Label } from "../../../core/render/Label.js";
+import { ListTemplate } from "../../../core/util/List.js";
+import { Template } from "../../../core/util/Template.js";
 
 
-import * as $array from "../../../core/util/Array";
+import * as $array from "../../../core/util/Array.js";
 
 export interface IFibonacciSeriesDataItem extends ISimpleLineSeriesDataItem {
 

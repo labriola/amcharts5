@@ -1,14 +1,14 @@
-import type { AxisRenderer } from "./AxisRenderer";
-import type { IXYSeriesDataItem, XYSeries } from "../series/XYSeries";
+import type { AxisRenderer } from "./AxisRenderer.js";
+import type { IXYSeriesDataItem, XYSeries } from "../series/XYSeries.js";
 
-import { DataItem } from "../../../core/render/Component";
-import { Axis, IAxisSettings, IAxisPrivate, IAxisDataItem, IAxisEvents } from "./Axis";
-import { MultiDisposer } from "../../../core/util/Disposer";
+import { DataItem } from "../../../core/render/Component.js";
+import { Axis, IAxisSettings, IAxisPrivate, IAxisDataItem, IAxisEvents } from "./Axis.js";
+import { MultiDisposer } from "../../../core/util/Disposer.js";
 
-import * as $type from "../../../core/util/Type";
-import * as $array from "../../../core/util/Array";
-import * as $math from "../../../core/util/Math";
-import * as $utils from "../../../core/util/Utils";
+import * as $type from "../../../core/util/Type.js";
+import * as $array from "../../../core/util/Array.js";
+import * as $math from "../../../core/util/Math.js";
+import * as $utils from "../../../core/util/Utils.js";
 
 export interface IValueAxisSettings<R extends AxisRenderer> extends IAxisSettings<R> {
 

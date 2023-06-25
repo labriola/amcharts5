@@ -1,33 +1,33 @@
-import type { Axis } from "./axes/Axis";
-import type { XYCursor } from "./XYCursor";
-import type { AxisRenderer } from "./axes/AxisRenderer";
-import type { DataItem } from "../../core/render/Component";
-import type { IDisposer } from "../../core/util/Disposer";
-import type { XYSeries, IXYSeriesDataItem } from "./series/XYSeries";
-import type { IPointerEvent } from "../../core/render/backend/Renderer";
-import type { Scrollbar } from "../../core/render/Scrollbar";
-import type { Tooltip } from "../../core/render/Tooltip";
-import type { IPoint } from "../../core/util/IPoint";
+import type { Axis } from "./axes/Axis.js";
+import type { XYCursor } from "./XYCursor.js";
+import type { AxisRenderer } from "./axes/AxisRenderer.js";
+import type { DataItem } from "../../core/render/Component.js";
+import type { IDisposer } from "../../core/util/Disposer.js";
+import type { XYSeries, IXYSeriesDataItem } from "./series/XYSeries.js";
+import type { IPointerEvent } from "../../core/render/backend/Renderer.js";
+import type { Scrollbar } from "../../core/render/Scrollbar.js";
+import type { Tooltip } from "../../core/render/Tooltip.js";
+import type { IPoint } from "../../core/util/IPoint.js";
 
-import { XYChartDefaultTheme } from "./XYChartDefaultTheme";
-import { Container } from "../../core/render/Container";
-import { Rectangle } from "../../core/render/Rectangle";
-import { SerialChart, ISerialChartPrivate, ISerialChartSettings, ISerialChartEvents } from "../../core/render/SerialChart";
-import { ListAutoDispose } from "../../core/util/List";
-import { p100 } from "../../core/util/Percent";
-import { Color } from "../../core/util/Color";
-import { Button } from "../../core/render/Button";
-import { Graphics } from "../../core/render/Graphics";
-import { Percent } from "../../core/util/Percent";
+import { XYChartDefaultTheme } from "./XYChartDefaultTheme.js";
+import { Container } from "../../core/render/Container.js";
+import { Rectangle } from "../../core/render/Rectangle.js";
+import { SerialChart, ISerialChartPrivate, ISerialChartSettings, ISerialChartEvents } from "../../core/render/SerialChart.js";
+import { ListAutoDispose } from "../../core/util/List.js";
+import { p100 } from "../../core/util/Percent.js";
+import { Color } from "../../core/util/Color.js";
+import { Button } from "../../core/render/Button.js";
+import { Graphics } from "../../core/render/Graphics.js";
+import { Percent } from "../../core/util/Percent.js";
 
-import * as $array from "../../core/util/Array";
-import * as $type from "../../core/util/Type";
-import * as $order from "../../core/util/Order";
-import * as $object from "../../core/util/Object";
-import * as $utils from "../../core/util/Utils";
-import type { Animation } from "../../core/util/Entity";
-import type { CategoryAxis } from "./axes/CategoryAxis";
-import type { DateAxis } from "./axes/DateAxis";
+import * as $array from "../../core/util/Array.js";
+import * as $type from "../../core/util/Type.js";
+import * as $order from "../../core/util/Order.js";
+import * as $object from "../../core/util/Object.js";
+import * as $utils from "../../core/util/Utils.js";
+import type { Animation } from "../../core/util/Entity.js";
+import type { CategoryAxis } from "./axes/CategoryAxis.js";
+import type { DateAxis } from "./axes/DateAxis.js";
 
 export interface IXYChartSettings extends ISerialChartSettings {
 

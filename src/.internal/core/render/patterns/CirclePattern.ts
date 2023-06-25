@@ -1,6 +1,6 @@
-import { Pattern, IPatternSettings, IPatternPrivate } from "./Pattern";
+import { Pattern, IPatternSettings, IPatternPrivate } from "./Pattern.js";
 
-import * as $math from "../../util/Math";
+import * as $math from "../../util/Math.js";
 
 export interface ICirclePatternSettings extends IPatternSettings {
 

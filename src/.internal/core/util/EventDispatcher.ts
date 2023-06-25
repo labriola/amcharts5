@@ -9,9 +9,9 @@
  * ============================================================================
  * @hidden
  */
-import { Disposer, IDisposer, MultiDisposer } from "./Disposer";
-import * as $array from "./Array";
-import * as $type from "./Type";
+import { Disposer, IDisposer, MultiDisposer } from "./Disposer.js";
+import * as $array from "./Array.js";
+import * as $type from "./Type.js";
 
 /**
  * @ignore

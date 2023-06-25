@@ -1,11 +1,11 @@
-import type { Exporting, ExportingFormats, ExportingTypes } from "./Exporting"
+import type { Exporting, ExportingFormats, ExportingTypes } from "./Exporting.js"
 
-import { Entity, IEntitySettings, IEntityPrivate, IEntityEvents } from "../../core/util/Entity"
-import { IDisposer, Disposer } from "../../core/util/Disposer";
-import exportingCSS from "./ExportingCSS";
+import { Entity, IEntitySettings, IEntityPrivate, IEntityEvents } from "../../core/util/Entity.js"
+import { IDisposer, Disposer } from "../../core/util/Disposer.js";
+import exportingCSS from "./ExportingCSS.js";
 
-import * as $array from "../../core/util/Array";
-import * as $utils from "../../core/util/Utils";
+import * as $array from "../../core/util/Array.js";
+import * as $utils from "../../core/util/Utils.js";
 
 export interface IExportingMenuItem {
 

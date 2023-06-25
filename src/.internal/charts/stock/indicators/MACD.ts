@@ -1,11 +1,11 @@
-import type { IIndicatorEditableSetting } from "./Indicator";
+import type { IIndicatorEditableSetting } from "./Indicator.js";
 
-import { color, Color } from "../../../core/util/Color";
-import { ChartIndicator, IChartIndicatorSettings, IChartIndicatorPrivate, IChartIndicatorEvents } from "./ChartIndicator";
-import { LineSeries } from "../../xy/series/LineSeries";
-import { ColumnSeries } from "../../xy/series/ColumnSeries";
+import { color, Color } from "../../../core/util/Color.js";
+import { ChartIndicator, IChartIndicatorSettings, IChartIndicatorPrivate, IChartIndicatorEvents } from "./ChartIndicator.js";
+import { LineSeries } from "../../xy/series/LineSeries.js";
+import { ColumnSeries } from "../../xy/series/ColumnSeries.js";
 
-import * as $array from "../../../core/util/Array";
+import * as $array from "../../../core/util/Array.js";
 
 export interface IMACDSettings extends IChartIndicatorSettings {
 

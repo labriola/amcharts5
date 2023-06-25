@@ -1,8 +1,8 @@
-import { Theme } from "../../core/Theme";
-import { percent, p100, p50 } from "../../core/util/Percent";
-import { Rectangle } from "../../core/render/Rectangle";
+import { Theme } from "../../core/Theme.js";
+import { percent, p100, p50 } from "../../core/util/Percent.js";
+import { Rectangle } from "../../core/render/Rectangle.js";
 
-import * as $ease from "../../core/util/Ease";
+import * as $ease from "../../core/util/Ease.js";
 
 
 /**

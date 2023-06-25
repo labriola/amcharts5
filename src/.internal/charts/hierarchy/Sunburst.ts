@@ -1,21 +1,21 @@
-import type { Root } from "../../core/Root";
-import type { DataItem } from "../../core/render/Component";
-import type { HierarchyNode } from "./HierarchyNode";
-import type { Bullet } from "../../core/render/Bullet";
-import type { Series } from "../../core/render/Series";
+import type { Root } from "../../core/Root.js";
+import type { DataItem } from "../../core/render/Component.js";
+import type { HierarchyNode } from "./HierarchyNode.js";
+import type { Bullet } from "../../core/render/Bullet.js";
+import type { Series } from "../../core/render/Series.js";
 
-import { Partition, IPartitionPrivate, IPartitionSettings, IPartitionDataItem } from "./Partition";
-import { Template } from "../../core/util/Template";
-import { ListTemplate } from "../../core/util/List";
-import { Slice } from "../../core/render/Slice";
-import { RadialLabel } from "../../core/render/RadialLabel";
-import { Percent, p100, p50 } from "../../core/util/Percent";
+import { Partition, IPartitionPrivate, IPartitionSettings, IPartitionDataItem } from "./Partition.js";
+import { Template } from "../../core/util/Template.js";
+import { ListTemplate } from "../../core/util/List.js";
+import { Slice } from "../../core/render/Slice.js";
+import { RadialLabel } from "../../core/render/RadialLabel.js";
+import { Percent, p100, p50 } from "../../core/util/Percent.js";
 
-import * as $array from "../../core/util/Array";
+import * as $array from "../../core/util/Array.js";
 import * as d3hierarchy from "d3-hierarchy";
-import * as $utils from "../../core/util/Utils";
-import * as $type from "../../core/util/Type";
-import * as $math from "../../core/util/Math";
+import * as $utils from "../../core/util/Utils.js";
+import * as $type from "../../core/util/Type.js";
+import * as $math from "../../core/util/Math.js";
 
 /**
  * @ignore

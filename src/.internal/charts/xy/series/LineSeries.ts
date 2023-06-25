@@ -1,17 +1,17 @@
-import type { Axis } from "../axes/Axis";
-import type { AxisRenderer } from "../axes/AxisRenderer";
+import type { Axis } from "../axes/Axis.js";
+import type { AxisRenderer } from "../axes/AxisRenderer.js";
 
-import { XYSeries, IXYSeriesPrivate, IXYSeriesSettings, IXYSeriesDataItem, IXYSeriesAxisRange } from "./XYSeries";
-import { Graphics } from "../../../core/render/Graphics";
+import { XYSeries, IXYSeriesPrivate, IXYSeriesSettings, IXYSeriesDataItem, IXYSeriesAxisRange } from "./XYSeries.js";
+import { Graphics } from "../../../core/render/Graphics.js";
 import { CurveFactory, line, area } from "d3-shape";
-import { Template } from "../../../core/util/Template";
-import { ListTemplate } from "../../../core/util/List";
-import { color } from "../../../core/util/Color";
-import { DataItem } from "../../../core/render/Component";
-import { Rectangle } from "../../../core/render/Rectangle";
-import * as $type from "../../../core/util/Type";
-import * as $array from "../../../core/util/Array";
-import * as $utils from "../../../core/util/Utils";
+import { Template } from "../../../core/util/Template.js";
+import { ListTemplate } from "../../../core/util/List.js";
+import { color } from "../../../core/util/Color.js";
+import { DataItem } from "../../../core/render/Component.js";
+import { Rectangle } from "../../../core/render/Rectangle.js";
+import * as $type from "../../../core/util/Type.js";
+import * as $array from "../../../core/util/Array.js";
+import * as $utils from "../../../core/util/Utils.js";
 
 export interface IPointOptions {
 }

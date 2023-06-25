@@ -3,20 +3,20 @@
 import {
 	IRenderer, IContainer, IDisplayObject, IGraphics, IRendererEvents, IMargin,
 	IText, ITextStyle, IRadialText, IPicture, IRendererEvent, ILayer, ICanvasOptions, BlendMode, IPointerEvent, Id
-} from "./Renderer";
-import type { IBounds } from "../../util/IBounds";
-import type { IPoint } from "../../util/IPoint";
-import { Color } from "../../util/Color";
-import { Matrix } from "../../util/Matrix";
-import { Percent, percent } from "../../util/Percent";
-//import { Throttler } from "../../util/Throttler";
-import { ArrayDisposer, Disposer, DisposerClass, IDisposer, CounterDisposer, MultiDisposer } from "../../util/Disposer";
-import { TextFormatter, ITextChunk } from "../../util/TextFormatter";
-import * as $utils from "../../util/Utils";
-import * as $array from "../../util/Array";
-import * as $object from "../../util/Object";
-import * as $type from "../../util/Type";
-import * as $math from "../../util/Math";
+} from "./Renderer.js";
+import type { IBounds } from "../../util/IBounds.js";
+import type { IPoint } from "../../util/IPoint.js";
+import { Color } from "../../util/Color.js";
+import { Matrix } from "../../util/Matrix.js";
+import { Percent, percent } from "../../util/Percent.js";
+//import { Throttler } from "../../util/Throttler.js";
+import { ArrayDisposer, Disposer, DisposerClass, IDisposer, CounterDisposer, MultiDisposer } from "../../util/Disposer.js";
+import { TextFormatter, ITextChunk } from "../../util/TextFormatter.js";
+import * as $utils from "../../util/Utils.js";
+import * as $array from "../../util/Array.js";
+import * as $object from "../../util/Object.js";
+import * as $type from "../../util/Type.js";
+import * as $math from "../../util/Math.js";
 import arcToBezier from 'svg-arc-to-cubic-bezier';
 
 

@@ -1,14 +1,14 @@
-import type { IPoint } from "../../core/util/IPoint";
-import type { RadarChart } from "./RadarChart"
-import type { Percent } from "../../core/util/Percent";
-import type { Tooltip } from "../../core/render/Tooltip";
+import type { IPoint } from "../../core/util/IPoint.js";
+import type { RadarChart } from "./RadarChart.js"
+import type { Percent } from "../../core/util/Percent.js";
+import type { Tooltip } from "../../core/render/Tooltip.js";
 
-import { XYCursor, IXYCursorSettings, IXYCursorPrivate, IXYCursorEvents } from "../xy/XYCursor";
-import { p100 } from "../../core/util/Percent";
+import { XYCursor, IXYCursorSettings, IXYCursorPrivate, IXYCursorEvents } from "../xy/XYCursor.js";
+import { p100 } from "../../core/util/Percent.js";
 import { arc } from "d3-shape";
 
-import * as $math from "../../core/util/Math";
-import * as $utils from "../../core/util/Utils";
+import * as $math from "../../core/util/Math.js";
+import * as $utils from "../../core/util/Utils.js";
 
 
 export interface IRadarCursorSettings extends IXYCursorSettings {

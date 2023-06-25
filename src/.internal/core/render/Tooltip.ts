@@ -1,26 +1,26 @@
-import type { IBounds } from "../util/IBounds";
-import type { IPoint } from "../util/IPoint";
-import type { Pattern } from "../render/patterns/Pattern";
-import type { Time } from "../util/Animation";
-import type { Sprite } from "../render/Sprite";
-import type { IPointerEvent } from "../render/backend/Renderer";
+import type { IBounds } from "../util/IBounds.js";
+import type { IPoint } from "../util/IPoint.js";
+import type { Pattern } from "../render/patterns/Pattern.js";
+import type { Time } from "../util/Animation.js";
+import type { Sprite } from "../render/Sprite.js";
+import type { IPointerEvent } from "../render/backend/Renderer.js";
 
-import { MultiDisposer, IDisposer } from "../util/Disposer";
-import { Label } from "../render/Label";
-import { PointedRectangle } from "../render/PointedRectangle";
-import { Container, IContainerPrivate, IContainerSettings } from "./Container";
-import { Percent } from "../util/Percent";
-import { Color } from "../util/Color";
+import { MultiDisposer, IDisposer } from "../util/Disposer.js";
+import { Label } from "../render/Label.js";
+import { PointedRectangle } from "../render/PointedRectangle.js";
+import { Container, IContainerPrivate, IContainerSettings } from "./Container.js";
+import { Percent } from "../util/Percent.js";
+import { Color } from "../util/Color.js";
 
-import * as $math from "../util/Math";
-import * as $array from "../util/Array";
-import * as $utils from "../util/Utils";
-//import * as $utils from "../util/Utils";
-import type { DataItem, IComponentDataItem } from "./Component";
+import * as $math from "../util/Math.js";
+import * as $array from "../util/Array.js";
+import * as $utils from "../util/Utils.js";
+//import * as $utils from "../util/Utils.js";
+import type { DataItem, IComponentDataItem } from "./Component.js";
 
-import type { Root } from "../Root";
-import type { Template } from "../util/Template";
-import type { Entity } from "../util/Entity";
+import type { Root } from "../Root.js";
+import type { Template } from "../util/Template.js";
+import type { Entity } from "../util/Entity.js";
 
 
 export interface ITooltipSettings extends IContainerSettings {

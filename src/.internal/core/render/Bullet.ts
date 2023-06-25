@@ -1,6 +1,6 @@
-import { Entity, IEntitySettings, IEntityPrivate } from "../../core/util/Entity";
-import type { Sprite } from "../../core/render/Sprite";
-import type { Series } from "../../core/render/Series";
+import { Entity, IEntitySettings, IEntityPrivate } from "../../core/util/Entity.js";
+import type { Sprite } from "../../core/render/Sprite.js";
+import type { Series } from "../../core/render/Series.js";
 
 export interface IBulletSettings extends IEntitySettings {
 

@@ -1,5 +1,5 @@
-import { Graphics, IGraphicsSettings, IGraphicsPrivate } from "./Graphics";
-import * as $math from "../util/Math";
+import { Graphics, IGraphicsSettings, IGraphicsPrivate } from "./Graphics.js";
+import * as $math from "../util/Math.js";
 
 export interface IPointedRectangleSettings extends IGraphicsSettings {
 

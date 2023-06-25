@@ -1,2 +1,2 @@
-export { JsonParser } from "../.internal/plugins/json/Json";
-export { Serializer } from "../.internal/plugins/json/Serializer";
+export { JsonParser } from "../.internal/plugins/json/Json.js";
+export { Serializer } from "../.internal/plugins/json/Serializer.js";

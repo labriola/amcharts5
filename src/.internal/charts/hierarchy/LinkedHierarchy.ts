@@ -1,17 +1,17 @@
-import type { DataItem } from "../../core/render/Component";
+import type { DataItem } from "../../core/render/Component.js";
 import type * as d3hierarchy from "d3-hierarchy";
 
-import { Hierarchy, IHierarchySettings, IHierarchyDataItem, IHierarchyPrivate, IHierarchyEvents } from "./Hierarchy";
-import { Container } from "../../core/render/Container";
-import { LinkedHierarchyNode } from "./LinkedHierarchyNode";
-import { HierarchyLink } from "./HierarchyLink";
-import { Template } from "../../core/util/Template";
-import { Circle } from "../../core/render/Circle";
-import { ListTemplate } from "../../core/util/List";
-import type { IPoint } from "../../core/util/IPoint";
+import { Hierarchy, IHierarchySettings, IHierarchyDataItem, IHierarchyPrivate, IHierarchyEvents } from "./Hierarchy.js";
+import { Container } from "../../core/render/Container.js";
+import { LinkedHierarchyNode } from "./LinkedHierarchyNode.js";
+import { HierarchyLink } from "./HierarchyLink.js";
+import { Template } from "../../core/util/Template.js";
+import { Circle } from "../../core/render/Circle.js";
+import { ListTemplate } from "../../core/util/List.js";
+import type { IPoint } from "../../core/util/IPoint.js";
 
-import * as $array from "../../core/util/Array";
-import * as $utils from "../../core/util/Utils";
+import * as $array from "../../core/util/Array.js";
+import * as $utils from "../../core/util/Utils.js";
 
 /**
  * @ignore

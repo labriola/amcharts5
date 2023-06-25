@@ -1,5 +1,5 @@
-import { Color } from "../core/util/Color";
-import { Theme } from "../core/Theme";
+import { Color } from "../core/util/Color.js";
+import { Theme } from "../core/Theme.js";
 
 /**
  * @ignore

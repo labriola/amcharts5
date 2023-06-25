@@ -1,12 +1,12 @@
-import type { DataItem } from "../../../core/render/Component";
+import type { DataItem } from "../../../core/render/Component.js";
 
-import { ColumnSeries, IColumnSeriesPrivate, IColumnSeriesSettings, IColumnSeriesDataItem, IColumnSeriesAxisRange } from "./ColumnSeries";
-import { Candlestick } from "./Candlestick";
-import { Template } from "../../../core/util/Template";
-import { ListTemplate } from "../../../core/util/List";
+import { ColumnSeries, IColumnSeriesPrivate, IColumnSeriesSettings, IColumnSeriesDataItem, IColumnSeriesAxisRange } from "./ColumnSeries.js";
+import { Candlestick } from "./Candlestick.js";
+import { Template } from "../../../core/util/Template.js";
+import { ListTemplate } from "../../../core/util/List.js";
 
-import * as $utils from "../../../core/util/Utils";
-import * as $array from "../../../core/util/Array";
+import * as $utils from "../../../core/util/Utils.js";
+import * as $array from "../../../core/util/Array.js";
 
 export interface ICandlestickSeriesDataItem extends IColumnSeriesDataItem {
 }

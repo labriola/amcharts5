@@ -1,11 +1,11 @@
-import type { InterfaceColors, IInterfaceColorsSettings } from "../core/util/InterfaceColors";
+import type { InterfaceColors, IInterfaceColorsSettings } from "../core/util/InterfaceColors.js";
 
-import { Theme } from "../core/Theme";
-import { p100, p50 } from "../core/util/Percent";
-import { Color } from "../core/util/Color";
-import { GridLayout } from "../core/render/GridLayout"
+import { Theme } from "../core/Theme.js";
+import { p100, p50 } from "../core/util/Percent.js";
+import { Color } from "../core/util/Color.js";
+import { GridLayout } from "../core/render/GridLayout.js"
 
-import * as $ease from "../core/util/Ease";
+import * as $ease from "../core/util/Ease.js";
 
 
 interface Settable<A> {

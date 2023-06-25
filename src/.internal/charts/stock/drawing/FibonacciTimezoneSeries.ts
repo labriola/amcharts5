@@ -1,7 +1,7 @@
-import type { DataItem } from "../../../core/render/Component";
+import type { DataItem } from "../../../core/render/Component.js";
 
-import { FibonacciSeries, IFibonacciSeriesSettings, IFibonacciSeriesPrivate, IFibonacciSeriesDataItem } from "./FibonacciSeries";
-import { color } from "../../../core/util/Color";
+import { FibonacciSeries, IFibonacciSeriesSettings, IFibonacciSeriesPrivate, IFibonacciSeriesDataItem } from "./FibonacciSeries.js";
+import { color } from "../../../core/util/Color.js";
 
 export interface IFibonacciTimezoneSeriesDataItem extends IFibonacciSeriesDataItem {
 

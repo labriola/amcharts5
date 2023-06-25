@@ -1,7 +1,7 @@
-import type { Entity, Dirty } from "./Entity";
-import type { Animations } from "./Animation";
-import * as $object from "./Object";
-import * as $ease from "./Ease";
+import type { Entity, Dirty } from "./Entity.js";
+import type { Animations } from "./Animation.js";
+import * as $object from "./Object.js";
+import * as $ease from "./Ease.js";
 
 /**
  * An object representing a collection of setting values to apply as required.

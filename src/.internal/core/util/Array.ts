@@ -4,8 +4,8 @@
  * ============================================================================
  * @hidden
  */
-import type { Optional } from "./Type";
-import * as $type from "./Type";
+import type { Optional } from "./Type.js";
+import * as $type from "./Type.js";
 
 
 /**

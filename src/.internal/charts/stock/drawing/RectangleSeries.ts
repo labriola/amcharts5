@@ -1,7 +1,7 @@
-import type { ISpritePointerEvent } from "../../../core/render/Sprite";
-import type { DataItem } from "../../../core/render/Component";
+import type { ISpritePointerEvent } from "../../../core/render/Sprite.js";
+import type { DataItem } from "../../../core/render/Component.js";
 
-import { DrawingSeries, IDrawingSeriesSettings, IDrawingSeriesPrivate, IDrawingSeriesDataItem } from "./DrawingSeries";
+import { DrawingSeries, IDrawingSeriesSettings, IDrawingSeriesPrivate, IDrawingSeriesDataItem } from "./DrawingSeries.js";
 
 export interface IRectangleSeriesDataItem extends IDrawingSeriesDataItem {
 }

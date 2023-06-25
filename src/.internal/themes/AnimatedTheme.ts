@@ -1,4 +1,4 @@
-import { Theme } from "../core/Theme";
+import { Theme } from "../core/Theme.js";
 
 /**
  * @ignore

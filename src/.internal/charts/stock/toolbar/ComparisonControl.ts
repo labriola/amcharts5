@@ -1,7 +1,7 @@
-import type { IDropdownListItem } from "./DropdownList";
+import type { IDropdownListItem } from "./DropdownList.js";
 
-import { DropdownListControl, IDropdownListControlSettings, IDropdownListControlPrivate, IDropdownListControlEvents } from "./DropdownListControl";
-import { StockIcons } from "./StockIcons";
+import { DropdownListControl, IDropdownListControlSettings, IDropdownListControlPrivate, IDropdownListControlEvents } from "./DropdownListControl.js";
+import { StockIcons } from "./StockIcons.js";
 
 export interface IComparisonControlSettings extends IDropdownListControlSettings {
 	items?: Array<string | IDropdownListItem>;

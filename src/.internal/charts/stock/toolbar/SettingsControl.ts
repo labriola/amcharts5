@@ -1,9 +1,9 @@
-import type { IDropdownListItem } from "./DropdownList";
+import type { IDropdownListItem } from "./DropdownList.js";
 
-import { ValueAxis } from "../../xy/axes/ValueAxis";
-import { DropdownListControl, IDropdownListControlSettings, IDropdownListControlPrivate, IDropdownListControlEvents } from "./DropdownListControl";
-import { StockIcons } from "./StockIcons";
-import * as $array from "../../../core/util/Array";
+import { ValueAxis } from "../../xy/axes/ValueAxis.js";
+import { DropdownListControl, IDropdownListControlSettings, IDropdownListControlPrivate, IDropdownListControlEvents } from "./DropdownListControl.js";
+import { StockIcons } from "./StockIcons.js";
+import * as $array from "../../../core/util/Array.js";
 
 export interface ISettingsControlItem extends IDropdownListItem {
 }

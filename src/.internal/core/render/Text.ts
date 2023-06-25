@@ -1,18 +1,18 @@
-import type { Color } from "../util/Color";
-import type { Percent } from "../util/Percent";
-import type { IText } from "./backend/Renderer";
-import type { IBounds } from "../util/IBounds";
-import type { DataItem, IComponentDataItem } from "./Component";
+import type { Color } from "../util/Color.js";
+import type { Percent } from "../util/Percent.js";
+import type { IText } from "./backend/Renderer.js";
+import type { IBounds } from "../util/IBounds.js";
+import type { DataItem, IComponentDataItem } from "./Component.js";
 
-import { Sprite, ISpriteSettings, ISpritePrivate } from "./Sprite";
-import { populateString } from "../util/PopulateString";
+import { Sprite, ISpriteSettings, ISpritePrivate } from "./Sprite.js";
+import { populateString } from "../util/PopulateString.js";
 
-import type { NumberFormatter } from "../util/NumberFormatter";
-import type { DateFormatter } from "../util/DateFormatter";
-import type { DurationFormatter } from "../util/DurationFormatter";
+import type { NumberFormatter } from "../util/NumberFormatter.js";
+import type { DateFormatter } from "../util/DateFormatter.js";
+import type { DurationFormatter } from "../util/DurationFormatter.js";
 
-import * as $array from "../util/Array";
-import { Disposer } from "../util/Disposer";
+import * as $array from "../util/Array.js";
+import { Disposer } from "../util/Disposer.js";
 
 /**
  * @ignore Text is an internal class. Use Label instead.

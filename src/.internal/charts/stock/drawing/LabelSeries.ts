@@ -1,15 +1,15 @@
-import type { ISpritePointerEvent } from "../../../core/render/Sprite";
-import type { Container } from "../../../core/render/Container";
-import type { DataItem } from "../../../core/render/Component";
+import type { ISpritePointerEvent } from "../../../core/render/Sprite.js";
+import type { Container } from "../../../core/render/Container.js";
+import type { DataItem } from "../../../core/render/Component.js";
 
-import { PolylineSeries, IPolylineSeriesSettings, IPolylineSeriesPrivate, IPolylineSeriesDataItem } from "./PolylineSeries";
-import { Label } from "../../../core/render/Label";
-import { RoundedRectangle } from "../../../core/render/RoundedRectangle";
-import { SpriteResizer } from "../../../core/render/SpriteResizer";
-import { color, Color } from "../../../core/util/Color";
-import { Template } from "../../../core/util/Template";
+import { PolylineSeries, IPolylineSeriesSettings, IPolylineSeriesPrivate, IPolylineSeriesDataItem } from "./PolylineSeries.js";
+import { Label } from "../../../core/render/Label.js";
+import { RoundedRectangle } from "../../../core/render/RoundedRectangle.js";
+import { SpriteResizer } from "../../../core/render/SpriteResizer.js";
+import { color, Color } from "../../../core/util/Color.js";
+import { Template } from "../../../core/util/Template.js";
 
-import * as $utils from "../../../core/util/Utils";
+import * as $utils from "../../../core/util/Utils.js";
 
 export interface ILabelSeriesDataItem extends IPolylineSeriesDataItem {
 }

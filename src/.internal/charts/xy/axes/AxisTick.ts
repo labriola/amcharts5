@@ -1,6 +1,6 @@
-import type { IPoint } from "../../../core/util/IPoint";
+import type { IPoint } from "../../../core/util/IPoint.js";
 
-import { Tick, ITickSettings, ITickPrivate } from "../../../core/render/Tick";
+import { Tick, ITickSettings, ITickPrivate } from "../../../core/render/Tick.js";
 
 
 export interface IAxisTickSettings extends ITickSettings {

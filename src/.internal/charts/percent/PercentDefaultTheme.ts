@@ -1,7 +1,7 @@
-import { Theme } from "../../core/Theme";
-import { percent, p50, p100 } from "../../core/util/Percent";
-import { ColorSet } from "../../core/util/ColorSet";
-import { setColor } from "../../themes/DefaultTheme";
+import { Theme } from "../../core/Theme.js";
+import { percent, p50, p100 } from "../../core/util/Percent.js";
+import { ColorSet } from "../../core/util/ColorSet.js";
+import { setColor } from "../../themes/DefaultTheme.js";
 
 
 /**

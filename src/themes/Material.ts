@@ -1,2 +1,2 @@
-import { MaterialTheme } from "../.internal/themes/MaterialTheme";
+import { MaterialTheme } from "../.internal/themes/MaterialTheme.js";
 export default MaterialTheme;

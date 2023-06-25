@@ -1,16 +1,16 @@
-import type { Indicator, IIndicatorEditableSetting } from "./indicators/Indicator";
-import type { StockChart } from "./StockChart";
-import type { XYSeries } from "../xy/series/XYSeries";
+import type { Indicator, IIndicatorEditableSetting } from "./indicators/Indicator.js";
+import type { StockChart } from "./StockChart.js";
+import type { XYSeries } from "../xy/series/XYSeries.js";
 
-import { CandlestickSeries } from "../xy/series/CandlestickSeries";
-import { LineSeries } from "../xy/series/LineSeries";
-import { Modal, IModalSettings, IModalPrivate, IModalEvents } from "../../core/util/Modal";
-import { ColorControl } from "./toolbar/ColorControl";
+import { CandlestickSeries } from "../xy/series/CandlestickSeries.js";
+import { LineSeries } from "../xy/series/LineSeries.js";
+import { Modal, IModalSettings, IModalPrivate, IModalEvents } from "../../core/util/Modal.js";
+import { ColorControl } from "./toolbar/ColorControl.js";
 
-import * as $array from "../../core/util/Array";
-import * as $object from "../../core/util/Object";
-import * as $utils from "../../core/util/Utils";
-import * as $type from "../../core/util/Type";
+import * as $array from "../../core/util/Array.js";
+import * as $object from "../../core/util/Object.js";
+import * as $utils from "../../core/util/Utils.js";
+import * as $type from "../../core/util/Type.js";
 
 
 export interface ISettingsModalSettings extends IModalSettings {

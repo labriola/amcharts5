@@ -1,4 +1,4 @@
-import type { Countries2 } from "../.internal/Data";
+import type { Countries2 } from "../.internal/Data.js";
 
 const countries2: Countries2 = {
 	"AD": {

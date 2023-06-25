@@ -1,30 +1,30 @@
-import type { StockPanel } from "./StockPanel";
-import type { StockLegend, IStockLegendDataItem } from "./StockLegend";
-import type { Axis } from "../xy/axes/Axis";
-import type { DateAxis } from "../xy/axes/DateAxis";
-import type { AxisRenderer } from "../xy/axes/AxisRenderer";
-import type { BaseColumnSeries } from "../xy/series/BaseColumnSeries";
-import type { IValueAxisSettings, ValueAxis } from "../xy/axes/ValueAxis";
-import type { XYSeries, IXYSeriesDataItem, IXYSeriesSettings } from "../xy/series/XYSeries";
-import type { DataItem } from "../../core/render/Component";
-import type { Indicator } from "./indicators/Indicator";
-import type { DrawingSeries } from "./drawing/DrawingSeries";
-import { MultiDisposer } from "../../core/util/Disposer";
+import type { StockPanel } from "./StockPanel.js";
+import type { StockLegend, IStockLegendDataItem } from "./StockLegend.js";
+import type { Axis } from "../xy/axes/Axis.js";
+import type { DateAxis } from "../xy/axes/DateAxis.js";
+import type { AxisRenderer } from "../xy/axes/AxisRenderer.js";
+import type { BaseColumnSeries } from "../xy/series/BaseColumnSeries.js";
+import type { IValueAxisSettings, ValueAxis } from "../xy/axes/ValueAxis.js";
+import type { XYSeries, IXYSeriesDataItem, IXYSeriesSettings } from "../xy/series/XYSeries.js";
+import type { DataItem } from "../../core/render/Component.js";
+import type { Indicator } from "./indicators/Indicator.js";
+import type { DrawingSeries } from "./drawing/DrawingSeries.js";
+import { MultiDisposer } from "../../core/util/Disposer.js";
 
-import { PanelControls } from "./PanelControls";
-import { StockChartDefaultTheme } from "./StockChartDefaultTheme";
-import { XYChartDefaultTheme } from "../xy/XYChartDefaultTheme";
-import { Container, IContainerPrivate, IContainerSettings, IContainerEvents } from "../../core/render/Container";
-import { ListAutoDispose } from "../../core/util/List";
-import { Rectangle } from "../../core/render/Rectangle";
-import { p100, percent, Percent } from "../../core/util/Percent";
-import { SettingsModal } from "./SettingsModal";
-import { Color } from "../../core/util/Color";
-import { registry } from "../../core/Registry";
+import { PanelControls } from "./PanelControls.js";
+import { StockChartDefaultTheme } from "./StockChartDefaultTheme.js";
+import { XYChartDefaultTheme } from "../xy/XYChartDefaultTheme.js";
+import { Container, IContainerPrivate, IContainerSettings, IContainerEvents } from "../../core/render/Container.js";
+import { ListAutoDispose } from "../../core/util/List.js";
+import { Rectangle } from "../../core/render/Rectangle.js";
+import { p100, percent, Percent } from "../../core/util/Percent.js";
+import { SettingsModal } from "./SettingsModal.js";
+import { Color } from "../../core/util/Color.js";
+import { registry } from "../../core/Registry.js";
 
-import * as $array from "../../core/util/Array";
-import * as $utils from "../../core/util/Utils";
-import * as $object from "../../core/util/Object";
+import * as $array from "../../core/util/Array.js";
+import * as $utils from "../../core/util/Utils.js";
+import * as $object from "../../core/util/Object.js";
 
 export interface IStockChartSettings extends IContainerSettings {
 

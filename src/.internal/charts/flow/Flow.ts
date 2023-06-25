@@ -1,18 +1,18 @@
-import type { DataItem } from "../../core/render/Component";
-import type { Color } from "../../core/util/Color";
-import type { FlowLink } from "./FlowLink";
-import type { FlowNodes, IFlowNodesDataItem } from "./FlowNodes";
-import type { ListTemplate } from "../../core/util/List";
-import type { Bullet } from "../../core/render/Bullet";
+import type { DataItem } from "../../core/render/Component.js";
+import type { Color } from "../../core/util/Color.js";
+import type { FlowLink } from "./FlowLink.js";
+import type { FlowNodes, IFlowNodesDataItem } from "./FlowNodes.js";
+import type { ListTemplate } from "../../core/util/List.js";
+import type { Bullet } from "../../core/render/Bullet.js";
 import type * as d3sankey from "d3-sankey";
 
-import { FlowDefaultTheme } from "./FlowDefaultTheme";
-import { Series, ISeriesSettings, ISeriesDataItem, ISeriesPrivate, ISeriesEvents } from "../../core/render/Series";
-import { Container } from "../../core/render/Container";
-import { LinearGradient } from "../../core/render/gradients/LinearGradient";
+import { FlowDefaultTheme } from "./FlowDefaultTheme.js";
+import { Series, ISeriesSettings, ISeriesDataItem, ISeriesPrivate, ISeriesEvents } from "../../core/render/Series.js";
+import { Container } from "../../core/render/Container.js";
+import { LinearGradient } from "../../core/render/gradients/LinearGradient.js";
 
-import * as $array from "../../core/util/Array";
-import * as $type from "../../core/util/Type";
+import * as $array from "../../core/util/Array.js";
+import * as $type from "../../core/util/Type.js";
 
 export interface IFlowDataItem extends ISeriesDataItem {
 

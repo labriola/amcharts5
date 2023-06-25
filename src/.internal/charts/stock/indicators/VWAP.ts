@@ -1,7 +1,7 @@
-import { Indicator, IIndicatorSettings, IIndicatorPrivate, IIndicatorEvents, IIndicatorEditableSetting } from "./Indicator";
-import { LineSeries } from "../../xy/series/LineSeries";
+import { Indicator, IIndicatorSettings, IIndicatorPrivate, IIndicatorEvents, IIndicatorEditableSetting } from "./Indicator.js";
+import { LineSeries } from "../../xy/series/LineSeries.js";
 
-import * as $array from "../../../core/util/Array";
+import * as $array from "../../../core/util/Array.js";
 
 export interface IVWAPSettings extends IIndicatorSettings {
 

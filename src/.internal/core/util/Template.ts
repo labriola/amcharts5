@@ -1,9 +1,9 @@
-import type { Entity, Dirty } from "./Entity";
-import type { State } from "./States";
-import { EventDispatcher, Events } from "./EventDispatcher";
-import { IDisposer, Disposer, MultiDisposer } from "./Disposer";
-import * as $array from "./Array";
-import * as $object from "./Object";
+import type { Entity, Dirty } from "./Entity.js";
+import type { State } from "./States.js";
+import { EventDispatcher, Events } from "./EventDispatcher.js";
+import { IDisposer, Disposer, MultiDisposer } from "./Disposer.js";
+import * as $array from "./Array.js";
+import * as $object from "./Object.js";
 
 export class TemplateState<E extends Entity> {
 	public _settings: Partial<E["_settings"]>;

@@ -1,4 +1,4 @@
-import { Graphics, IGraphicsPrivate, IGraphicsSettings } from "../../../core/render/Graphics";
+import { Graphics, IGraphicsPrivate, IGraphicsSettings } from "../../../core/render/Graphics.js";
 
 export interface IGridSettings extends IGraphicsSettings {
 

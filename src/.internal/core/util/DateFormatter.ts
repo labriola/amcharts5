@@ -1,11 +1,11 @@
-import type { ILocaleSettings } from "./Language"
+import type { ILocaleSettings } from "./Language.js"
 
-import { Entity, IEntitySettings, IEntityPrivate } from "./Entity"
-import { TextFormatter } from "./TextFormatter"
-import { Timezone } from "./Timezone"
+import { Entity, IEntitySettings, IEntityPrivate } from "./Entity.js"
+import { TextFormatter } from "./TextFormatter.js"
+import { Timezone } from "./Timezone.js"
 
-import * as $type from "./Type"
-import * as $utils from "./Utils";
+import * as $type from "./Type.js"
+import * as $utils from "./Utils.js";
 
 /**
  * Interface describing parsed date format definition.

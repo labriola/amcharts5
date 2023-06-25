@@ -1,6 +1,6 @@
-import { Theme } from "../../core/Theme";
-import { p50, p100 } from "../../core/util/Percent";
-import { ColorSet } from "../../core/util/ColorSet";
+import { Theme } from "../../core/Theme.js";
+import { p50, p100 } from "../../core/util/Percent.js";
+import { ColorSet } from "../../core/util/ColorSet.js";
 
 
 /**

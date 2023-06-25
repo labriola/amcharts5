@@ -1,12 +1,12 @@
-import type { DataItem } from "../../../core/render/Component";
-import type { AxisRenderer } from "./AxisRenderer";
-import { CategoryAxis, ICategoryAxisSettings, ICategoryAxisPrivate, ICategoryAxisDataItem, ICategoryAxisEvents } from "./CategoryAxis";
-import type { ITimeInterval } from "../../../core/util/Time";
-import * as $time from "../../../core/util/Time";
-import * as $type from "../../../core/util/Type";
-import * as $array from "../../../core/util/Array";
-import * as $utils from "../../../core/util/Utils";
-import type { Tooltip } from "../../../core/render/Tooltip";
+import type { DataItem } from "../../../core/render/Component.js";
+import type { AxisRenderer } from "./AxisRenderer.js";
+import { CategoryAxis, ICategoryAxisSettings, ICategoryAxisPrivate, ICategoryAxisDataItem, ICategoryAxisEvents } from "./CategoryAxis.js";
+import type { ITimeInterval } from "../../../core/util/Time.js";
+import * as $time from "../../../core/util/Time.js";
+import * as $type from "../../../core/util/Type.js";
+import * as $array from "../../../core/util/Array.js";
+import * as $utils from "../../../core/util/Utils.js";
+import type { Tooltip } from "../../../core/render/Tooltip.js";
 
 export interface ICategoryDateAxisSettings<R extends AxisRenderer> extends ICategoryAxisSettings<R> {
 

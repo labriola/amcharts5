@@ -1,10 +1,10 @@
-// import * as $object from "../util/Object";
-import { p50, Percent } from "../util/Percent";
-import { Label, ILabelPrivate, ILabelSettings } from "./Label";
-import { RadialText } from "./RadialText";
+// import * as $object from "../util/Object.js";
+import { p50, Percent } from "../util/Percent.js";
+import { Label, ILabelPrivate, ILabelSettings } from "./Label.js";
+import { RadialText } from "./RadialText.js";
 
-import * as $math from "../util/Math";
-import * as $utils from "../util/Utils";
+import * as $math from "../util/Math.js";
+import * as $utils from "../util/Utils.js";
 
 
 export interface IRadialLabelSettings extends ILabelSettings {

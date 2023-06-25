@@ -1,15 +1,15 @@
-import type { DataItem } from "../../core/render/Component";
-import type { IDisposer } from "../../core/util/Disposer";
-import type { Hierarchy, IHierarchyDataItem } from "./Hierarchy";
+import type { DataItem } from "../../core/render/Component.js";
+import type { IDisposer } from "../../core/util/Disposer.js";
+import type { Hierarchy, IHierarchyDataItem } from "./Hierarchy.js";
 
-import { HierarchyDefaultTheme } from "./HierarchyDefaultTheme";
-import { Container, IContainerPrivate, IContainerSettings, IContainerEvents } from "../../core/render/Container";
-import { Label } from "../../core/render/Label";
-import { RoundedRectangle } from "../../core/render/RoundedRectangle";
-import { Template } from "../../core/util/Template";
-import { ListTemplate } from "../../core/util/List";
+import { HierarchyDefaultTheme } from "./HierarchyDefaultTheme.js";
+import { Container, IContainerPrivate, IContainerSettings, IContainerEvents } from "../../core/render/Container.js";
+import { Label } from "../../core/render/Label.js";
+import { RoundedRectangle } from "../../core/render/RoundedRectangle.js";
+import { Template } from "../../core/util/Template.js";
+import { ListTemplate } from "../../core/util/List.js";
 
-import * as $utils from "../../core/util/Utils";
+import * as $utils from "../../core/util/Utils.js";
 
 export interface IBreadcrumbBarSettings extends IContainerSettings {
 

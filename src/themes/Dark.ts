@@ -1,2 +1,2 @@
-import { DarkTheme } from "../.internal/themes/DarkTheme";
+import { DarkTheme } from "../.internal/themes/DarkTheme.js";
 export default DarkTheme;

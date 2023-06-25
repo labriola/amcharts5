@@ -1,4 +1,4 @@
-import { Pattern, IPatternSettings, IPatternPrivate, IPatternEvents } from "./Pattern";
+import { Pattern, IPatternSettings, IPatternPrivate, IPatternEvents } from "./Pattern.js";
 
 export interface IPicturePatternSettings extends IPatternSettings {
 

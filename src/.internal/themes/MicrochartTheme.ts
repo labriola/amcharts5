@@ -1,5 +1,5 @@
-import { Theme } from "../core/Theme";
-import { percent } from "../core/util/Percent";
+import { Theme } from "../core/Theme.js";
+import { percent } from "../core/util/Percent.js";
 
 /**
  * @ignore

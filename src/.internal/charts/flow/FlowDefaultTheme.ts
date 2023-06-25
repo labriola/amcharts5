@@ -1,12 +1,12 @@
-import type { DataItem } from "../../core/render/Component";
-import type { IFlowNodesDataItem } from "../../charts/flow/FlowNodes";
+import type { DataItem } from "../../core/render/Component.js";
+import type { IFlowNodesDataItem } from "../../charts/flow/FlowNodes.js";
 
-import { Theme } from "../../core/Theme";
-import { percent, p100, p50 } from "../../core/util/Percent";
-import { ColorSet } from "../../core/util/ColorSet";
-import { setColor } from "../../themes/DefaultTheme";
+import { Theme } from "../../core/Theme.js";
+import { percent, p100, p50 } from "../../core/util/Percent.js";
+import { ColorSet } from "../../core/util/ColorSet.js";
+import { setColor } from "../../themes/DefaultTheme.js";
 
-import * as $array from "../../core/util/Array";
+import * as $array from "../../core/util/Array.js";
 
 
 /**

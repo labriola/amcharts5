@@ -1,19 +1,19 @@
-import type { DataItem } from "../../../core/render/Component";
-import type { Graphics } from "../../../core/render/Graphics";
-import type { Template } from "../../../core/util/Template";
-import type { ListTemplate } from "../../../core/util/List";
-import type { CategoryAxis } from "../axes/CategoryAxis";
-import type { DateAxis } from "../axes/DateAxis";
-import type { ValueAxis } from "../axes/ValueAxis";
-import type { ILegendDataItem } from "../../../core/render/Legend";
-import type { Sprite } from "../../../core/render/Sprite";
+import type { DataItem } from "../../../core/render/Component.js";
+import type { Graphics } from "../../../core/render/Graphics.js";
+import type { Template } from "../../../core/util/Template.js";
+import type { ListTemplate } from "../../../core/util/List.js";
+import type { CategoryAxis } from "../axes/CategoryAxis.js";
+import type { DateAxis } from "../axes/DateAxis.js";
+import type { ValueAxis } from "../axes/ValueAxis.js";
+import type { ILegendDataItem } from "../../../core/render/Legend.js";
+import type { Sprite } from "../../../core/render/Sprite.js";
 
-import { XYSeries, IXYSeriesPrivate, IXYSeriesSettings, IXYSeriesDataItem, IXYSeriesAxisRange } from "./XYSeries";
-import { Percent } from "../../../core/util/Percent";
-import { visualSettings } from "../../../core/render/Graphics";
+import { XYSeries, IXYSeriesPrivate, IXYSeriesSettings, IXYSeriesDataItem, IXYSeriesAxisRange } from "./XYSeries.js";
+import { Percent } from "../../../core/util/Percent.js";
+import { visualSettings } from "../../../core/render/Graphics.js";
 
-import * as $array from "../../../core/util/Array";
-import * as $type from "../../../core/util/Type";
+import * as $array from "../../../core/util/Array.js";
+import * as $type from "../../../core/util/Type.js";
 
 export interface IBaseColumnSeriesDataItem extends IXYSeriesDataItem {
 

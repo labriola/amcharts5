@@ -1,5 +1,5 @@
-import { LineSeries, ILineSeriesSettings, ILineSeriesPrivate, ILineSeriesDataItem } from "./LineSeries";
-import { curveMonotoneXTension } from "../../../core/render/MonotoneXTension";
+import { LineSeries, ILineSeriesSettings, ILineSeriesPrivate, ILineSeriesDataItem } from "./LineSeries.js";
+import { curveMonotoneXTension } from "../../../core/render/MonotoneXTension.js";
 
 
 export interface ISmoothedXLineSeriesDataItem extends ILineSeriesDataItem {

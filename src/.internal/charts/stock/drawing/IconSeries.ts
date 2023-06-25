@@ -1,12 +1,12 @@
-import type { Percent } from "../../../core/util/Percent";
-import type { ISpritePointerEvent } from "../../../core/render/Sprite";
-import type { DataItem } from "../../../core/render/Component";
+import type { Percent } from "../../../core/util/Percent.js";
+import type { ISpritePointerEvent } from "../../../core/render/Sprite.js";
+import type { DataItem } from "../../../core/render/Component.js";
 
-import { PolylineSeries, IPolylineSeriesSettings, IPolylineSeriesPrivate, IPolylineSeriesDataItem } from "./PolylineSeries";
-import { Bullet } from "../../../core/render/Bullet";
-import { Graphics } from "../../../core/render/Graphics";
-import { SpriteResizer } from "../../../core/render/SpriteResizer";
-import { Template } from "../../../core/util/Template";
+import { PolylineSeries, IPolylineSeriesSettings, IPolylineSeriesPrivate, IPolylineSeriesDataItem } from "./PolylineSeries.js";
+import { Bullet } from "../../../core/render/Bullet.js";
+import { Graphics } from "../../../core/render/Graphics.js";
+import { SpriteResizer } from "../../../core/render/SpriteResizer.js";
+import { Template } from "../../../core/util/Template.js";
 
 export interface IIconSeriesDataItem extends IPolylineSeriesDataItem {
 

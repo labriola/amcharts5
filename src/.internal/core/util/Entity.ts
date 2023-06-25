@@ -1,18 +1,18 @@
-import type { Root } from "../Root";
-import type { Template, ApplyState } from "./Template";
-import type { Theme, IRule } from "../Theme";
-import type { ILocale } from "./Language";
+import type { Root } from "../Root.js";
+import type { Template, ApplyState } from "./Template.js";
+import type { Theme, IRule } from "../Theme.js";
+import type { ILocale } from "./Language.js";
 
-import { IDisposer, Disposer } from "./Disposer";
-import { EventDispatcher, Events } from "./EventDispatcher";
-import { Time, IAnimation, getInterpolate } from "./Animation";
-import { States } from "./States";
-import { registry } from "../Registry";
+import { IDisposer, Disposer } from "./Disposer.js";
+import { EventDispatcher, Events } from "./EventDispatcher.js";
+import { Time, IAnimation, getInterpolate } from "./Animation.js";
+import { States } from "./States.js";
+import { registry } from "../Registry.js";
 
-import * as $object from "./Object";
-import * as $ease from "./Ease";
-import * as $array from "./Array";
-import * as $order from "./Order";
+import * as $object from "./Object.js";
+import * as $ease from "./Ease.js";
+import * as $array from "./Array.js";
+import * as $order from "./Order.js";
 
 /**
  * @ignore

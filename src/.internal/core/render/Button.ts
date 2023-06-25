@@ -1,10 +1,10 @@
-import type { Label } from "../render/Label";
-import type { Graphics } from "../render/Graphics";
+import type { Label } from "../render/Label.js";
+import type { Graphics } from "../render/Graphics.js";
 
-import { RoundedRectangle } from "../render/RoundedRectangle";
-import { Container, IContainerPrivate, IContainerSettings } from "./Container";
+import { RoundedRectangle } from "../render/RoundedRectangle.js";
+import { Container, IContainerPrivate, IContainerSettings } from "./Container.js";
 
-import * as $utils from "../../core/util/Utils";
+import * as $utils from "../../core/util/Utils.js";
 
 export interface IButtonSettings extends IContainerSettings {
 

@@ -1,9 +1,9 @@
-import { Theme } from "../core/Theme";
-import type { Root } from "../core/Root";
-import { MultiDisposer } from "../core/util/Disposer";
-import { p100, percent } from "../core/util/Percent";
-import type { Template } from "../core/util/Template";
-import * as $array from "../core/util/Array";
+import { Theme } from "../core/Theme.js";
+import type { Root } from "../core/Root.js";
+import { MultiDisposer } from "../core/util/Disposer.js";
+import { p100, percent } from "../core/util/Percent.js";
+import type { Template } from "../core/util/Template.js";
+import * as $array from "../core/util/Array.js";
 
 /**
  * An interface describing resonsive rule.

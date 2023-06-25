@@ -1,15 +1,15 @@
-import type { ExportingMenu } from "./ExportingMenu"
-import type { TimeUnit } from "../../core/util/Time";
+import type { ExportingMenu } from "./ExportingMenu.js"
+import type { TimeUnit } from "../../core/util/Time.js";
 
-import { Entity, IEntitySettings, IEntityPrivate, IEntityEvents } from "../../core/util/Entity"
-import { Color } from "../../core/util/Color";
-import { Root } from "../../core/Root"
-import { StyleRule } from "../../core/util/Utils"
+import { Entity, IEntitySettings, IEntityPrivate, IEntityEvents } from "../../core/util/Entity.js"
+import { Color } from "../../core/util/Color.js";
+import { Root } from "../../core/Root.js"
+import { StyleRule } from "../../core/util/Utils.js"
 
-import * as $array from "../../core/util/Array";
-import * as $object from "../../core/util/Object";
-import * as $type from "../../core/util/Type";
-import * as $utils from "../../core/util/Utils";
+import * as $array from "../../core/util/Array.js";
+import * as $object from "../../core/util/Object.js";
+import * as $type from "../../core/util/Type.js";
+import * as $utils from "../../core/util/Utils.js";
 
 export interface IFile {
 	path: string;

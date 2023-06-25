@@ -1,29 +1,29 @@
-import type { IDisplayObject, IRendererEvents, IRendererEvent, IPointerEvent, IMargin } from "./backend/Renderer";
-import type { IBounds } from "../util/IBounds";
-import type { Container } from "./Container";
-import type { IAccessibilitySettings } from "../util/Accessibility";
-import type { NumberFormatter } from "../util/NumberFormatter";
-import type { DateFormatter } from "../util/DateFormatter";
-import type { DurationFormatter } from "../util/DurationFormatter";
-import type { DataItem, IComponentDataItem } from "./Component";
-import type { Graphics } from "./Graphics";
-import type { IPoint } from "../util/IPoint";
-import type { ListTemplate } from "../util/List";
+import type { IDisplayObject, IRendererEvents, IRendererEvent, IPointerEvent, IMargin } from "./backend/Renderer.js";
+import type { IBounds } from "../util/IBounds.js";
+import type { Container } from "./Container.js";
+import type { IAccessibilitySettings } from "../util/Accessibility.js";
+import type { NumberFormatter } from "../util/NumberFormatter.js";
+import type { DateFormatter } from "../util/DateFormatter.js";
+import type { DurationFormatter } from "../util/DurationFormatter.js";
+import type { DataItem, IComponentDataItem } from "./Component.js";
+import type { Graphics } from "./Graphics.js";
+import type { IPoint } from "../util/IPoint.js";
+import type { ListTemplate } from "../util/List.js";
 
-import type { Tooltip } from "./Tooltip";
-import { Entity, IEntitySettings, IEntityPrivate, IEntityEvents } from "../util/Entity";
-import { Template } from "../util/Template";
-import { Percent } from "../util/Percent";
-import { EventDispatcher, Events, EventListener } from "../util/EventDispatcher";
-import { IDisposer, MultiDisposer, CounterDisposer } from "../util/Disposer";
-import { waitForAnimations } from "../util/Animation";
+import type { Tooltip } from "./Tooltip.js";
+import { Entity, IEntitySettings, IEntityPrivate, IEntityEvents } from "../util/Entity.js";
+import { Template } from "../util/Template.js";
+import { Percent } from "../util/Percent.js";
+import { EventDispatcher, Events, EventListener } from "../util/EventDispatcher.js";
+import { IDisposer, MultiDisposer, CounterDisposer } from "../util/Disposer.js";
+import { waitForAnimations } from "../util/Animation.js";
 
-import * as $utils from "../util/Utils";
-import * as $array from "../util/Array";
-import * as $type from "../util/Type";
-import * as $object from "../util/Object";
-import * as $math from "../util/Math";
-//import { populateString } from "../util/PopulateString";
+import * as $utils from "../util/Utils.js";
+import * as $array from "../util/Array.js";
+import * as $type from "../util/Type.js";
+import * as $object from "../util/Object.js";
+import * as $math from "../util/Math.js";
+//import { populateString } from "../util/PopulateString.js";
 
 
 /**

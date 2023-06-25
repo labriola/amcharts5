@@ -1,4 +1,4 @@
-import type { IFont } from "./.internal/IFont";
+import type { IFont } from "./.internal/IFont.js";
 
 const font: IFont = {
   name: "rubik-hebrew",

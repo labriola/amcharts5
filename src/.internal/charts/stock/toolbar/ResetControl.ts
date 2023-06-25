@@ -1,5 +1,5 @@
-import { StockControl, IStockControlSettings, IStockControlPrivate, IStockControlEvents } from "./StockControl";
-import { StockIcons } from "./StockIcons";
+import { StockControl, IStockControlSettings, IStockControlPrivate, IStockControlEvents } from "./StockControl.js";
+import { StockIcons } from "./StockIcons.js";
 
 export interface IResetControlSettings extends IStockControlSettings {
 }

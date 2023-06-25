@@ -1,12 +1,12 @@
-import { LineSeries, ILineSeriesPrivate, ILineSeriesSettings, ILineSeriesDataItem, ILineSeriesAxisRange } from "../xy/series/LineSeries";
-import type { IPoint } from "../../core/util/IPoint";
-import type { AxisRendererCircular } from "./AxisRendererCircular";
-import type { AxisRendererRadial } from "./AxisRendererRadial";
-import type { Bullet } from "../../core/render/Bullet";
-import { Graphics } from "../../core/render/Graphics";
-import type { RadarChart } from "./RadarChart";
-import type { DataItem } from "../../core/render/Component";
-import * as $math from "../../core/util/Math";
+import { LineSeries, ILineSeriesPrivate, ILineSeriesSettings, ILineSeriesDataItem, ILineSeriesAxisRange } from "../xy/series/LineSeries.js";
+import type { IPoint } from "../../core/util/IPoint.js";
+import type { AxisRendererCircular } from "./AxisRendererCircular.js";
+import type { AxisRendererRadial } from "./AxisRendererRadial.js";
+import type { Bullet } from "../../core/render/Bullet.js";
+import { Graphics } from "../../core/render/Graphics.js";
+import type { RadarChart } from "./RadarChart.js";
+import type { DataItem } from "../../core/render/Component.js";
+import * as $math from "../../core/util/Math.js";
 
 export interface IRadarLineSeriesDataItem extends ILineSeriesDataItem {
 }

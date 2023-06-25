@@ -1,10 +1,10 @@
-import type { IIndicatorEditableSetting } from "./Indicator";
+import type { IIndicatorEditableSetting } from "./Indicator.js";
 
-import { ChartIndicator, IChartIndicatorSettings, IChartIndicatorPrivate, IChartIndicatorEvents } from "./ChartIndicator";
-import { ColumnSeries } from "../../xy/series/ColumnSeries";
-import { Color } from "../../../core/util/Color";
+import { ChartIndicator, IChartIndicatorSettings, IChartIndicatorPrivate, IChartIndicatorEvents } from "./ChartIndicator.js";
+import { ColumnSeries } from "../../xy/series/ColumnSeries.js";
+import { Color } from "../../../core/util/Color.js";
 
-import * as $array from "../../../core/util/Array";
+import * as $array from "../../../core/util/Array.js";
 
 export interface IVolumeSettings extends IChartIndicatorSettings {
 

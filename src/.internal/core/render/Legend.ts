@@ -1,13 +1,13 @@
-import type { DataItem } from "../../core/render/Component";
-import { Series, ISeriesSettings, ISeriesDataItem, ISeriesPrivate, ISeriesEvents } from "./Series";
-import { Container } from "../../core/render/Container";
-import { Label } from "../../core/render/Label";
-import { RoundedRectangle } from "../../core/render/RoundedRectangle";
-import { Template } from "../../core/util/Template";
-import { ListTemplate } from "../../core/util/List";
-import type { Entity, IEntitySettings } from "../../core/util/Entity";
-import type { Color } from "../../core/util/Color";
-import * as $utils from "../../core/util/Utils";
+import type { DataItem } from "../../core/render/Component.js";
+import { Series, ISeriesSettings, ISeriesDataItem, ISeriesPrivate, ISeriesEvents } from "./Series.js";
+import { Container } from "../../core/render/Container.js";
+import { Label } from "../../core/render/Label.js";
+import { RoundedRectangle } from "../../core/render/RoundedRectangle.js";
+import { Template } from "../../core/util/Template.js";
+import { ListTemplate } from "../../core/util/List.js";
+import type { Entity, IEntitySettings } from "../../core/util/Entity.js";
+import type { Color } from "../../core/util/Color.js";
+import * as $utils from "../../core/util/Utils.js";
 
 export interface ILegendDataItem extends ISeriesDataItem {
 

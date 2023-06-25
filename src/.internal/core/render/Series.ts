@@ -1,22 +1,22 @@
-import { Component, IComponentSettings, IComponentPrivate, DataItem, IComponentEvents, IComponentDataItem } from "../../core/render/Component";
-import { List } from "../../core/util/List";
-import { Color } from "../../core/util/Color";
-import { percentInterpolate } from "../../core/util/Animation";
-import { Percent } from "../../core/util/Percent";
-import * as $array from "../../core/util/Array";
-import * as $type from "../../core/util/Type";
-import * as $time from "../../core/util/Time";
-import type { Root } from "../../core/Root";
-import { p100 } from "../../core/util/Percent";
-import type { Chart } from "./Chart";
-import type { Bullet } from "./Bullet";
-import { Container } from "../../core/render/Container";
-import type { Graphics } from "../../core/render/Graphics";
-import type { ILegendDataItem } from "./Legend";
-import type { Template } from "../../core/util/Template";
-import type { Sprite } from "../../core/render/Sprite";
-import { Label } from "../../core/render/Label";
-//import { Animations } from "../../core/util/Animation";
+import { Component, IComponentSettings, IComponentPrivate, DataItem, IComponentEvents, IComponentDataItem } from "../../core/render/Component.js";
+import { List } from "../../core/util/List.js";
+import { Color } from "../../core/util/Color.js";
+import { percentInterpolate } from "../../core/util/Animation.js";
+import { Percent } from "../../core/util/Percent.js";
+import * as $array from "../../core/util/Array.js";
+import * as $type from "../../core/util/Type.js";
+import * as $time from "../../core/util/Time.js";
+import type { Root } from "../../core/Root.js";
+import { p100 } from "../../core/util/Percent.js";
+import type { Chart } from "./Chart.js";
+import type { Bullet } from "./Bullet.js";
+import { Container } from "../../core/render/Container.js";
+import type { Graphics } from "../../core/render/Graphics.js";
+import type { ILegendDataItem } from "./Legend.js";
+import type { Template } from "../../core/util/Template.js";
+import type { Sprite } from "../../core/render/Sprite.js";
+import { Label } from "../../core/render/Label.js";
+//import { Animations } from "../../core/util/Animation.js";
 
 /**
  * Defines interface for a heat rule.

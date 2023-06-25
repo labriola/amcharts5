@@ -1,9 +1,9 @@
-import type { StockChart } from "./StockChart";
-import type { StockPanel } from "./StockPanel";
+import type { StockChart } from "./StockChart.js";
+import type { StockPanel } from "./StockPanel.js";
 
-import { Container, IContainerPrivate, IContainerSettings } from "../../core/render/Container";
-import { Button } from "../../core/render/Button";
-import { Graphics } from "../../core/render/Graphics";
+import { Container, IContainerPrivate, IContainerSettings } from "../../core/render/Container.js";
+import { Button } from "../../core/render/Button.js";
+import { Graphics } from "../../core/render/Graphics.js";
 
 export interface IPanelControlsSettings extends IContainerSettings {
 

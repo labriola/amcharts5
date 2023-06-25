@@ -1,4 +1,4 @@
-import { Candlestick, ICandlestickSettings, ICandlestickPrivate } from "./Candlestick";
+import { Candlestick, ICandlestickSettings, ICandlestickPrivate } from "./Candlestick.js";
 
 
 export interface IOHLCSettings extends ICandlestickSettings {

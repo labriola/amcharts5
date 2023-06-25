@@ -1,18 +1,18 @@
-import type { DataItem } from "../../core/render/Component";
-import type { PieChart } from "./PieChart";
+import type { DataItem } from "../../core/render/Component.js";
+import type { PieChart } from "./PieChart.js";
 
-import { PercentSeries, IPercentSeriesSettings, IPercentSeriesDataItem, IPercentSeriesPrivate } from "../percent/PercentSeries";
-import { Template } from "../../core/util/Template";
-import { Slice } from "../../core/render/Slice";
-import { Tick } from "../../core/render/Tick";
-import { RadialLabel } from "../../core/render/RadialLabel";
-import { ListTemplate } from "../../core/util/List";
-import { p100, Percent } from "../../core/util/Percent";
-import type { Bullet } from "../../core/render/Bullet";
+import { PercentSeries, IPercentSeriesSettings, IPercentSeriesDataItem, IPercentSeriesPrivate } from "../percent/PercentSeries.js";
+import { Template } from "../../core/util/Template.js";
+import { Slice } from "../../core/render/Slice.js";
+import { Tick } from "../../core/render/Tick.js";
+import { RadialLabel } from "../../core/render/RadialLabel.js";
+import { ListTemplate } from "../../core/util/List.js";
+import { p100, Percent } from "../../core/util/Percent.js";
+import type { Bullet } from "../../core/render/Bullet.js";
 
-import * as $array from "../../core/util/Array";
-import * as $math from "../../core/util/Math";
-import * as $utils from "../../core/util/Utils";
+import * as $array from "../../core/util/Array.js";
+import * as $math from "../../core/util/Math.js";
+import * as $utils from "../../core/util/Utils.js";
 
 export interface IPieSeriesDataItem extends IPercentSeriesDataItem {
 	slice: Slice;

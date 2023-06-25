@@ -1,15 +1,15 @@
-import type { DataItem } from "../../core/render/Component";
-import type { StockChart } from "./StockChart";
-import type { StockPanel } from "./StockPanel";
+import type { DataItem } from "../../core/render/Component.js";
+import type { StockChart } from "./StockChart.js";
+import type { StockPanel } from "./StockPanel.js";
 
-import { Legend, ILegendPrivate, ILegendSettings, ILegendEvents, ILegendDataItem } from "../../core/render/Legend";
-import { Button } from "../../core/render/Button";
-import { Graphics } from "../../core/render/Graphics";
-import { Template } from "../../core/util/Template";
-import { ListTemplate } from "../../core/util/List";
-import { Indicator } from "./indicators/Indicator";
+import { Legend, ILegendPrivate, ILegendSettings, ILegendEvents, ILegendDataItem } from "../../core/render/Legend.js";
+import { Button } from "../../core/render/Button.js";
+import { Graphics } from "../../core/render/Graphics.js";
+import { Template } from "../../core/util/Template.js";
+import { ListTemplate } from "../../core/util/List.js";
+import { Indicator } from "./indicators/Indicator.js";
 
-import * as $utils from "../../core/util/Utils";
+import * as $utils from "../../core/util/Utils.js";
 
 export interface IStockLegendDataItem extends ILegendDataItem {
 

@@ -1,23 +1,23 @@
-import type { Graphics } from "./Graphics";
-import type { Layout } from "./Layout";
-import type { IContainer } from "./backend/Renderer";
-import type { IBounds } from "../util/IBounds";
-import type { Scrollbar } from "./Scrollbar";
-import type { DataItem, IComponentDataItem } from "./Component";
+import type { Graphics } from "./Graphics.js";
+import type { Layout } from "./Layout.js";
+import type { IContainer } from "./backend/Renderer.js";
+import type { IBounds } from "../util/IBounds.js";
+import type { Scrollbar } from "./Scrollbar.js";
+import type { DataItem, IComponentDataItem } from "./Component.js";
 
-import { Children } from "../util/Children";
-import { Percent } from "../util/Percent";
-import { Sprite, ISpriteSettings, ISpritePrivate, ISpriteEvents } from "./Sprite";
-import { Rectangle } from "./Rectangle";
-import { HorizontalLayout } from "./HorizontalLayout";
-import { VerticalLayout } from "./VerticalLayout";
-import { GridLayout } from "./GridLayout";
-import { populateString } from "../util/PopulateString";
-import type { IDisposer } from "../util/Disposer";
+import { Children } from "../util/Children.js";
+import { Percent } from "../util/Percent.js";
+import { Sprite, ISpriteSettings, ISpritePrivate, ISpriteEvents } from "./Sprite.js";
+import { Rectangle } from "./Rectangle.js";
+import { HorizontalLayout } from "./HorizontalLayout.js";
+import { VerticalLayout } from "./VerticalLayout.js";
+import { GridLayout } from "./GridLayout.js";
+import { populateString } from "../util/PopulateString.js";
+import type { IDisposer } from "../util/Disposer.js";
 
-import * as $array from "../util/Array";
-import * as $type from "../util/Type";
-import * as $utils from "../util/Utils";
+import * as $array from "../util/Array.js";
+import * as $type from "../util/Type.js";
+import * as $utils from "../util/Utils.js";
 
 export interface IContainerSettings extends ISpriteSettings {
 

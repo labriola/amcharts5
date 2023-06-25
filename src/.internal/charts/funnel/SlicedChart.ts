@@ -1,5 +1,5 @@
-import { PercentChart, IPercentChartPrivate, IPercentChartSettings } from "../percent/PercentChart";
-import type { PercentSeries } from "../percent/PercentSeries";
+import { PercentChart, IPercentChartPrivate, IPercentChartSettings } from "../percent/PercentChart.js";
+import type { PercentSeries } from "../percent/PercentSeries.js";
 
 
 export interface ISlicedChartSettings extends IPercentChartSettings {

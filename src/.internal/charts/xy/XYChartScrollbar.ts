@@ -1,7 +1,7 @@
-import { Scrollbar, IScrollbarPrivate, IScrollbarSettings } from "../../core/render/Scrollbar";
-import { XYChart } from "./XYChart";
-import { Graphics } from "../../core/render/Graphics";
-import * as $utils from "../../core/util/Utils";
+import { Scrollbar, IScrollbarPrivate, IScrollbarSettings } from "../../core/render/Scrollbar.js";
+import { XYChart } from "./XYChart.js";
+import { Graphics } from "../../core/render/Graphics.js";
+import * as $utils from "../../core/util/Utils.js";
 
 export interface IXYChartScrollbarSettings extends IScrollbarSettings {
 

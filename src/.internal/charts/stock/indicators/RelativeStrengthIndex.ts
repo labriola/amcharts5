@@ -1,12 +1,12 @@
-import type { IIndicatorEditableSetting } from "./Indicator";
-import type { IValueAxisDataItem } from "../../xy/axes/ValueAxis";
-import type { DataItem } from "../../../core/render/Component";
-import type { Color } from "../../../core/util/Color";
+import type { IIndicatorEditableSetting } from "./Indicator.js";
+import type { IValueAxisDataItem } from "../../xy/axes/ValueAxis.js";
+import type { DataItem } from "../../../core/render/Component.js";
+import type { Color } from "../../../core/util/Color.js";
 
-import { ChartIndicator, IChartIndicatorSettings, IChartIndicatorPrivate, IChartIndicatorEvents } from "./ChartIndicator";
-import { LineSeries, ILineSeriesAxisRange } from "../../xy/series/LineSeries";
+import { ChartIndicator, IChartIndicatorSettings, IChartIndicatorPrivate, IChartIndicatorEvents } from "./ChartIndicator.js";
+import { LineSeries, ILineSeriesAxisRange } from "../../xy/series/LineSeries.js";
 
-import * as $array from "../../../core/util/Array";
+import * as $array from "../../../core/util/Array.js";
 
 export interface IRelativeStrengthIndexSettings extends IChartIndicatorSettings {
 

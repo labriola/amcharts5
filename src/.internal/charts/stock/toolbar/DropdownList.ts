@@ -1,8 +1,8 @@
-import { Dropdown, IDropdownSettings, IDropdownPrivate, IDropdownEvents } from "./Dropdown"
-//import type { IDisposer } from "../../../core/util/Disposer";
+import { Dropdown, IDropdownSettings, IDropdownPrivate, IDropdownEvents } from "./Dropdown.js"
+//import type { IDisposer } from "../../../core/util/Disposer.js";
 
-import * as $array from "../../../core/util/Array";
-import * as $utils from "../../../core/util/Utils";
+import * as $array from "../../../core/util/Array.js";
+import * as $utils from "../../../core/util/Utils.js";
 
 export interface IDropdownListItem {
 	id: string;

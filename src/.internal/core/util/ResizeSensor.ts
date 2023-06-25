@@ -1,8 +1,8 @@
 /** @ignore *//** */
 
-import type { IDisposer } from "./Disposer";
-import * as $array from "./Array";
-import * as $utils from "./Utils";
+import type { IDisposer } from "./Disposer.js";
+import * as $array from "./Array.js";
+import * as $utils from "./Utils.js";
 
 /**
  * @ignore

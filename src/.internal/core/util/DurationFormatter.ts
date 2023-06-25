@@ -1,11 +1,11 @@
-import type { TimeUnit } from "./Time";
+import type { TimeUnit } from "./Time.js";
 
-import { Entity, IEntitySettings, IEntityPrivate } from "./Entity"
-import { TextFormatter } from "./TextFormatter";
+import { Entity, IEntitySettings, IEntityPrivate } from "./Entity.js"
+import { TextFormatter } from "./TextFormatter.js";
 
-import * as $object from "./Object";
-import * as $utils from "./Utils";
-import * as $type from "./Type";
+import * as $object from "./Object.js";
+import * as $utils from "./Utils.js";
+import * as $type from "./Type.js";
 
 
 export interface IDurationFormatterSettings extends IEntitySettings {

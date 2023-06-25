@@ -1,4 +1,4 @@
-import { RoundedRectangle, IRoundedRectangleSettings, IRoundedRectanglePrivate } from "../../../core/render/RoundedRectangle";
+import { RoundedRectangle, IRoundedRectangleSettings, IRoundedRectanglePrivate } from "../../../core/render/RoundedRectangle.js";
 
 
 export interface ICandlestickSettings extends IRoundedRectangleSettings {

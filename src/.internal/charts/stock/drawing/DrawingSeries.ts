@@ -1,26 +1,26 @@
-import type { IDisposer } from "../../../core/util/Disposer";
-import type { IPoint } from "../../../core/util/IPoint";
-import type { Color } from "../../../core/util/Color";
-import type { ISpritePointerEvent } from "../../../core/render/Sprite";
-import type { ValueAxis } from "../../xy/axes/ValueAxis";
-import type { DateAxis } from "../../xy/axes/DateAxis";
-import type { AxisRenderer } from "../../xy/axes/AxisRenderer";
-import type { Sprite } from "../../../core/render/Sprite";
-import type { DataItem } from "../../../core/render/Component";
-import type { XYSeries } from "../../xy/series/XYSeries";
-import type { StockPanel } from "../StockPanel";
+import type { IDisposer } from "../../../core/util/Disposer.js";
+import type { IPoint } from "../../../core/util/IPoint.js";
+import type { Color } from "../../../core/util/Color.js";
+import type { ISpritePointerEvent } from "../../../core/render/Sprite.js";
+import type { ValueAxis } from "../../xy/axes/ValueAxis.js";
+import type { DateAxis } from "../../xy/axes/DateAxis.js";
+import type { AxisRenderer } from "../../xy/axes/AxisRenderer.js";
+import type { Sprite } from "../../../core/render/Sprite.js";
+import type { DataItem } from "../../../core/render/Component.js";
+import type { XYSeries } from "../../xy/series/XYSeries.js";
+import type { StockPanel } from "../StockPanel.js";
 
-import { LineSeries, ILineSeriesSettings, ILineSeriesPrivate, ILineSeriesDataItem } from "../../xy/series/LineSeries";
-import { Bullet } from "../../../core/render/Bullet";
-import { Circle } from "../../../core/render/Circle";
-import { Container } from "../../../core/render/Container";
-import { Template } from "../../../core/util/Template";
+import { LineSeries, ILineSeriesSettings, ILineSeriesPrivate, ILineSeriesDataItem } from "../../xy/series/LineSeries.js";
+import { Bullet } from "../../../core/render/Bullet.js";
+import { Circle } from "../../../core/render/Circle.js";
+import { Container } from "../../../core/render/Container.js";
+import { Template } from "../../../core/util/Template.js";
 
-import * as $array from "../../../core/util/Array";
-import * as $time from "../../../core/util/Time";
-import * as $type from "../../../core/util/Type";
-import * as $math from "../../../core/util/Math";
-import * as $object from "../../../core/util/Object";
+import * as $array from "../../../core/util/Array.js";
+import * as $time from "../../../core/util/Time.js";
+import * as $type from "../../../core/util/Type.js";
+import * as $math from "../../../core/util/Math.js";
+import * as $object from "../../../core/util/Object.js";
 
 
 export interface IDrawingSeriesDataItem extends ILineSeriesDataItem {

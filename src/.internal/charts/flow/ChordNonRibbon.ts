@@ -1,11 +1,11 @@
-import type { ChordLink } from "./ChordLink";
+import type { ChordLink } from "./ChordLink.js";
 import type { RibbonGenerator, RibbonSubgroup, Ribbon } from "d3-chord";
 
-import { Chord, IChordSettings, IChordDataItem, IChordPrivate, IChordEvents } from "./Chord";
+import { Chord, IChordSettings, IChordDataItem, IChordPrivate, IChordEvents } from "./Chord.js";
 
-import * as $array from "../../core/util/Array";
-import * as $math from "../../core/util/Math";
-import * as $utils from "../../core/util/Utils";
+import * as $array from "../../core/util/Array.js";
+import * as $math from "../../core/util/Math.js";
+import * as $utils from "../../core/util/Utils.js";
 
 export interface IChordNonRibbonDataItem extends IChordDataItem {
 

@@ -1,10 +1,10 @@
-import { Settings } from "../util/Entity";
-import { Container, IContainerSettings, IContainerPrivate, IContainerEvents } from "./Container";
-import { ListData } from "../util/Data";
-import * as $array from "../util/Array";
-import * as $object from "../util/Object";
-import type * as $ease from "../util/Ease";
-import type { Bullet } from "./Bullet";
+import { Settings } from "../util/Entity.js";
+import { Container, IContainerSettings, IContainerPrivate, IContainerEvents } from "./Container.js";
+import { ListData } from "../util/Data.js";
+import * as $array from "../util/Array.js";
+import * as $object from "../util/Object.js";
+import type * as $ease from "../util/Ease.js";
+import type { Bullet } from "./Bullet.js";
 
 /**
  * A base element that holds data bit (data item) for any [[Component]].

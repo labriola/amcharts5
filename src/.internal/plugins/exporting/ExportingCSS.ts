@@ -1,7 +1,7 @@
-import type { Root } from "../../core/Root"
+import type { Root } from "../../core/Root.js"
 
-import { StyleRule } from "../../core/util/Utils"
-import { MultiDisposer, IDisposer, CounterDisposer } from "../../core/util/Disposer";
+import { StyleRule } from "../../core/util/Utils.js"
+import { MultiDisposer, IDisposer, CounterDisposer } from "../../core/util/Disposer.js";
 
 /**
  * @ignore

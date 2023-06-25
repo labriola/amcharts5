@@ -1,11 +1,11 @@
-import type { PanelControls } from "./PanelControls";
-import type { StockChart } from "./StockChart"
-import type { XYSeries } from "../xy/series/XYSeries";
+import type { PanelControls } from "./PanelControls.js";
+import type { StockChart } from "./StockChart.js"
+import type { XYSeries } from "../xy/series/XYSeries.js";
 
-import { XYChart, IXYChartPrivate, IXYChartSettings } from "../xy/XYChart";
-import { ListAutoDispose } from "../../core/util/List";
+import { XYChart, IXYChartPrivate, IXYChartSettings } from "../xy/XYChart.js";
+import { ListAutoDispose } from "../../core/util/List.js";
 
-import * as $array from "../../core/util/Array";
+import * as $array from "../../core/util/Array.js";
 
 export interface IStockPanelSettings extends IXYChartSettings {
 }

@@ -1,1 +1,1 @@
-export { SliceGrouper } from "../.internal/plugins/sliceGrouper/SliceGrouper";
+export { SliceGrouper } from "../.internal/plugins/sliceGrouper/SliceGrouper.js";

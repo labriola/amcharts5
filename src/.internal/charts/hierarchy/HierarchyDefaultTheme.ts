@@ -1,9 +1,9 @@
-import { Theme } from "../../core/Theme";
-import { percent, p100, p50 } from "../../core/util/Percent";
-import { ColorSet } from "../../core/util/ColorSet";
-import { setColor } from "../../themes/DefaultTheme";
+import { Theme } from "../../core/Theme.js";
+import { percent, p100, p50 } from "../../core/util/Percent.js";
+import { ColorSet } from "../../core/util/ColorSet.js";
+import { setColor } from "../../themes/DefaultTheme.js";
 
-import * as $ease from "../../core/util/Ease";
+import * as $ease from "../../core/util/Ease.js";
 
 
 /**

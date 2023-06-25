@@ -1,8 +1,8 @@
-import type { StockControl } from "./StockControl";
-import { Entity, IEntitySettings, IEntityPrivate, IEntityEvents } from "../../../core/util/Entity"
-//import type { IDisposer } from "../../../core/util/Disposer";
+import type { StockControl } from "./StockControl.js";
+import { Entity, IEntitySettings, IEntityPrivate, IEntityEvents } from "../../../core/util/Entity.js"
+//import type { IDisposer } from "../../../core/util/Disposer.js";
 
-import * as $utils from "../../../core/util/Utils"
+import * as $utils from "../../../core/util/Utils.js"
 
 
 export interface IDropdownSettings extends IEntitySettings {

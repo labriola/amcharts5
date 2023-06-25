@@ -1,2 +1,2 @@
-import { KellyTheme } from "../.internal/themes/KellyTheme";
+import { KellyTheme } from "../.internal/themes/KellyTheme.js";
 export default KellyTheme;

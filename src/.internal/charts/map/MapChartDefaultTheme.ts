@@ -1,10 +1,10 @@
-import { Theme } from "../../core/Theme";
-import { p50, p100 } from "../../core/util/Percent";
-import { setColor } from "../../themes/DefaultTheme";
+import { Theme } from "../../core/Theme.js";
+import { p50, p100 } from "../../core/util/Percent.js";
+import { setColor } from "../../themes/DefaultTheme.js";
 
 import { geoMercator } from "d3-geo";
 
-import * as $ease from "../../core/util/Ease";
+import * as $ease from "../../core/util/Ease.js";
 
 
 /**

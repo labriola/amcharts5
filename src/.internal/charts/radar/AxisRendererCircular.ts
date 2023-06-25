@@ -1,22 +1,22 @@
-import type { Axis } from "../xy/axes/Axis";
-import type { RadarChart } from "./RadarChart";
-import type { Grid } from "../xy/axes/Grid";
-import type { IPoint } from "../../core/util/IPoint";
-import type { Graphics } from "../../core/render/Graphics";
-import type { AxisTick } from "../xy/axes/AxisTick";
-import type { AxisBullet } from "../xy/axes/AxisBullet";
-import type { Tooltip } from "../../core/render/Tooltip";
+import type { Axis } from "../xy/axes/Axis.js";
+import type { RadarChart } from "./RadarChart.js";
+import type { Grid } from "../xy/axes/Grid.js";
+import type { IPoint } from "../../core/util/IPoint.js";
+import type { Graphics } from "../../core/render/Graphics.js";
+import type { AxisTick } from "../xy/axes/AxisTick.js";
+import type { AxisBullet } from "../xy/axes/AxisBullet.js";
+import type { Tooltip } from "../../core/render/Tooltip.js";
 
-import { Slice } from "../../core/render/Slice";
-import { AxisRenderer, IAxisRendererSettings, IAxisRendererPrivate } from "../xy/axes/AxisRenderer";
-import { AxisLabelRadial } from "../xy/axes/AxisLabelRadial";
-import { Percent, p100 } from "../../core/util/Percent";
-import { ListTemplate } from "../../core/util/List";
-import { Template } from "../../core/util/Template";
+import { Slice } from "../../core/render/Slice.js";
+import { AxisRenderer, IAxisRendererSettings, IAxisRendererPrivate } from "../xy/axes/AxisRenderer.js";
+import { AxisLabelRadial } from "../xy/axes/AxisLabelRadial.js";
+import { Percent, p100 } from "../../core/util/Percent.js";
+import { ListTemplate } from "../../core/util/List.js";
+import { Template } from "../../core/util/Template.js";
 import { arc } from "d3-shape";
 
-import * as $utils from "../../core/util/Utils";
-import * as $math from "../../core/util/Math";
+import * as $utils from "../../core/util/Utils.js";
+import * as $math from "../../core/util/Math.js";
 
 
 export interface IAxisRendererCircularSettings extends IAxisRendererSettings {

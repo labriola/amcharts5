@@ -1,12 +1,12 @@
-import type { DataItem } from "../../core/render/Component";
+import type { DataItem } from "../../core/render/Component.js";
 
-import { Chord, IChordSettings, IChordDataItem, IChordPrivate, IChordEvents } from "./Chord";
-import { ChordLinkDirected } from "./ChordLinkDirected";
+import { Chord, IChordSettings, IChordDataItem, IChordPrivate, IChordEvents } from "./Chord.js";
+import { ChordLinkDirected } from "./ChordLinkDirected.js";
 import { chordDirected, ribbonArrow, ribbon, RibbonArrowGenerator, Ribbon, RibbonSubgroup } from "d3-chord";
-import { Template } from "../../core/util/Template";
-import { ListTemplate } from "../../core/util/List";
+import { Template } from "../../core/util/Template.js";
+import { ListTemplate } from "../../core/util/List.js";
 
-import * as $utils from "../../core/util/Utils";
+import * as $utils from "../../core/util/Utils.js";
 
 export interface IChordDirectedDataItem extends IChordDataItem {
 

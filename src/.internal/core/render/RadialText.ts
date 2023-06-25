@@ -1,6 +1,6 @@
-import { Text, ITextSettings, ITextPrivate } from "./Text";
-import * as $math from "../util/Math";
-import type { IRadialText } from "./backend/Renderer";
+import { Text, ITextSettings, ITextPrivate } from "./Text.js";
+import * as $math from "../util/Math.js";
+import type { IRadialText } from "./backend/Renderer.js";
 
 /**
  * @ignore

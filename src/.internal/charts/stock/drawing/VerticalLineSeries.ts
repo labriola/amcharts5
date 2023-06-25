@@ -1,8 +1,8 @@
-import type { ISpritePointerEvent } from "../../../core/render/Sprite";
-import type { DataItem } from "../../../core/render/Component";
-import type { Line } from "../../../core/render/Line";
-import { SimpleLineSeries, ISimpleLineSeriesSettings, ISimpleLineSeriesPrivate, ISimpleLineSeriesDataItem } from "./SimpleLineSeries";
-import type { Template } from "../../../core/util/Template";
+import type { ISpritePointerEvent } from "../../../core/render/Sprite.js";
+import type { DataItem } from "../../../core/render/Component.js";
+import type { Line } from "../../../core/render/Line.js";
+import { SimpleLineSeries, ISimpleLineSeriesSettings, ISimpleLineSeriesPrivate, ISimpleLineSeriesDataItem } from "./SimpleLineSeries.js";
+import type { Template } from "../../../core/util/Template.js";
 
 export interface IVerticalLineSeriesDataItem extends ISimpleLineSeriesDataItem {
 }

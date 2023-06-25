@@ -1,4 +1,4 @@
-import { Graphics, IGraphicsSettings, IGraphicsPrivate } from "./Graphics";
+import { Graphics, IGraphicsSettings, IGraphicsPrivate } from "./Graphics.js";
 
 export interface IRectangleSettings extends IGraphicsSettings {
 }

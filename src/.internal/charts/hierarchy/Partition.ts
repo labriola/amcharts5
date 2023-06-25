@@ -1,14 +1,14 @@
-import type { HierarchyNode } from "./HierarchyNode";
-import type { DataItem } from "../../core/render/Component";
+import type { HierarchyNode } from "./HierarchyNode.js";
+import type { DataItem } from "../../core/render/Component.js";
 
-import { Hierarchy, IHierarchyPrivate, IHierarchySettings, IHierarchyDataItem, IHierarchyDataObject } from "./Hierarchy";
-import { Template } from "../../core/util/Template";
-import { ListTemplate } from "../../core/util/List";
-import { RoundedRectangle } from "../../core/render/RoundedRectangle";
+import { Hierarchy, IHierarchyPrivate, IHierarchySettings, IHierarchyDataItem, IHierarchyDataObject } from "./Hierarchy.js";
+import { Template } from "../../core/util/Template.js";
+import { ListTemplate } from "../../core/util/List.js";
+import { RoundedRectangle } from "../../core/render/RoundedRectangle.js";
 
-import * as $array from "../../core/util/Array";
-import * as $type from "../../core/util/Type";
-import * as $utils from "../../core/util/Utils";
+import * as $array from "../../core/util/Array.js";
+import * as $type from "../../core/util/Type.js";
+import * as $utils from "../../core/util/Utils.js";
 import * as d3hierarchy from "d3-hierarchy";
 
 /**

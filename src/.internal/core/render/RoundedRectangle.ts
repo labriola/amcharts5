@@ -1,7 +1,7 @@
-import * as $type from "../util/Type";
-import * as $math from "../util/Math";
-import * as $utils from "../util/Utils";
-import { Rectangle, IRectangleSettings, IRectanglePrivate } from "./Rectangle";
+import * as $type from "../util/Type.js";
+import * as $math from "../util/Math.js";
+import * as $utils from "../util/Utils.js";
+import { Rectangle, IRectangleSettings, IRectanglePrivate } from "./Rectangle.js";
 
 
 export interface IRoundedRectangleSettings extends IRectangleSettings {

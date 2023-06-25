@@ -1,11 +1,11 @@
-import type { MapLineSeries, IMapLineSeriesDataItem } from "./MapLineSeries";
-import type { IGeoPoint } from "../../core/util/IGeoPoint";
-import type { DataItem } from "../../core/render/Component";
-import type { IPoint } from "../../core/util/IPoint";
-import * as $type from "../../core/util/Type";
-import { Percent } from "../../core/util/Percent";
+import type { MapLineSeries, IMapLineSeriesDataItem } from "./MapLineSeries.js";
+import type { IGeoPoint } from "../../core/util/IGeoPoint.js";
+import type { DataItem } from "../../core/render/Component.js";
+import type { IPoint } from "../../core/util/IPoint.js";
+import * as $type from "../../core/util/Type.js";
+import { Percent } from "../../core/util/Percent.js";
 
-import { Graphics, IGraphicsSettings, IGraphicsPrivate, IGraphicsEvents } from "../../core/render/Graphics";
+import { Graphics, IGraphicsSettings, IGraphicsPrivate, IGraphicsEvents } from "../../core/render/Graphics.js";
 import { geoLength, geoInterpolate, geoDistance } from "d3-geo";
 
 export interface IMapLineSettings extends IGraphicsSettings {

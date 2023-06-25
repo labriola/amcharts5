@@ -1,17 +1,17 @@
-import type { IMapLineSeriesDataItem, MapLineSeries } from "./MapLineSeries";
-import type { IMapPolygonSeriesDataItem, MapPolygonSeries } from "./MapPolygonSeries";
-import type { Bullet } from "../../core/render/Bullet";
-import type { DataItem } from "../../core/render/Component";
-import type { MapLine } from "./MapLine";
-import type { MapPolygon } from "./MapPolygon";
+import type { IMapLineSeriesDataItem, MapLineSeries } from "./MapLineSeries.js";
+import type { IMapPolygonSeriesDataItem, MapPolygonSeries } from "./MapPolygonSeries.js";
+import type { Bullet } from "../../core/render/Bullet.js";
+import type { DataItem } from "../../core/render/Component.js";
+import type { MapLine } from "./MapLine.js";
+import type { MapPolygon } from "./MapPolygon.js";
 
-import { MapSeries, IMapSeriesSettings, IMapSeriesDataItem, IMapSeriesPrivate } from "./MapSeries";
+import { MapSeries, IMapSeriesSettings, IMapSeriesDataItem, IMapSeriesPrivate } from "./MapSeries.js";
 
-import * as $array from "../../core/util/Array";
-import * as $type from "../../core/util/Type";
-import * as $math from "../../core/util/Math";
-import type { Animation } from "../../core/util/Entity";
-import type { IDisposer } from "../../core/util/Disposer";
+import * as $array from "../../core/util/Array.js";
+import * as $type from "../../core/util/Type.js";
+import * as $math from "../../core/util/Math.js";
+import type { Animation } from "../../core/util/Entity.js";
+import type { IDisposer } from "../../core/util/Disposer.js";
 
 export interface IMapPointSeriesPrivate extends IMapSeriesPrivate {
 }

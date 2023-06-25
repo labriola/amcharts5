@@ -1,11 +1,11 @@
-import type { DataItem } from "../../../core/render/Component";
+import type { DataItem } from "../../../core/render/Component.js";
 
-import { BaseColumnSeries, IBaseColumnSeriesPrivate, IBaseColumnSeriesSettings, IBaseColumnSeriesDataItem, IBaseColumnSeriesAxisRange } from "./BaseColumnSeries";
-import { Template } from "../../../core/util/Template";
-import { ListTemplate } from "../../../core/util/List";
-import { RoundedRectangle } from "../../../core/render/RoundedRectangle";
+import { BaseColumnSeries, IBaseColumnSeriesPrivate, IBaseColumnSeriesSettings, IBaseColumnSeriesDataItem, IBaseColumnSeriesAxisRange } from "./BaseColumnSeries.js";
+import { Template } from "../../../core/util/Template.js";
+import { ListTemplate } from "../../../core/util/List.js";
+import { RoundedRectangle } from "../../../core/render/RoundedRectangle.js";
 
-import * as $utils from "../../../core/util/Utils";
+import * as $utils from "../../../core/util/Utils.js";
 
 export interface IColumnSeriesDataItem extends IBaseColumnSeriesDataItem { }
 

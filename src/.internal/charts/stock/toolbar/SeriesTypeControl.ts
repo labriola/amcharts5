@@ -1,4 +1,4 @@
-import { DropdownListControl, IDropdownListControlSettings, IDropdownListControlPrivate, IDropdownListControlEvents } from "./DropdownListControl";
+import { DropdownListControl, IDropdownListControlSettings, IDropdownListControlPrivate, IDropdownListControlEvents } from "./DropdownListControl.js";
 
 export interface ISeriesTypeControlSettings extends IDropdownListControlSettings {
 }

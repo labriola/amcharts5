@@ -1,13 +1,13 @@
-import type { DataItem } from "../../../core/render/Component";
-import type { AxisRenderer } from "./AxisRenderer";
-import { Axis, IAxisSettings, IAxisPrivate, IAxisDataItem, IAxisEvents } from "./Axis";
-import type { IXYSeriesDataItem, XYSeries } from "../series/XYSeries";
-import * as $array from "../../../core/util/Array";
-import * as $type from "../../../core/util/Type";
-import * as $math from "../../../core/util/Math";
-import * as $utils from "../../../core/util/Utils";
-import { populateString } from "../../../core/util/PopulateString";
-import type { Tooltip } from "../../../core/render/Tooltip";
+import type { DataItem } from "../../../core/render/Component.js";
+import type { AxisRenderer } from "./AxisRenderer.js";
+import { Axis, IAxisSettings, IAxisPrivate, IAxisDataItem, IAxisEvents } from "./Axis.js";
+import type { IXYSeriesDataItem, XYSeries } from "../series/XYSeries.js";
+import * as $array from "../../../core/util/Array.js";
+import * as $type from "../../../core/util/Type.js";
+import * as $math from "../../../core/util/Math.js";
+import * as $utils from "../../../core/util/Utils.js";
+import { populateString } from "../../../core/util/PopulateString.js";
+import type { Tooltip } from "../../../core/render/Tooltip.js";
 
 export interface ICategoryAxisSettings<R extends AxisRenderer> extends IAxisSettings<R> {
 

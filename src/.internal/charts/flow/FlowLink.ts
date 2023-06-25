@@ -1,10 +1,10 @@
-import type { DataItem } from "../../core/render/Component";
-import { Graphics, IGraphicsSettings, IGraphicsPrivate } from "../../core/render/Graphics";
-import type { IFlowNodesDataItem } from "./FlowNodes";
-import type { IFlowDataItem, Flow } from "./Flow";
-import type { IOrientationPoint, IPoint } from "../../core/util/IPoint";
-import type { LinearGradient } from "../../core/render/gradients/LinearGradient";
-import { Percent } from "../../core/util/Percent";
+import type { DataItem } from "../../core/render/Component.js";
+import { Graphics, IGraphicsSettings, IGraphicsPrivate } from "../../core/render/Graphics.js";
+import type { IFlowNodesDataItem } from "./FlowNodes.js";
+import type { IFlowDataItem, Flow } from "./Flow.js";
+import type { IOrientationPoint, IPoint } from "../../core/util/IPoint.js";
+import type { LinearGradient } from "../../core/render/gradients/LinearGradient.js";
+import { Percent } from "../../core/util/Percent.js";
 
 export interface IFlowLinkSettings extends IGraphicsSettings {
 

@@ -1,12 +1,12 @@
-import type { IGradient } from "../backend/Renderer";
-import type { Sprite } from "../Sprite";
+import type { IGradient } from "../backend/Renderer.js";
+import type { Sprite } from "../Sprite.js";
 
-import { Gradient, IGradientSettings, IGradientPrivate } from "./Gradient";
-import { Color } from "../../util/Color";
+import { Gradient, IGradientSettings, IGradientPrivate } from "./Gradient.js";
+import { Color } from "../../util/Color.js";
 
-import * as $array from "../../util/Array";
-import * as $type from "../../util/Type";
-import * as $math from "../../util/Math";
+import * as $array from "../../util/Array.js";
+import * as $type from "../../util/Type.js";
+import * as $math from "../../util/Math.js";
 
 
 export interface ILinearGradientSettings extends IGradientSettings {

@@ -1,6 +1,6 @@
-import type { Color } from "./Color"
+import type { Color } from "./Color.js"
 
-import { Entity, IEntitySettings } from "./Entity"
+import { Entity, IEntitySettings } from "./Entity.js"
 
 
 export interface IInterfaceColorsSettings extends IEntitySettings {

@@ -1,30 +1,30 @@
-import type { MapSeries } from "./MapSeries";
-import type { MapPointSeries } from "./MapPointSeries";
+import type { MapSeries } from "./MapSeries.js";
+import type { MapPointSeries } from "./MapPointSeries.js";
 import type { GeoProjection, GeoPath } from "d3-geo";
-import type { IPoint } from "../../core/util/IPoint";
-import type { IGeoPoint } from "../../core/util/IGeoPoint";
-import type { Time } from "../../core/util/Animation";
-import type { ZoomControl } from "./ZoomControl";
-import type { Animation } from "../../core/util/Entity";
-import type { DataItem } from "../../core/render/Component";
-import type { IMapPolygonSeriesDataItem } from "./MapPolygonSeries";
+import type { IPoint } from "../../core/util/IPoint.js";
+import type { IGeoPoint } from "../../core/util/IGeoPoint.js";
+import type { Time } from "../../core/util/Animation.js";
+import type { ZoomControl } from "./ZoomControl.js";
+import type { Animation } from "../../core/util/Entity.js";
+import type { DataItem } from "../../core/render/Component.js";
+import type { IMapPolygonSeriesDataItem } from "./MapPolygonSeries.js";
 
-import { MapChartDefaultTheme } from "./MapChartDefaultTheme";
-import { SerialChart, ISerialChartPrivate, ISerialChartSettings, ISerialChartEvents } from "../../core/render/SerialChart";
-import { Rectangle } from "../../core/render/Rectangle";
+import { MapChartDefaultTheme } from "./MapChartDefaultTheme.js";
+import { SerialChart, ISerialChartPrivate, ISerialChartSettings, ISerialChartEvents } from "../../core/render/SerialChart.js";
+import { Rectangle } from "../../core/render/Rectangle.js";
 import { geoPath } from "d3-geo";
-import { Color } from "../../core/util/Color";
-import { registry } from "../../core/Registry";
+import { Color } from "../../core/util/Color.js";
+import { registry } from "../../core/Registry.js";
 
-import * as $math from "../../core/util/Math";
-import * as $array from "../../core/util/Array";
-import * as $type from "../../core/util/Type";
-import * as $mapUtils from "./MapUtils";
-import * as $object from "../../core/util/Object";
-import * as $utils from "../../core/util/Utils";
+import * as $math from "../../core/util/Math.js";
+import * as $array from "../../core/util/Array.js";
+import * as $type from "../../core/util/Type.js";
+import * as $mapUtils from "./MapUtils.js";
+import * as $object from "../../core/util/Object.js";
+import * as $utils from "../../core/util/Utils.js";
 
-import type { IDisposer } from "../../core/util/Disposer";
-import type { ISpritePointerEvent } from "../../core/render/Sprite";
+import type { IDisposer } from "../../core/util/Disposer.js";
+import type { ISpritePointerEvent } from "../../core/render/Sprite.js";
 
 export interface IMapChartSettings extends ISerialChartSettings {
 

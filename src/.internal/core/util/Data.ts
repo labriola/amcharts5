@@ -1,6 +1,6 @@
-import type { ICounterRef } from "./Counter";
-import { List } from "./List";
-import type { DataProcessor } from "./DataProcessor";
+import type { ICounterRef } from "./Counter.js";
+import { List } from "./List.js";
+import type { DataProcessor } from "./DataProcessor.js";
 
 /**
  * Defines interface for a [[List]] with a data processor.

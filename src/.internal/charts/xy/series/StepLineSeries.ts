@@ -1,8 +1,8 @@
-import { LineSeries, ILineSeriesSettings, ILineSeriesPrivate, ILineSeriesDataItem } from "./LineSeries";
-import type { AxisRenderer } from "../axes/AxisRenderer";
-import type { Axis } from "../axes/Axis";
-import { Percent, p100 } from "../../../core/util/Percent";
-import type { DataItem } from "../../../core/render/Component";
+import { LineSeries, ILineSeriesSettings, ILineSeriesPrivate, ILineSeriesDataItem } from "./LineSeries.js";
+import type { AxisRenderer } from "../axes/AxisRenderer.js";
+import type { Axis } from "../axes/Axis.js";
+import { Percent, p100 } from "../../../core/util/Percent.js";
+import type { DataItem } from "../../../core/render/Component.js";
 import { curveStepAfter } from "d3-shape";
 
 export interface IStepLineSeriesDataItem extends ILineSeriesDataItem {

@@ -1,2 +1,2 @@
-import { DatavizTheme } from "../.internal/themes/DatavizTheme";
+import { DatavizTheme } from "../.internal/themes/DatavizTheme.js";
 export default DatavizTheme;

@@ -1,13 +1,13 @@
-import type { Percent } from "./Percent";
-import type { IPointerEvent } from "../render/backend/Renderer";
-import type { Sprite } from "../render/Sprite";
+import type { Percent } from "./Percent.js";
+import type { IPointerEvent } from "../render/backend/Renderer.js";
+import type { Sprite } from "../render/Sprite.js";
 
-import * as $type from "./Type";
-import * as $array from "./Array";
-import * as $object from "./Object";
-import type { IBounds } from "./IBounds";
+import * as $type from "./Type.js";
+import * as $array from "./Array.js";
+import * as $object from "./Object.js";
+import type { IBounds } from "./IBounds.js";
 
-import { Disposer, DisposerClass, IDisposer } from "./Disposer";
+import { Disposer, DisposerClass, IDisposer } from "./Disposer.js";
 
 /**
  * ============================================================================

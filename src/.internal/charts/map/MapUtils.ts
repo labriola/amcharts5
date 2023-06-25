@@ -1,5 +1,5 @@
-import type { IGeoPoint } from "../../core/util/IGeoPoint";
-import * as $math from "../../core/util/Math";
+import type { IGeoPoint } from "../../core/util/IGeoPoint.js";
+import * as $math from "../../core/util/Math.js";
 import { geoCircle, geoCentroid, geoBounds, geoArea } from "d3-geo";
 
 /**

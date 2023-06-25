@@ -4,9 +4,9 @@
  * ============================================================================
  * @hidden
  */
-import * as $type from "./Type";
-import * as $utils from "./Utils";
-import type { Timezone } from "./Timezone";
+import * as $type from "./Type.js";
+import * as $utils from "./Utils.js";
+import type { Timezone } from "./Timezone.js";
 
 export type TimeUnit = "millisecond" | "second" | "minute" | "hour" | "day" | "week" | "month" | "year";
 

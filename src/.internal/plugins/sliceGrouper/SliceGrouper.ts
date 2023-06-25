@@ -1,12 +1,12 @@
-import type { DataItem } from "../../core/render/Component";
-import type { PercentSeries, IPercentSeriesDataItem } from "../../charts/percent/PercentSeries";
-import type { Legend } from "../../core/render/Legend";
+import type { DataItem } from "../../core/render/Component.js";
+import type { PercentSeries, IPercentSeriesDataItem } from "../../charts/percent/PercentSeries.js";
+import type { Legend } from "../../core/render/Legend.js";
 
-import { Button } from "../../core/render/Button";
-import { Graphics } from "../../core/render/Graphics";
-import { Entity, IEntitySettings, IEntityPrivate, IEntityEvents } from "../../core/util/Entity"
+import { Button } from "../../core/render/Button.js";
+import { Graphics } from "../../core/render/Graphics.js";
+import { Entity, IEntitySettings, IEntityPrivate, IEntityEvents } from "../../core/util/Entity.js"
 
-import * as $array from "../../core/util/Array";
+import * as $array from "../../core/util/Array.js";
 
 
 export interface ISliceGrouperSettings extends IEntitySettings {

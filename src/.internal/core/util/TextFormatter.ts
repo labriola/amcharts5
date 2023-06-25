@@ -1,6 +1,6 @@
-import { Color } from "./Color"
-import type { ITextStyle } from "../render/backend/Renderer"
-import * as $type from "./Type";
+import { Color } from "./Color.js"
+import type { ITextStyle } from "../render/backend/Renderer.js"
+import * as $type from "./Type.js";
 
 /**
  * Defines an interface for an object that holds a chunk of text.

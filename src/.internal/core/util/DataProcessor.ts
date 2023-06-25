@@ -1,8 +1,8 @@
-import { Entity, IEntitySettings, IEntityPrivate, IEntityEvents } from "./Entity"
-import { Color } from "./Color"
-import * as $type from "./Type"
-import * as $object from "./Object"
-import * as $array from "./Array"
+import { Entity, IEntitySettings, IEntityPrivate, IEntityEvents } from "./Entity.js"
+import { Color } from "./Color.js"
+import * as $type from "./Type.js"
+import * as $object from "./Object.js"
+import * as $array from "./Array.js"
 
 
 export interface IDataProcessorSettings extends IEntitySettings {

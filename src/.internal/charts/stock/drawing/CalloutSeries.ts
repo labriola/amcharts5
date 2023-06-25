@@ -1,12 +1,12 @@
-import type { Label } from "../../../core/render/Label";
-import type { Container } from "../../../core/render/Container";
+import type { Label } from "../../../core/render/Label.js";
+import type { Container } from "../../../core/render/Container.js";
 
-import { LabelSeries, ILabelSeriesSettings, ILabelSeriesPrivate, ILabelSeriesDataItem } from "./LabelSeries";
-import { PointedRectangle } from "../../../core/render/PointedRectangle";
-import type { DataItem } from "../../../core/render/Component";
-import { Template } from "../../../core/util/Template";
+import { LabelSeries, ILabelSeriesSettings, ILabelSeriesPrivate, ILabelSeriesDataItem } from "./LabelSeries.js";
+import { PointedRectangle } from "../../../core/render/PointedRectangle.js";
+import type { DataItem } from "../../../core/render/Component.js";
+import { Template } from "../../../core/util/Template.js";
 
-import * as $ease from "../../../core/util/Ease";
+import * as $ease from "../../../core/util/Ease.js";
 
 export interface ICalloutSeriesDataItem extends ILabelSeriesDataItem {
 

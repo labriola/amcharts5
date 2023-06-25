@@ -1,11 +1,11 @@
-import type { IIndicatorEditableSetting } from "./Indicator";
+import type { IIndicatorEditableSetting } from "./Indicator.js";
 
-import { ChartIndicator, IChartIndicatorSettings, IChartIndicatorPrivate, IChartIndicatorEvents } from "./ChartIndicator";
-import { LineSeries } from "../../xy/series/LineSeries";
+import { ChartIndicator, IChartIndicatorSettings, IChartIndicatorPrivate, IChartIndicatorEvents } from "./ChartIndicator.js";
+import { LineSeries } from "../../xy/series/LineSeries.js";
 
-import * as $array from "../../../core/util/Array";
-import * as $type from "../../../core/util/Type";
-import type { Color } from "../../../core/util/Color";
+import * as $array from "../../../core/util/Array.js";
+import * as $type from "../../../core/util/Type.js";
+import type { Color } from "../../../core/util/Color.js";
 
 export interface ITrixSettings extends IChartIndicatorSettings {
 	/**

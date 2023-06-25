@@ -1,16 +1,16 @@
-import { AxisRenderer, IAxisRendererSettings, IAxisRendererPrivate } from "./AxisRenderer";
-import { p100 } from "../../../core/util/Percent";
-import type { IPoint } from "../../../core/util/IPoint";
-import * as $type from "../../../core/util/Type";
-import * as $utils from "../../../core/util/Utils";
-import type { AxisLabel } from "./AxisLabel";
-import type { Grid } from "./Grid";
-import type { AxisTick } from "./AxisTick";
-import type { Graphics } from "../../../core/render/Graphics";
-import type { Tooltip } from "../../../core/render/Tooltip";
-import type { Template } from "../../../core/util/Template";
-import type { AxisBullet } from "./AxisBullet";
-import { Rectangle } from "../../../core/render/Rectangle";
+import { AxisRenderer, IAxisRendererSettings, IAxisRendererPrivate } from "./AxisRenderer.js";
+import { p100 } from "../../../core/util/Percent.js";
+import type { IPoint } from "../../../core/util/IPoint.js";
+import * as $type from "../../../core/util/Type.js";
+import * as $utils from "../../../core/util/Utils.js";
+import type { AxisLabel } from "./AxisLabel.js";
+import type { Grid } from "./Grid.js";
+import type { AxisTick } from "./AxisTick.js";
+import type { Graphics } from "../../../core/render/Graphics.js";
+import type { Tooltip } from "../../../core/render/Tooltip.js";
+import type { Template } from "../../../core/util/Template.js";
+import type { AxisBullet } from "./AxisBullet.js";
+import { Rectangle } from "../../../core/render/Rectangle.js";
 
 
 export interface IAxisRendererXSettings extends IAxisRendererSettings {

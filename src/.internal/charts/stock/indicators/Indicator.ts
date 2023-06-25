@@ -1,15 +1,15 @@
-import type { XYSeries, IXYSeriesDataItem } from "../../xy/series/XYSeries";
-import type { StockLegend } from "../StockLegend";
-import type { StockChart } from "../StockChart";
-import type { DataItem } from "../../../core/render/Component";
-import type { Color } from "../../../core/util/Color";
+import type { XYSeries, IXYSeriesDataItem } from "../../xy/series/XYSeries.js";
+import type { StockLegend } from "../StockLegend.js";
+import type { StockChart } from "../StockChart.js";
+import type { DataItem } from "../../../core/render/Component.js";
+import type { Color } from "../../../core/util/Color.js";
 
-import { Container, IContainerSettings, IContainerPrivate, IContainerEvents } from "../../../core/render/Container";
-import { LineSeries } from "../../xy/series/LineSeries";
-import { BaseColumnSeries } from "../../xy/series/BaseColumnSeries";
-import { MultiDisposer } from "../../../core/util/Disposer";
+import { Container, IContainerSettings, IContainerPrivate, IContainerEvents } from "../../../core/render/Container.js";
+import { LineSeries } from "../../xy/series/LineSeries.js";
+import { BaseColumnSeries } from "../../xy/series/BaseColumnSeries.js";
+import { MultiDisposer } from "../../../core/util/Disposer.js";
 
-import * as $array from "../../../core/util/Array";
+import * as $array from "../../../core/util/Array.js";
 
 export interface IIndicatorEditableSetting {
 

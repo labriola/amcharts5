@@ -1,13 +1,13 @@
-import type { Color } from "../util/Color";
-import type { Pattern } from "../render/patterns/Pattern";
-import type { Gradient } from "../render/gradients/Gradient";
+import type { Color } from "../util/Color.js";
+import type { Pattern } from "../render/patterns/Pattern.js";
+import type { Gradient } from "../render/gradients/Gradient.js";
 
-import { PicturePattern } from "../render/patterns/PicturePattern";
-import { ISpriteSettings, ISpritePrivate, ISpriteEvents, Sprite } from "./Sprite";
-import { IGraphics, BlendMode } from "./backend/Renderer";
+import { PicturePattern } from "../render/patterns/PicturePattern.js";
+import { ISpriteSettings, ISpritePrivate, ISpriteEvents, Sprite } from "./Sprite.js";
+import { IGraphics, BlendMode } from "./backend/Renderer.js";
 
-import * as $type from "../util/Type";
-import * as $array from "../util/Array";
+import * as $type from "../util/Type.js";
+import * as $array from "../util/Array.js";
 
 
 export const visualSettings = ["fill", "fillOpacity", "stroke", "strokeWidth", "strokeOpacity", "fillPattern", "strokePattern", "fillGradient", "strokeGradient", "strokeDasharray", "strokeDashoffset"];

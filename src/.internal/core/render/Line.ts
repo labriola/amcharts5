@@ -1,6 +1,6 @@
-import { Graphics, IGraphicsSettings, IGraphicsPrivate } from "./Graphics";
-import type { IPoint } from "../util/IPoint";
-import * as $draw from "../util/Draw";
+import { Graphics, IGraphicsSettings, IGraphicsPrivate } from "./Graphics.js";
+import type { IPoint } from "../util/IPoint.js";
+import * as $draw from "../util/Draw.js";
 
 export interface ILineSettings extends IGraphicsSettings {
 

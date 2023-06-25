@@ -1,6 +1,6 @@
-import { range, Time } from "./Animation";
-import * as $utils from "./Utils";
-import * as $type from "./Type";
+import { range, Time } from "./Animation.js";
+import * as $utils from "./Utils.js";
+import * as $type from "./Type.js";
 
 /**
  * @ignore

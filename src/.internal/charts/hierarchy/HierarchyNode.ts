@@ -1,8 +1,8 @@
-import type { DataItem } from "../../core/render/Component";
-import type { IDisposer } from "../../core/util/Disposer";
-import type { Hierarchy, IHierarchyDataItem } from "./Hierarchy";
+import type { DataItem } from "../../core/render/Component.js";
+import type { IDisposer } from "../../core/util/Disposer.js";
+import type { Hierarchy, IHierarchyDataItem } from "./Hierarchy.js";
 
-import { Container, IContainerPrivate, IContainerSettings } from "../../core/render/Container";
+import { Container, IContainerPrivate, IContainerSettings } from "../../core/render/Container.js";
 
 export interface IHierarchyNodeSettings extends IContainerSettings {
 }

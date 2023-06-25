@@ -1,13 +1,13 @@
-import { Entity, IEntityEvents, IEntitySettings, IEntityPrivate } from "../../core/util/Entity";
-import { Component } from "../../core/render/Component";
-import { Color } from "../../core/util/Color";
-import { Percent } from "../../core/util/Percent";
-import { Template } from "../../core/util/Template";
-import { ListData } from "../../core/util/Data";
+import { Entity, IEntityEvents, IEntitySettings, IEntityPrivate } from "../../core/util/Entity.js";
+import { Component } from "../../core/render/Component.js";
+import { Color } from "../../core/util/Color.js";
+import { Percent } from "../../core/util/Percent.js";
+import { Template } from "../../core/util/Template.js";
+import { ListData } from "../../core/util/Data.js";
 
-import * as $type from "../../core/util/Type";
-import * as $array from "../../core/util/Array";
-import * as $object from "../../core/util/Object";
+import * as $type from "../../core/util/Type.js";
+import * as $array from "../../core/util/Array.js";
+import * as $object from "../../core/util/Object.js";
 
 
 export interface ISerializerSettings extends IEntitySettings {

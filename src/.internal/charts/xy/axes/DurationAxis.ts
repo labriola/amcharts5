@@ -1,10 +1,10 @@
-import type { AxisRenderer } from "./AxisRenderer";
-import type { TimeUnit } from "../../../core/util/Time"
+import type { AxisRenderer } from "./AxisRenderer.js";
+import type { TimeUnit } from "../../../core/util/Time.js"
 
-import { ValueAxis, IValueAxisSettings, IValueAxisPrivate, IValueAxisDataItem, IValueAxisEvents, IMinMaxStep } from "./ValueAxis";
+import { ValueAxis, IValueAxisSettings, IValueAxisPrivate, IValueAxisDataItem, IValueAxisEvents, IMinMaxStep } from "./ValueAxis.js";
 
-import * as $utils from "../../../core/util/Utils";
-import * as $math from "../../../core/util/Math";
+import * as $utils from "../../../core/util/Utils.js";
+import * as $math from "../../../core/util/Math.js";
 
 export interface IDurationAxisSettings<R extends AxisRenderer> extends IValueAxisSettings<R> {
 

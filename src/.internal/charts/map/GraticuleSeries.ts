@@ -1,5 +1,5 @@
-import { MapLineSeries, IMapLineSeriesSettings, IMapLineSeriesPrivate, IMapLineSeriesDataItem } from "./MapLineSeries";
-import type { DataItem } from "../../core/render/Component";
+import { MapLineSeries, IMapLineSeriesSettings, IMapLineSeriesPrivate, IMapLineSeriesDataItem } from "./MapLineSeries.js";
+import type { DataItem } from "../../core/render/Component.js";
 import { geoGraticule } from "d3-geo";
 
 export interface IGraticuleSeriesDataItem extends IMapLineSeriesDataItem {

@@ -1,4 +1,4 @@
-import { Line, ILineSettings, ILinePrivate } from "./Line";
+import { Line, ILineSettings, ILinePrivate } from "./Line.js";
 
 
 export interface ITickSettings extends ILineSettings {

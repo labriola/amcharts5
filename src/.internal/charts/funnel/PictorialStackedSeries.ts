@@ -1,6 +1,6 @@
-import { PyramidSeries, IPyramidSeriesSettings, IPyramidSeriesDataItem, IPyramidSeriesPrivate } from "./PyramidSeries";
-import { Graphics } from "../../core/render/Graphics";
-import { p100, p50 } from "../../core/util/Percent"
+import { PyramidSeries, IPyramidSeriesSettings, IPyramidSeriesDataItem, IPyramidSeriesPrivate } from "./PyramidSeries.js";
+import { Graphics } from "../../core/render/Graphics.js";
+import { p100, p50 } from "../../core/util/Percent.js"
 
 
 export interface IPictorialStackedSeriesDataItem extends IPyramidSeriesDataItem {

@@ -1,11 +1,11 @@
-import type { Series } from "./Series";
+import type { Series } from "./Series.js";
 
-import { Chart, IChartSettings, IChartPrivate, IChartEvents } from "./Chart";
-import { Container } from "../../core/render/Container";
-import { ListAutoDispose } from "../../core/util/List";
-import { p100 } from "../../core/util/Percent";
-import * as $array from "../../core/util/Array";
-import type { ColorSet } from "../../core/util/ColorSet";
+import { Chart, IChartSettings, IChartPrivate, IChartEvents } from "./Chart.js";
+import { Container } from "../../core/render/Container.js";
+import { ListAutoDispose } from "../../core/util/List.js";
+import { p100 } from "../../core/util/Percent.js";
+import * as $array from "../../core/util/Array.js";
+import type { ColorSet } from "../../core/util/ColorSet.js";
 
 export interface ISerialChartSettings extends IChartSettings {
 	/**

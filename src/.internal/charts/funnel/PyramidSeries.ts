@@ -1,8 +1,8 @@
-import type { DataItem } from "../../core/render/Component";
-import { FunnelSeries, IFunnelSeriesSettings, IFunnelSeriesDataItem, IFunnelSeriesPrivate } from "./FunnelSeries";
-import { Percent, p100 } from "../../core/util/Percent";
-import * as $utils from "../../core/util/Utils";
-import * as $type from "../../core/util/Type";
+import type { DataItem } from "../../core/render/Component.js";
+import { FunnelSeries, IFunnelSeriesSettings, IFunnelSeriesDataItem, IFunnelSeriesPrivate } from "./FunnelSeries.js";
+import { Percent, p100 } from "../../core/util/Percent.js";
+import * as $utils from "../../core/util/Utils.js";
+import * as $type from "../../core/util/Type.js";
 
 export interface IPyramidSeriesDataItem extends IFunnelSeriesDataItem {
 

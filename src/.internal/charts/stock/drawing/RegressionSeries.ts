@@ -1,7 +1,7 @@
-import type { ValueAxis } from "../../xy/axes/ValueAxis";
-import type { AxisRenderer } from "../../xy/axes/AxisRenderer";
+import type { ValueAxis } from "../../xy/axes/ValueAxis.js";
+import type { AxisRenderer } from "../../xy/axes/AxisRenderer.js";
 
-import { SimpleLineSeries, ISimpleLineSeriesSettings, ISimpleLineSeriesPrivate, ISimpleLineSeriesDataItem } from "./SimpleLineSeries";
+import { SimpleLineSeries, ISimpleLineSeriesSettings, ISimpleLineSeriesPrivate, ISimpleLineSeriesDataItem } from "./SimpleLineSeries.js";
 import regression from "regression";
 
 export interface IRegressionSeriesDataItem extends ISimpleLineSeriesDataItem {

@@ -1,25 +1,25 @@
-import type { AxisRenderer } from "./AxisRenderer";
-import type { AxisLabel } from "./AxisLabel";
-import type { AxisTick } from "./AxisTick";
-import type { Graphics } from "../../../core/render/Graphics";
-import type { Grid } from "./Grid";
-import type { AxisBullet } from "./AxisBullet";
-import type { XYChart } from "../XYChart";
-import type { XYSeries, IXYSeriesDataItem } from "../series/XYSeries";
-import type { Animation } from "../../../core/util/Entity";
-import type { Tooltip } from "../../../core/render/Tooltip";
-import type { Root } from "../../../core/Root";
+import type { AxisRenderer } from "./AxisRenderer.js";
+import type { AxisLabel } from "./AxisLabel.js";
+import type { AxisTick } from "./AxisTick.js";
+import type { Graphics } from "../../../core/render/Graphics.js";
+import type { Grid } from "./Grid.js";
+import type { AxisBullet } from "./AxisBullet.js";
+import type { XYChart } from "../XYChart.js";
+import type { XYSeries, IXYSeriesDataItem } from "../series/XYSeries.js";
+import type { Animation } from "../../../core/util/Entity.js";
+import type { Tooltip } from "../../../core/render/Tooltip.js";
+import type { Root } from "../../../core/Root.js";
 
-import { DataItem } from "../../../core/render/Component";
-import { Component, IComponentSettings, IComponentPrivate, IComponentEvents, IComponentDataItem } from "../../../core/render/Component";
-import { Container } from "../../../core/render/Container";
-import { p100 } from "../../../core/util/Percent";
-import { List } from "../../../core/util/List";
-import { Rectangle } from "../../../core/render/Rectangle";
+import { DataItem } from "../../../core/render/Component.js";
+import { Component, IComponentSettings, IComponentPrivate, IComponentEvents, IComponentDataItem } from "../../../core/render/Component.js";
+import { Container } from "../../../core/render/Container.js";
+import { p100 } from "../../../core/util/Percent.js";
+import { List } from "../../../core/util/List.js";
+import { Rectangle } from "../../../core/render/Rectangle.js";
 
-import * as $array from "../../../core/util/Array";
-import * as $type from "../../../core/util/Type";
-import * as $utils from "../../../core/util/Utils";
+import * as $array from "../../../core/util/Array.js";
+import * as $type from "../../../core/util/Type.js";
+import * as $utils from "../../../core/util/Utils.js";
 
 
 

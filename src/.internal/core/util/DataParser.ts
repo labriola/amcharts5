@@ -1,5 +1,5 @@
-import * as $type from "./Type"
-import * as $object from "./Object"
+import * as $type from "./Type.js"
+import * as $object from "./Object.js"
 
 export interface IJSONParserOptions {
 

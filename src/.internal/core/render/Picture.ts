@@ -1,9 +1,9 @@
-import type { IPicture } from "./backend/Renderer";
-import type { Color } from "../util/Color";
+import type { IPicture } from "./backend/Renderer.js";
+import type { Color } from "../util/Color.js";
 
-import { Sprite, ISpriteEvents, ISpriteSettings, ISpritePrivate } from "./Sprite";
+import { Sprite, ISpriteEvents, ISpriteSettings, ISpritePrivate } from "./Sprite.js";
 
-import * as $type from "../util/Type";
+import * as $type from "../util/Type.js";
 
 export interface IPictureSettings extends ISpriteSettings {
 

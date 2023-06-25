@@ -4,12 +4,12 @@
  * ============================================================================
  * @hidden
  */
-import type { Entity } from "./Entity";
-import type { Template } from "./Template";
-import type { IDisposer } from "./Disposer";
-import { EventDispatcher, Events } from "./EventDispatcher";
-import * as $array from "./Array";
-import type { Optional } from "./Type";
+import type { Entity } from "./Entity.js";
+import type { Template } from "./Template.js";
+import type { IDisposer } from "./Disposer.js";
+import { EventDispatcher, Events } from "./EventDispatcher.js";
+import * as $array from "./Array.js";
+import type { Optional } from "./Type.js";
 
 
 /**

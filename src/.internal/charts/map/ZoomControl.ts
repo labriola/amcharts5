@@ -1,9 +1,9 @@
-import type { MapChart } from "./MapChart";
+import type { MapChart } from "./MapChart.js";
 
-import { Container, IContainerPrivate, IContainerSettings } from "../../core/render/Container";
-import { Button } from "../../core/render/Button";
-import { Graphics } from "../../core/render/Graphics";
-import { MultiDisposer } from "../../core/util/Disposer";
+import { Container, IContainerPrivate, IContainerSettings } from "../../core/render/Container.js";
+import { Button } from "../../core/render/Button.js";
+import { Graphics } from "../../core/render/Graphics.js";
+import { MultiDisposer } from "../../core/util/Disposer.js";
 
 export interface IZoomControlSettings extends IContainerSettings {
 

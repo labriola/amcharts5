@@ -1,12 +1,12 @@
-import type { Axis } from "../xy/axes/Axis";
-import type { AxisRendererCircular } from "../radar/AxisRendererCircular";
-import type { RadarChart } from "../radar/RadarChart";
+import type { Axis } from "../xy/axes/Axis.js";
+import type { AxisRendererCircular } from "../radar/AxisRendererCircular.js";
+import type { RadarChart } from "../radar/RadarChart.js";
 
-import { Container, IContainerPrivate, IContainerSettings } from "../../core/render/Container";
-import { Graphics } from "../../core/render/Graphics";
-import { Percent, percent } from "../../core/util/Percent";
+import { Container, IContainerPrivate, IContainerSettings } from "../../core/render/Container.js";
+import { Graphics } from "../../core/render/Graphics.js";
+import { Percent, percent } from "../../core/util/Percent.js";
 
-import * as $utils from "../../core/util/Utils";
+import * as $utils from "../../core/util/Utils.js";
 
 
 export interface IClockHandSettings extends IContainerSettings {

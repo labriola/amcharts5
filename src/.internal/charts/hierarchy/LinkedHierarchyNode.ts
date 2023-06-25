@@ -1,9 +1,9 @@
-import type { DataItem } from "../../core/render/Component";
-import type { LinkedHierarchy, ILinkedHierarchyDataItem } from "./LinkedHierarchy";
+import type { DataItem } from "../../core/render/Component.js";
+import type { LinkedHierarchy, ILinkedHierarchyDataItem } from "./LinkedHierarchy.js";
 
-import { HierarchyNode, IHierarchyNodePrivate, IHierarchyNodeSettings } from "./HierarchyNode";
+import { HierarchyNode, IHierarchyNodePrivate, IHierarchyNodeSettings } from "./HierarchyNode.js";
 
-import * as $array from "../../core/util/Array";
+import * as $array from "../../core/util/Array.js";
 
 export interface ILinkedHierarchyNodeSettings extends IHierarchyNodeSettings {
 }

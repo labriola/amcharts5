@@ -1,9 +1,9 @@
-import type { DataItem } from "../../core/render/Component";
-import type { ChordDirected, IChordDirectedDataItem } from "./ChordDirected";
+import type { DataItem } from "../../core/render/Component.js";
+import type { ChordDirected, IChordDirectedDataItem } from "./ChordDirected.js";
 
-import { ChordLink, IChordLinkPrivate, IChordLinkSettings } from "./ChordLink";
+import { ChordLink, IChordLinkPrivate, IChordLinkSettings } from "./ChordLink.js";
 
-import * as $utils from "../../core/util/Utils";
+import * as $utils from "../../core/util/Utils.js";
 
 
 export interface IChordLinkDirectedSettings extends IChordLinkSettings {

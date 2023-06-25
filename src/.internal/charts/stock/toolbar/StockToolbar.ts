@@ -1,13 +1,13 @@
-import type { IDisposer } from "../../../core/util/Disposer";
-import type { StockChart } from "../StockChart";
-import type { StockControl } from "./StockControl";
+import type { IDisposer } from "../../../core/util/Disposer.js";
+import type { StockChart } from "../StockChart.js";
+import type { StockControl } from "./StockControl.js";
 
-import { Entity, IEntitySettings, IEntityPrivate, IEntityEvents } from "../../../core/util/Entity"
-import StockToolbarCSS from "./StockToolbarCSS";
+import { Entity, IEntitySettings, IEntityPrivate, IEntityEvents } from "../../../core/util/Entity.js"
+import StockToolbarCSS from "./StockToolbarCSS.js";
 
-import * as $array from "../../../core/util/Array";
-import * as $utils from "../../../core/util/Utils";
-//import * as $type from "../../../core/util/Type";
+import * as $array from "../../../core/util/Array.js";
+import * as $utils from "../../../core/util/Utils.js";
+//import * as $type from "../../../core/util/Type.js";
 
 export interface IStockToolbarSettings extends IEntitySettings {
 

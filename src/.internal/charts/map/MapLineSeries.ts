@@ -1,12 +1,12 @@
-import type { IMapPointSeriesDataItem } from "./MapPointSeries";
-import type { DataItem } from "../../core/render/Component";
+import type { IMapPointSeriesDataItem } from "./MapPointSeries.js";
+import type { DataItem } from "../../core/render/Component.js";
 
-import { MapSeries, IMapSeriesSettings, IMapSeriesDataItem, IMapSeriesPrivate } from "./MapSeries";
-import { MapLine } from "./MapLine";
-import { ListTemplate } from "../../core/util/List";
-import { Template } from "../../core/util/Template";
+import { MapSeries, IMapSeriesSettings, IMapSeriesDataItem, IMapSeriesPrivate } from "./MapSeries.js";
+import { MapLine } from "./MapLine.js";
+import { ListTemplate } from "../../core/util/List.js";
+import { Template } from "../../core/util/Template.js";
 
-import * as $array from "../../core/util/Array";
+import * as $array from "../../core/util/Array.js";
 
 /**
  * @ignore

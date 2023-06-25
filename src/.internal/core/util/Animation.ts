@@ -1,9 +1,9 @@
-import type { Entity, Animation } from "./Entity";
-import { Percent } from "./Percent";
-import { Color } from "./Color";
-import type { Easing } from "./Ease";
-import { EventDispatcher, Events } from "./EventDispatcher";
-import * as $object from "./Object";
+import type { Entity, Animation } from "./Entity.js";
+import { Percent } from "./Percent.js";
+import { Color } from "./Color.js";
+import type { Easing } from "./Ease.js";
+import { EventDispatcher, Events } from "./EventDispatcher.js";
+import * as $object from "./Object.js";
 
 export type Animations<T> = { [K in keyof T]?: Animation<T[K]> };
 

@@ -1,9 +1,9 @@
-import type { Entity } from "./util/Entity";
-import { Template } from "./util/Template";
-import type { Root } from "./Root";
-import type { IClasses } from "./Classes";
-import * as $order from "./util/Order";
-import * as $array from "./util/Array";
+import type { Entity } from "./util/Entity.js";
+import { Template } from "./util/Template.js";
+import type { Root } from "./Root.js";
+import type { IClasses } from "./Classes.js";
+import * as $order from "./util/Order.js";
+import * as $array from "./util/Array.js";
 
 export interface IRule<A extends Entity> {
 	tags: Array<string>;

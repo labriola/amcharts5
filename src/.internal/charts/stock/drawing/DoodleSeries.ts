@@ -1,5 +1,5 @@
-import type { ISpritePointerEvent } from "../../../core/render/Sprite";
-import { DrawingSeries, IDrawingSeriesSettings, IDrawingSeriesPrivate, IDrawingSeriesDataItem } from "./DrawingSeries";
+import type { ISpritePointerEvent } from "../../../core/render/Sprite.js";
+import { DrawingSeries, IDrawingSeriesSettings, IDrawingSeriesPrivate, IDrawingSeriesDataItem } from "./DrawingSeries.js";
 
 export interface IDoodleSeriesDataItem extends IDrawingSeriesDataItem {
 }

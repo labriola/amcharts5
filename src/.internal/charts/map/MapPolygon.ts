@@ -1,8 +1,8 @@
-import { Graphics, IGraphicsSettings, IGraphicsPrivate } from "../../core/render/Graphics";
-import type { MapPolygonSeries } from "./MapPolygonSeries";
-import type { IGeoPoint } from "../../core/util/IGeoPoint";
-import type { IPoint } from "../../core/util/IPoint";
-import * as $mapUtils from "./MapUtils";
+import { Graphics, IGraphicsSettings, IGraphicsPrivate } from "../../core/render/Graphics.js";
+import type { MapPolygonSeries } from "./MapPolygonSeries.js";
+import type { IGeoPoint } from "../../core/util/IGeoPoint.js";
+import type { IPoint } from "../../core/util/IPoint.js";
+import * as $mapUtils from "./MapUtils.js";
 import $polylabel from "polylabel";
 import { geoArea } from "d3-geo";
 

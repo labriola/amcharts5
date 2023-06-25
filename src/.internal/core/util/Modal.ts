@@ -1,10 +1,10 @@
-import type { Root } from "../Root"
+import type { Root } from "../Root.js"
 
-import { Entity, IEntitySettings, IEntityPrivate, IEntityEvents } from "./Entity";
-import { StyleRule } from "./Utils"
-import { MultiDisposer, IDisposer, CounterDisposer } from "../../core/util/Disposer";
+import { Entity, IEntitySettings, IEntityPrivate, IEntityEvents } from "./Entity.js";
+import { StyleRule } from "./Utils.js"
+import { MultiDisposer, IDisposer, CounterDisposer } from "../../core/util/Disposer.js";
 
-import * as $utils from "./Utils"
+import * as $utils from "./Utils.js"
 
 
 /**

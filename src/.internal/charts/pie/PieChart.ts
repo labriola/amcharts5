@@ -1,11 +1,11 @@
-import type { PieSeries } from "./PieSeries";
+import type { PieSeries } from "./PieSeries.js";
 
-import { Percent } from "../../core/util/Percent";
-import { PercentChart, IPercentChartPrivate, IPercentChartSettings } from "../percent/PercentChart";
-import { p50 } from "../../core/util/Percent";
+import { Percent } from "../../core/util/Percent.js";
+import { PercentChart, IPercentChartPrivate, IPercentChartSettings } from "../percent/PercentChart.js";
+import { p50 } from "../../core/util/Percent.js";
 
-import * as $utils from "../../core/util/Utils";
-import * as $math from "../../core/util/Math";
+import * as $utils from "../../core/util/Utils.js";
+import * as $math from "../../core/util/Math.js";
 
 
 export interface IPieChartSettings extends IPercentChartSettings {

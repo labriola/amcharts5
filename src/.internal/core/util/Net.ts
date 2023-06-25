@@ -8,7 +8,7 @@
  * ============================================================================
  * @hidden
  */
-import type { Optional } from "./Type";
+import type { Optional } from "./Type.js";
 
 /**
  * Defines an interface for objects that hold a net request result.

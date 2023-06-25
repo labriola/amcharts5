@@ -1,7 +1,7 @@
-import type { DataItem } from "../../core/render/Component";
-import type { IFlowNodesDataItem, FlowNodes } from "./FlowNodes";
+import type { DataItem } from "../../core/render/Component.js";
+import type { IFlowNodesDataItem, FlowNodes } from "./FlowNodes.js";
 
-import { Container, IContainerPrivate, IContainerSettings } from "../../core/render/Container";
+import { Container, IContainerPrivate, IContainerSettings } from "../../core/render/Container.js";
 
 export interface IFlowNodeSettings extends IContainerSettings {
 }

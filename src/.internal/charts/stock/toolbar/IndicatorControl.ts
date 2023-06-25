@@ -1,42 +1,42 @@
-import type { StockLegend } from "../StockLegend";
-import type { StockPanel } from "../StockPanel";
+import type { StockLegend } from "../StockLegend.js";
+import type { StockPanel } from "../StockPanel.js";
 
-import { Indicator } from "../indicators/Indicator";
-import { AccumulationDistribution } from "../indicators/AccumulationDistribution";
-import { AccumulativeSwingIndex } from "../indicators/AccumulativeSwingIndex";
-import { Aroon } from "../indicators/Aroon";
-import { AwesomeOscillator } from "../indicators/AwesomeOscillator";
-import { BollingerBands } from "../indicators/BollingerBands";
-import { ChaikinMoneyFlow } from "../indicators/ChaikinMoneyFlow";
-import { ChaikinOscillator } from "../indicators/ChaikinOscillator";
-import { CommodityChannelIndex } from "../indicators/CommodityChannelIndex";
-import { DisparityIndex } from "../indicators/DisparityIndex";
-import { MACD } from "../indicators/MACD";
-import { MovingAverage } from "../indicators/MovingAverage";
-import { MovingAverageDeviation } from "../indicators/MovingAverageDeviation";
-import { MovingAverageEnvelope } from "../indicators/MovingAverageEnvelope";
-import { StandardDeviation } from "../indicators/StandardDeviation";
-import { TypicalPrice } from "../indicators/TypicalPrice";
-import { MedianPrice } from "../indicators/MedianPrice";
-import { OnBalanceVolume } from "../indicators/OnBalanceVolume";
-import { RelativeStrengthIndex } from "../indicators/RelativeStrengthIndex";
-import { StochasticOscillator } from "../indicators/StochasticOscillator";
-import { WilliamsR } from "../indicators/WilliamsR";
-import { Trix } from "../indicators/Trix";
-import { Volume } from "../indicators/Volume";
-import { VWAP } from "../indicators/VWAP";
-import { ZigZag } from "../indicators/ZigZag";
+import { Indicator } from "../indicators/Indicator.js";
+import { AccumulationDistribution } from "../indicators/AccumulationDistribution.js";
+import { AccumulativeSwingIndex } from "../indicators/AccumulativeSwingIndex.js";
+import { Aroon } from "../indicators/Aroon.js";
+import { AwesomeOscillator } from "../indicators/AwesomeOscillator.js";
+import { BollingerBands } from "../indicators/BollingerBands.js";
+import { ChaikinMoneyFlow } from "../indicators/ChaikinMoneyFlow.js";
+import { ChaikinOscillator } from "../indicators/ChaikinOscillator.js";
+import { CommodityChannelIndex } from "../indicators/CommodityChannelIndex.js";
+import { DisparityIndex } from "../indicators/DisparityIndex.js";
+import { MACD } from "../indicators/MACD.js";
+import { MovingAverage } from "../indicators/MovingAverage.js";
+import { MovingAverageDeviation } from "../indicators/MovingAverageDeviation.js";
+import { MovingAverageEnvelope } from "../indicators/MovingAverageEnvelope.js";
+import { StandardDeviation } from "../indicators/StandardDeviation.js";
+import { TypicalPrice } from "../indicators/TypicalPrice.js";
+import { MedianPrice } from "../indicators/MedianPrice.js";
+import { OnBalanceVolume } from "../indicators/OnBalanceVolume.js";
+import { RelativeStrengthIndex } from "../indicators/RelativeStrengthIndex.js";
+import { StochasticOscillator } from "../indicators/StochasticOscillator.js";
+import { WilliamsR } from "../indicators/WilliamsR.js";
+import { Trix } from "../indicators/Trix.js";
+import { Volume } from "../indicators/Volume.js";
+import { VWAP } from "../indicators/VWAP.js";
+import { ZigZag } from "../indicators/ZigZag.js";
 
-import { JsonParser } from "../../../plugins/json/Json";
-import { Serializer } from "../../../plugins/json/Serializer";
+import { JsonParser } from "../../../plugins/json/Json.js";
+import { Serializer } from "../../../plugins/json/Serializer.js";
 
-//import type { IDisposer } from "../../../core/util/Disposer";
-import { StockControl, IStockControlSettings, IStockControlPrivate, IStockControlEvents } from "./StockControl";
-import { DropdownList, IDropdownListItem } from "./DropdownList";
-import { StockIcons } from "./StockIcons";
+//import type { IDisposer } from "../../../core/util/Disposer.js";
+import { StockControl, IStockControlSettings, IStockControlPrivate, IStockControlEvents } from "./StockControl.js";
+import { DropdownList, IDropdownListItem } from "./DropdownList.js";
+import { StockIcons } from "./StockIcons.js";
 
-import * as $array from "../../../core/util/Array";
-import * as $type from "../../../core/util/Type";
+import * as $array from "../../../core/util/Array.js";
+import * as $type from "../../../core/util/Type.js";
 
 export type Indicators = "Accumulation Distribution" | "Accumulative Swing Index" | "Aroon" | "Awesome Oscillator" | "Bollinger Bands" | "Chaikin Money Flow" | "Chaikin Oscillator" | "Commodity Channel Index" | "Disparity Index" | "MACD" | "Moving Average" | "Moving Average Deviation" | "Moving Average Envelope" | "On Balance Volume" | "Relative Strength Index" | "Standard Deviation" | "Stochastic Oscillator" | "Trix" | "Typical Price" | "Volume" | "VWAP" | "Williams R" | "Median Price" | "ZigZag";
 

@@ -1,5 +1,5 @@
-import * as $array from "./Array";
-import type { Keyof } from "./Type";
+import * as $array from "./Array.js";
+import type { Keyof } from "./Type.js";
 
 export function keys<O>(object: O): Array<Keyof<O>> {
 	return Object.keys(object) as Array<Keyof<O>>;

@@ -1,5 +1,5 @@
-import { RadialLabel, IRadialLabelSettings, IRadialLabelPrivate } from "../../../core/render/RadialLabel";
-import type { IPoint } from "../../../core/util/IPoint";
+import { RadialLabel, IRadialLabelSettings, IRadialLabelPrivate } from "../../../core/render/RadialLabel.js";
+import type { IPoint } from "../../../core/util/IPoint.js";
 
 export interface IAxisLabelRadialSettings extends IRadialLabelSettings {
 

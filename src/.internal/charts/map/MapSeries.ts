@@ -1,11 +1,11 @@
-import type { MapChart } from "./MapChart";
+import type { MapChart } from "./MapChart.js";
 import type { GeoProjection, GeoPath } from "d3-geo";
-import type { DataItem } from "../../core/render/Component";
+import type { DataItem } from "../../core/render/Component.js";
 
-import { Series, ISeriesSettings, ISeriesDataItem, ISeriesPrivate, ISeriesEvents } from "../../core/render/Series";
+import { Series, ISeriesSettings, ISeriesDataItem, ISeriesPrivate, ISeriesEvents } from "../../core/render/Series.js";
 
-import * as $array from "../../core/util/Array";
-import * as $object from "../../core/util/Object";
+import * as $array from "../../core/util/Array.js";
+import * as $object from "../../core/util/Object.js";
 
 export interface IMapSeriesDataItem extends ISeriesDataItem {
 	geometry?: GeoJSON.Geometry;

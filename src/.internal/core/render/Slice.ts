@@ -1,9 +1,9 @@
-import { Graphics, IGraphicsSettings, IGraphicsPrivate } from "./Graphics";
-import * as $type from "../util/Type";
-import { Percent } from "../util/Percent";
-import type { IPoint } from "../util/IPoint";
+import { Graphics, IGraphicsSettings, IGraphicsPrivate } from "./Graphics.js";
+import * as $type from "../util/Type.js";
+import { Percent } from "../util/Percent.js";
+import type { IPoint } from "../util/IPoint.js";
 import { arc } from "d3-shape";
-import * as $math from "../util/Math";
+import * as $math from "../util/Math.js";
 
 export interface ISliceSettings extends IGraphicsSettings {
 

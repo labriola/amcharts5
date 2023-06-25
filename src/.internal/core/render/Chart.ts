@@ -1,5 +1,5 @@
-import { Container, IContainerSettings, IContainerPrivate, IContainerEvents } from "../../core/render/Container";
-import { p100 } from "../../core/util/Percent";
+import { Container, IContainerSettings, IContainerPrivate, IContainerEvents } from "../../core/render/Container.js";
+import { p100 } from "../../core/util/Percent.js";
 
 export interface IChartSettings extends IContainerSettings {
 }

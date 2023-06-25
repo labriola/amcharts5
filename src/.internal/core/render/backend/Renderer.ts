@@ -1,9 +1,9 @@
-import type { IDisposer } from "../../util/Disposer";
-import type { IPoint } from "../../util/IPoint";
-import type { Color } from "../../util/Color";
-import type { Percent } from "../../util/Percent";
-import type { Matrix } from "../../util/Matrix";
-import type { IBounds } from "../../util/IBounds";
+import type { IDisposer } from "../../util/Disposer.js";
+import type { IPoint } from "../../util/IPoint.js";
+import type { Color } from "../../util/Color.js";
+import type { Percent } from "../../util/Percent.js";
+import type { Matrix } from "../../util/Matrix.js";
+import type { IBounds } from "../../util/IBounds.js";
 
 export interface IGradient {
 	addColorStop(offset: number, color: string): void;

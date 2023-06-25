@@ -1,15 +1,15 @@
-import type { DataItem } from "../../core/render/Component";
-import type { FlowNode } from "./FlowNode";
-import type { Chord } from "./Chord";
-import type { Bullet } from "../../core/render/Bullet";
+import type { DataItem } from "../../core/render/Component.js";
+import type { FlowNode } from "./FlowNode.js";
+import type { Chord } from "./Chord.js";
+import type { Bullet } from "../../core/render/Bullet.js";
 
-import { FlowNodes, IFlowNodesSettings, IFlowNodesDataItem, IFlowNodesPrivate, IFlowNodesEvents } from "./FlowNodes";
-import { Slice } from "../../core/render/Slice";
-import { Template } from "../../core/util/Template";
-import { ListTemplate } from "../../core/util/List";
-import { RadialLabel } from "../../core/render/RadialLabel";
+import { FlowNodes, IFlowNodesSettings, IFlowNodesDataItem, IFlowNodesPrivate, IFlowNodesEvents } from "./FlowNodes.js";
+import { Slice } from "../../core/render/Slice.js";
+import { Template } from "../../core/util/Template.js";
+import { ListTemplate } from "../../core/util/List.js";
+import { RadialLabel } from "../../core/render/RadialLabel.js";
 
-import * as $math from "../../core/util/Math";
+import * as $math from "../../core/util/Math.js";
 
 export interface IChordNodesDataItem extends IFlowNodesDataItem {
 

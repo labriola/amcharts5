@@ -1,7 +1,7 @@
-import { Layout, eachChildren } from "./Layout";
-import * as $type from "../util/Type";
-import { Percent } from "../util/Percent";
-import type { Container } from "./Container";
+import { Layout, eachChildren } from "./Layout.js";
+import * as $type from "../util/Type.js";
+import { Percent } from "../util/Percent.js";
+import type { Container } from "./Container.js";
 
 /**
  * A horizontal children layout for [[Container]].

@@ -1,19 +1,19 @@
-import type { DataItem } from "../../core/render/Component";
-import type { Graphics } from "../../core/render/Graphics";
-import type { Label } from "../../core/render/Label";
-import type { Tick } from "../../core/render/Tick";
-import type { ListTemplate } from "../../core/util/List";
-import type { ColorSet } from "../../core/util/ColorSet";
-import type { ILegendDataItem } from "../../core/render/Legend";
-import type { Color } from "../../core/util/Color";
-import type { PercentChart } from "./PercentChart";
+import type { DataItem } from "../../core/render/Component.js";
+import type { Graphics } from "../../core/render/Graphics.js";
+import type { Label } from "../../core/render/Label.js";
+import type { Tick } from "../../core/render/Tick.js";
+import type { ListTemplate } from "../../core/util/List.js";
+import type { ColorSet } from "../../core/util/ColorSet.js";
+import type { ILegendDataItem } from "../../core/render/Legend.js";
+import type { Color } from "../../core/util/Color.js";
+import type { PercentChart } from "./PercentChart.js";
 
-import { Series, ISeriesSettings, ISeriesDataItem, ISeriesPrivate } from "../../core/render/Series";
-import { Container } from "../../core/render/Container";
-import { visualSettings } from "../../core/render/Graphics";
+import { Series, ISeriesSettings, ISeriesDataItem, ISeriesPrivate } from "../../core/render/Series.js";
+import { Container } from "../../core/render/Container.js";
+import { visualSettings } from "../../core/render/Graphics.js";
 
-import * as $array from "../../core/util/Array";
-import * as $type from "../../core/util/Type";
+import * as $array from "../../core/util/Array.js";
+import * as $type from "../../core/util/Type.js";
 
 export interface IPercentSeriesDataItem extends ISeriesDataItem {
 

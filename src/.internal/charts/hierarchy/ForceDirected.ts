@@ -1,14 +1,14 @@
-import type { DataItem } from "../../core/render/Component";
-import type { Percent } from "../../core/util/Percent";
-import type { LinkedHierarchyNode } from "./LinkedHierarchyNode";
-import type { HierarchyLink } from "./HierarchyLink";
+import type { DataItem } from "../../core/render/Component.js";
+import type { Percent } from "../../core/util/Percent.js";
+import type { LinkedHierarchyNode } from "./LinkedHierarchyNode.js";
+import type { HierarchyLink } from "./HierarchyLink.js";
 import type * as d3Hierarchy from "d3-hierarchy";
 
-import { LinkedHierarchy, ILinkedHierarchySettings, ILinkedHierarchyDataItem, ILinkedHierarchyPrivate, ILinkedHierarchyEvents } from "./LinkedHierarchy";
+import { LinkedHierarchy, ILinkedHierarchySettings, ILinkedHierarchyDataItem, ILinkedHierarchyPrivate, ILinkedHierarchyEvents } from "./LinkedHierarchy.js";
 
-import * as $array from "../../core/util/Array";
-import * as $utils from "../../core/util/Utils";
-import * as $type from "../../core/util/Type";
+import * as $array from "../../core/util/Array.js";
+import * as $utils from "../../core/util/Utils.js";
+import * as $type from "../../core/util/Type.js";
 import * as d3Force from "d3-force";
 
 /**

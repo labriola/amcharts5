@@ -1,21 +1,21 @@
-import type { AxisRendererCircular } from "./AxisRendererCircular";
-import type { AxisRendererRadial } from "./AxisRendererRadial";
-import type { Axis } from "../xy/axes/Axis";
-import type { XYSeries } from "../xy/series/XYSeries";
-import type { RadarCursor } from "./RadarCursor";
-import type { RadarColumnSeries } from "./RadarColumnSeries";
-import type { RadarLineSeries } from "./RadarLineSeries";
-import type { IPoint } from "../../core/util/IPoint";
+import type { AxisRendererCircular } from "./AxisRendererCircular.js";
+import type { AxisRendererRadial } from "./AxisRendererRadial.js";
+import type { Axis } from "../xy/axes/Axis.js";
+import type { XYSeries } from "../xy/series/XYSeries.js";
+import type { RadarCursor } from "./RadarCursor.js";
+import type { RadarColumnSeries } from "./RadarColumnSeries.js";
+import type { RadarLineSeries } from "./RadarLineSeries.js";
+import type { IPoint } from "../../core/util/IPoint.js";
 
-import { RadarDefaultTheme } from "./RadarDefaultTheme";
-import { XYChart, IXYChartPrivate, IXYChartSettings } from "../xy/XYChart";
-import { Percent, p50, percent } from "../../core/util/Percent";
-import { Container } from "../../core/render/Container";
-import { Graphics } from "../../core/render/Graphics";
+import { RadarDefaultTheme } from "./RadarDefaultTheme.js";
+import { XYChart, IXYChartPrivate, IXYChartSettings } from "../xy/XYChart.js";
+import { Percent, p50, percent } from "../../core/util/Percent.js";
+import { Container } from "../../core/render/Container.js";
+import { Graphics } from "../../core/render/Graphics.js";
 import { arc } from "d3-shape";
 
-import * as $utils from "../../core/util/Utils";
-import * as $math from "../../core/util/Math";
+import * as $utils from "../../core/util/Utils.js";
+import * as $math from "../../core/util/Math.js";
 
 export interface IRadarChartSettings extends IXYChartSettings {
 

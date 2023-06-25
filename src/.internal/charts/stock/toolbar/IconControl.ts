@@ -1,10 +1,10 @@
-import type { Percent } from "../../../core/util/Percent";
+import type { Percent } from "../../../core/util/Percent.js";
 
-import { StockControl, IStockControlSettings, IStockControlPrivate, IStockControlEvents } from "./StockControl";
-import { DropdownList, IDropdownListItem } from "./DropdownList";
-import { StockIcons } from "./StockIcons";
+import { StockControl, IStockControlSettings, IStockControlPrivate, IStockControlEvents } from "./StockControl.js";
+import { DropdownList, IDropdownListItem } from "./DropdownList.js";
+import { StockIcons } from "./StockIcons.js";
 
-import * as $array from "../../../core/util/Array";
+import * as $array from "../../../core/util/Array.js";
 
 export interface IIcon {
 	svgPath: string;

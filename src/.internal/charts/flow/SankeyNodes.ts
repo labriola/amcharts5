@@ -1,12 +1,12 @@
-import type { DataItem } from "../../core/render/Component";
-import type { FlowNode } from "./FlowNode";
-import type { Sankey } from "./Sankey";
-import type { Bullet } from "../../core/render/Bullet";
+import type { DataItem } from "../../core/render/Component.js";
+import type { FlowNode } from "./FlowNode.js";
+import type { Sankey } from "./Sankey.js";
+import type { Bullet } from "../../core/render/Bullet.js";
 
-import { Template } from "../../core/util/Template";
-import { ListTemplate } from "../../core/util/List";
-import { FlowNodes, IFlowNodesSettings, IFlowNodesDataItem, IFlowNodesPrivate, IFlowNodesEvents } from "./FlowNodes";
-import { RoundedRectangle } from "../../core/render/RoundedRectangle";
+import { Template } from "../../core/util/Template.js";
+import { ListTemplate } from "../../core/util/List.js";
+import { FlowNodes, IFlowNodesSettings, IFlowNodesDataItem, IFlowNodesPrivate, IFlowNodesEvents } from "./FlowNodes.js";
+import { RoundedRectangle } from "../../core/render/RoundedRectangle.js";
 
 export interface ISankeyNodesDataItem extends IFlowNodesDataItem {
 	rectangle: RoundedRectangle;

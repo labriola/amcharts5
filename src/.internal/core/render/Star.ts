@@ -1,6 +1,6 @@
-import { Graphics, IGraphicsSettings, IGraphicsPrivate } from "./Graphics";
-import type { Percent } from "../../core/util/Percent";
-import * as $utils from "../../core/util/Utils";
+import { Graphics, IGraphicsSettings, IGraphicsPrivate } from "./Graphics.js";
+import type { Percent } from "../../core/util/Percent.js";
+import * as $utils from "../../core/util/Utils.js";
 
 export interface IStarSettings extends IGraphicsSettings {
 

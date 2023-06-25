@@ -1,13 +1,13 @@
-import type { Animation } from "../util/Entity";
-import type { Time } from "../util/Animation";
+import type { Animation } from "../util/Entity.js";
+import type { Time } from "../util/Animation.js";
 
-import { RoundedRectangle } from "../render/RoundedRectangle";
-import { Container, IContainerPrivate, IContainerSettings, IContainerEvents } from "./Container";
-import { Graphics } from "./Graphics";
-import { Button } from "./Button";
+import { RoundedRectangle } from "../render/RoundedRectangle.js";
+import { Container, IContainerPrivate, IContainerSettings, IContainerEvents } from "./Container.js";
+import { Graphics } from "./Graphics.js";
+import { Button } from "./Button.js";
 
-import * as $type from "../util/Type";
-import * as $utils from "../util/Utils";
+import * as $type from "../util/Type.js";
+import * as $utils from "../util/Utils.js";
 
 export interface IScrollbarSettings extends IContainerSettings {
 

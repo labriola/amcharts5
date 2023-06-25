@@ -1,21 +1,21 @@
-import type { Color } from "../../core/util/Color";
-import type { ColorSet } from "../../core/util/ColorSet";
-import type { Bullet } from "../../core/render/Bullet";
-import type { Root } from "../../core/Root";
-import type { Easing } from "../../core/util/Ease";
+import type { Color } from "../../core/util/Color.js";
+import type { ColorSet } from "../../core/util/ColorSet.js";
+import type { Bullet } from "../../core/render/Bullet.js";
+import type { Root } from "../../core/Root.js";
+import type { Easing } from "../../core/util/Ease.js";
 
-import { HierarchyDefaultTheme } from "./HierarchyDefaultTheme";
-import { Series, ISeriesSettings, ISeriesDataItem, ISeriesPrivate, ISeriesEvents } from "../../core/render/Series";
-import { DataItem } from "../../core/render/Component";
-import { HierarchyNode } from "./HierarchyNode";
-import { Container } from "../../core/render/Container";
-import { Label } from "../../core/render/Label";
-import { Template } from "../../core/util/Template";
-import { ListTemplate } from "../../core/util/List";
+import { HierarchyDefaultTheme } from "./HierarchyDefaultTheme.js";
+import { Series, ISeriesSettings, ISeriesDataItem, ISeriesPrivate, ISeriesEvents } from "../../core/render/Series.js";
+import { DataItem } from "../../core/render/Component.js";
+import { HierarchyNode } from "./HierarchyNode.js";
+import { Container } from "../../core/render/Container.js";
+import { Label } from "../../core/render/Label.js";
+import { Template } from "../../core/util/Template.js";
+import { ListTemplate } from "../../core/util/List.js";
 
-import * as $array from "../../core/util/Array";
-import * as $type from "../../core/util/Type";
-import * as $utils from "../../core/util/Utils";
+import * as $array from "../../core/util/Array.js";
+import * as $type from "../../core/util/Type.js";
+import * as $utils from "../../core/util/Utils.js";
 import * as d3hierarchy from "d3-hierarchy";
 
 /**

@@ -1,13 +1,13 @@
-import type { AxisRenderer } from "./AxisRenderer";
+import type { AxisRenderer } from "./AxisRenderer.js";
 
-import { DateAxis, IDateAxisSettings, IDateAxisPrivate, IDateAxisDataItem, IDateAxisEvents } from "./DateAxis";
-import { DataItem } from "../../../core/render/Component";
+import { DateAxis, IDateAxisSettings, IDateAxisPrivate, IDateAxisDataItem, IDateAxisEvents } from "./DateAxis.js";
+import { DataItem } from "../../../core/render/Component.js";
 
-import * as $array from "../../../core/util/Array"
-import * as $order from "../../../core/util/Order";
-import * as $time from "../../../core/util/Time";
-import * as $type from "../../../core/util/Type";
-import * as $math from "../../../core/util/Math";
+import * as $array from "../../../core/util/Array.js"
+import * as $order from "../../../core/util/Order.js";
+import * as $time from "../../../core/util/Time.js";
+import * as $type from "../../../core/util/Type.js";
+import * as $math from "../../../core/util/Math.js";
 
 export interface IGaplessDateAxisSettings<R extends AxisRenderer> extends IDateAxisSettings<R> {
 

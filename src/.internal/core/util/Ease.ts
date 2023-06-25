@@ -10,8 +10,8 @@
  * ============================================================================
  * @hidden
  */
-import * as $math from "./Math";
-import type { Time } from "./Animation";
+import * as $math from "./Math.js";
+import type { Time } from "./Animation.js";
 
 export type Easing = (time: Time) => Time;
 

@@ -1,17 +1,17 @@
-import type { DataItem } from "../../core/render/Component";
-import type { Color } from "../../core/util/Color";
-import type { Time } from "../../core/util/Animation";
-import type { Flow, IFlowDataItem } from "./Flow";
+import type { DataItem } from "../../core/render/Component.js";
+import type { Color } from "../../core/util/Color.js";
+import type { Time } from "../../core/util/Animation.js";
+import type { Flow, IFlowDataItem } from "./Flow.js";
 import type * as d3sankey from "d3-sankey";
 
-import { Label } from "../../core/render/Label";
-import { Series, ISeriesSettings, ISeriesDataItem, ISeriesPrivate, ISeriesEvents } from "../../core/render/Series";
-import { Template } from "../../core/util/Template";
-import { ListTemplate } from "../../core/util/List";
-import { FlowNode } from "./FlowNode";
-import type { ColorSet } from "../../core/util/ColorSet";
+import { Label } from "../../core/render/Label.js";
+import { Series, ISeriesSettings, ISeriesDataItem, ISeriesPrivate, ISeriesEvents } from "../../core/render/Series.js";
+import { Template } from "../../core/util/Template.js";
+import { ListTemplate } from "../../core/util/List.js";
+import { FlowNode } from "./FlowNode.js";
+import type { ColorSet } from "../../core/util/ColorSet.js";
 
-import * as $array from "../../core/util/Array";
+import * as $array from "../../core/util/Array.js";
 
 export interface IFlowNodesDataItem extends ISeriesDataItem {
 

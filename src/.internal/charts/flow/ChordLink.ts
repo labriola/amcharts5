@@ -1,10 +1,10 @@
-import { FlowLink, IFlowLinkPrivate, IFlowLinkSettings } from "./FlowLink";
-import type { DataItem } from "../../core/render/Component";
-import type { IChordNodesDataItem } from "./ChordNodes";
-import type { Percent } from "../../core/util/Percent";
-import type { Chord, IChordDataItem } from "./Chord";
-import type { IOrientationPoint, IPoint } from "../../core/util/IPoint";
-import * as $math from "../../core/util/Math";
+import { FlowLink, IFlowLinkPrivate, IFlowLinkSettings } from "./FlowLink.js";
+import type { DataItem } from "../../core/render/Component.js";
+import type { IChordNodesDataItem } from "./ChordNodes.js";
+import type { Percent } from "../../core/util/Percent.js";
+import type { Chord, IChordDataItem } from "./Chord.js";
+import type { IOrientationPoint, IPoint } from "../../core/util/IPoint.js";
+import * as $math from "../../core/util/Math.js";
 
 export interface IChordLinkSettings extends IFlowLinkSettings {
 

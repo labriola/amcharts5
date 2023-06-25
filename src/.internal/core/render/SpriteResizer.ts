@@ -1,14 +1,14 @@
-import type { Sprite, ISpritePointerEvent } from "./Sprite";
-import type { IDisposer } from "../util/Disposer";
+import type { Sprite, ISpritePointerEvent } from "./Sprite.js";
+import type { IDisposer } from "../util/Disposer.js";
 
-import { Container, IContainerPrivate, IContainerSettings, IContainerEvents } from "./Container";
-import { p50, Percent } from "../util/Percent";
-import { RoundedRectangle } from "./RoundedRectangle";
-import { Rectangle } from "./Rectangle";
-import { color } from "../util/Color";
-import type { Template } from "../util/Template";
+import { Container, IContainerPrivate, IContainerSettings, IContainerEvents } from "./Container.js";
+import { p50, Percent } from "../util/Percent.js";
+import { RoundedRectangle } from "./RoundedRectangle.js";
+import { Rectangle } from "./Rectangle.js";
+import { color } from "../util/Color.js";
+import type { Template } from "../util/Template.js";
 
-import * as $math from "../util/Math";
+import * as $math from "../util/Math.js";
 
 export interface ISpriteResizerSettings extends IContainerSettings {
 

@@ -4,8 +4,8 @@
  * ============================================================================
  * @hidden
  */
-import * as $array from "./Array";
-import type { Optional } from "./Type";
+import * as $array from "./Array.js";
+import type { Optional } from "./Type.js";
 
 /**
  * Defines interface for disposable objects.

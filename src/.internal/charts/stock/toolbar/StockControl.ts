@@ -1,12 +1,12 @@
-import { Entity, IEntitySettings, IEntityPrivate, IEntityEvents } from "../../../core/util/Entity"
-import { StockIcons } from "./StockIcons";
+import { Entity, IEntitySettings, IEntityPrivate, IEntityEvents } from "../../../core/util/Entity.js"
+import { StockIcons } from "./StockIcons.js";
 
-import type { IPointerEvent } from "../../../core/render/backend/Renderer";
-import type { StockToolbar } from "./StockToolbar";
-import type { StockChart } from "../StockChart";
+import type { IPointerEvent } from "../../../core/render/backend/Renderer.js";
+import type { StockToolbar } from "./StockToolbar.js";
+import type { StockChart } from "../StockChart.js";
 
 //import * as $array from "../../core/util/Array";
-import * as $utils from "../../../core/util/Utils";
+import * as $utils from "../../../core/util/Utils.js";
 
 export interface IStockControlSettings extends IEntitySettings {
 

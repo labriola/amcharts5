@@ -1,6 +1,6 @@
-import { Theme } from "../../core/Theme";
-import { percent } from "../../core/util/Percent";
-import { setColor } from "../../themes/DefaultTheme";
+import { Theme } from "../../core/Theme.js";
+import { percent } from "../../core/util/Percent.js";
+import { setColor } from "../../themes/DefaultTheme.js";
 
 
 /**

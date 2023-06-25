@@ -1,10 +1,10 @@
-import type { ISpritePointerEvent } from "../../../core/render/Sprite";
-import type { DataItem } from "../../../core/render/Component";
-import type { IPoint } from "../../../core/util/IPoint";
+import type { ISpritePointerEvent } from "../../../core/render/Sprite.js";
+import type { DataItem } from "../../../core/render/Component.js";
+import type { IPoint } from "../../../core/util/IPoint.js";
 
-import { DrawingSeries, IDrawingSeriesSettings, IDrawingSeriesPrivate, IDrawingSeriesDataItem } from "./DrawingSeries";
+import { DrawingSeries, IDrawingSeriesSettings, IDrawingSeriesPrivate, IDrawingSeriesDataItem } from "./DrawingSeries.js";
 
-import * as $array from "../../../core/util/Array";
+import * as $array from "../../../core/util/Array.js";
 
 export interface IPolylineSeriesDataItem extends IDrawingSeriesDataItem { }
 

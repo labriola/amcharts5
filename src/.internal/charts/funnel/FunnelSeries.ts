@@ -1,18 +1,18 @@
-import type { DataItem } from "../../core/render/Component";
-import type { SlicedChart } from "./SlicedChart";
+import type { DataItem } from "../../core/render/Component.js";
+import type { SlicedChart } from "./SlicedChart.js";
 
-import { PercentSeries, IPercentSeriesSettings, IPercentSeriesDataItem, IPercentSeriesPrivate } from "../percent/PercentSeries";
-import { Template } from "../../core/util/Template";
-import { ListTemplate } from "../../core/util/List";
-import { FunnelSlice } from "./FunnelSlice";
-import { Tick } from "../../core/render/Tick";
-import { Label } from "../../core/render/Label";
-import { percent, p50, p100 } from "../../core/util/Percent";
-import type { Bullet } from "../../core/render/Bullet";
+import { PercentSeries, IPercentSeriesSettings, IPercentSeriesDataItem, IPercentSeriesPrivate } from "../percent/PercentSeries.js";
+import { Template } from "../../core/util/Template.js";
+import { ListTemplate } from "../../core/util/List.js";
+import { FunnelSlice } from "./FunnelSlice.js";
+import { Tick } from "../../core/render/Tick.js";
+import { Label } from "../../core/render/Label.js";
+import { percent, p50, p100 } from "../../core/util/Percent.js";
+import type { Bullet } from "../../core/render/Bullet.js";
 
-import * as $array from "../../core/util/Array";
-import * as $type from "../../core/util/Type";
-import * as $utils from "../../core/util/Utils";
+import * as $array from "../../core/util/Array.js";
+import * as $type from "../../core/util/Type.js";
+import * as $utils from "../../core/util/Utils.js";
 
 
 export interface IFunnelSeriesDataItem extends IPercentSeriesDataItem {

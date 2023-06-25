@@ -20,6 +20,7 @@ async function writePackage(state) {
 			module: "index.js",
 			sideEffects: root.sideEffects,
 			dependencies: root.dependencies,
+			type: "module"
 		}, null, 2),
 	);
 }

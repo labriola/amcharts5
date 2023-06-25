@@ -1,8 +1,8 @@
-import type { IIndicatorEditableSetting } from "./Indicator";
-import type { XYSeries } from "../../xy/series/XYSeries";
+import type { IIndicatorEditableSetting } from "./Indicator.js";
+import type { XYSeries } from "../../xy/series/XYSeries.js";
 
-import { ChartIndicator, IChartIndicatorSettings, IChartIndicatorPrivate, IChartIndicatorEvents } from "./ChartIndicator";
-import { LineSeries } from "../../xy/series/LineSeries";
+import { ChartIndicator, IChartIndicatorSettings, IChartIndicatorPrivate, IChartIndicatorEvents } from "./ChartIndicator.js";
+import { LineSeries } from "../../xy/series/LineSeries.js";
 
 export interface IOnBalanceVolumeSettings extends IChartIndicatorSettings {
 

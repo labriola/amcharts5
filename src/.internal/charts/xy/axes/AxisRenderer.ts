@@ -1,18 +1,18 @@
-import type { Sprite } from "../../../core/render/Sprite";
-import { Graphics, IGraphicsSettings, IGraphicsPrivate } from "../../../core/render/Graphics";
-import type { Axis, IAxisDataItem } from "./Axis";
-import { Template } from "../../../core/util/Template";
-import { ListTemplate } from "../../../core/util/List";
-import { AxisTick } from "./AxisTick";
-import { Grid } from "./Grid";
-import { AxisLabel } from "./AxisLabel";
-import type { IPoint } from "../../../core/util/IPoint";
-import type { Tooltip } from "../../../core/render/Tooltip";
-import type { AxisBullet } from "./AxisBullet";
-import type { XYChart } from "../XYChart";
-import type { DataItem } from "../../../core/render/Component";
-import * as $utils from "../../../core/util/Utils";
-import type { IPointerEvent } from "../../../core/render/backend/Renderer";
+import type { Sprite } from "../../../core/render/Sprite.js";
+import { Graphics, IGraphicsSettings, IGraphicsPrivate } from "../../../core/render/Graphics.js";
+import type { Axis, IAxisDataItem } from "./Axis.js";
+import { Template } from "../../../core/util/Template.js";
+import { ListTemplate } from "../../../core/util/List.js";
+import { AxisTick } from "./AxisTick.js";
+import { Grid } from "./Grid.js";
+import { AxisLabel } from "./AxisLabel.js";
+import type { IPoint } from "../../../core/util/IPoint.js";
+import type { Tooltip } from "../../../core/render/Tooltip.js";
+import type { AxisBullet } from "./AxisBullet.js";
+import type { XYChart } from "../XYChart.js";
+import type { DataItem } from "../../../core/render/Component.js";
+import * as $utils from "../../../core/util/Utils.js";
+import type { IPointerEvent } from "../../../core/render/backend/Renderer.js";
 
 export interface IAxisRendererSettings extends IGraphicsSettings {
 

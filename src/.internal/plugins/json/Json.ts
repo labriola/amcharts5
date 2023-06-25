@@ -1,18 +1,18 @@
-import type { Root } from "../../core/Root";
+import type { Root } from "../../core/Root.js";
 
-import { Entity } from "../../core/util/Entity";
-import { Sprite } from "../../core/render/Sprite";
-import { Container } from "../../core/render/Container";
-import { Color } from "../../core/util/Color";
-import { Percent } from "../../core/util/Percent";
-import { Template } from "../../core/util/Template";
+import { Entity } from "../../core/util/Entity.js";
+import { Sprite } from "../../core/render/Sprite.js";
+import { Container } from "../../core/render/Container.js";
+import { Color } from "../../core/util/Color.js";
+import { Percent } from "../../core/util/Percent.js";
+import { Template } from "../../core/util/Template.js";
 
-import * as $type from "../../core/util/Type";
-import * as $array from "../../core/util/Array";
-import * as $object from "../../core/util/Object";
+import * as $type from "../../core/util/Type.js";
+import * as $array from "../../core/util/Array.js";
+import * as $object from "../../core/util/Object.js";
 
-import type { IClasses } from "./Classes";
-import classes from "./Classes";
+import type { IClasses } from "./Classes.js";
+import classes from "./Classes.js";
 
 
 interface IRef {

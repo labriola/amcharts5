@@ -1,5 +1,5 @@
-import { Entity, IEntitySettings, IEntityPrivate } from "./Entity";
-import { Color } from "./Color";
+import { Entity, IEntitySettings, IEntityPrivate } from "./Entity.js";
+import { Color } from "./Color.js";
 
 
 export interface IColorSetSettings extends IEntitySettings {

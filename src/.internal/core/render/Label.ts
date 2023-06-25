@@ -1,13 +1,13 @@
-import type { Color } from "../util/Color";
-import type { Percent } from "../util/Percent";
-import type { DataItem, IComponentDataItem } from "./Component";
+import type { Color } from "../util/Color.js";
+import type { Percent } from "../util/Percent.js";
+import type { DataItem, IComponentDataItem } from "./Component.js";
 
-import { Text } from "../render/Text";
-import { p50, p100 } from "../util/Percent";
-import { Container, IContainerPrivate, IContainerSettings } from "./Container";
+import { Text } from "../render/Text.js";
+import { p50, p100 } from "../util/Percent.js";
+import { Container, IContainerPrivate, IContainerSettings } from "./Container.js";
 
-import * as  $array from "../../core/util/Array";
-import * as  $type from "../../core/util/Type";
+import * as  $array from "../../core/util/Array.js";
+import * as  $type from "../../core/util/Type.js";
 
 
 export interface ILabelSettings extends IContainerSettings {

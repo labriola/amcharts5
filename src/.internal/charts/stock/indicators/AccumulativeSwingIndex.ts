@@ -1,13 +1,13 @@
-import type { IIndicatorEditableSetting } from "./Indicator";
-import type { ILineSeriesAxisRange } from "../../xy/series/LineSeries";
-import type { DataItem } from "../../../core/render/Component";
-import type { IValueAxisDataItem } from "../../xy/axes/ValueAxis";
+import type { IIndicatorEditableSetting } from "./Indicator.js";
+import type { ILineSeriesAxisRange } from "../../xy/series/LineSeries.js";
+import type { DataItem } from "../../../core/render/Component.js";
+import type { IValueAxisDataItem } from "../../xy/axes/ValueAxis.js";
 
-import { ChartIndicator, IChartIndicatorSettings, IChartIndicatorPrivate, IChartIndicatorEvents } from "./ChartIndicator";
-import { LineSeries } from "../../xy/series/LineSeries";
-import { Color } from "../../../core/util/Color";
+import { ChartIndicator, IChartIndicatorSettings, IChartIndicatorPrivate, IChartIndicatorEvents } from "./ChartIndicator.js";
+import { LineSeries } from "../../xy/series/LineSeries.js";
+import { Color } from "../../../core/util/Color.js";
 
-import * as $type from "../../../core/util/Type";
+import * as $type from "../../../core/util/Type.js";
 
 export interface IAccumulativeSwingIndexSettings extends IChartIndicatorSettings {
 

@@ -1,8 +1,8 @@
-import { List } from "./List";
-import type { IDisposer } from "./Disposer";
-import type { Container } from "../render/Container";
-import type { Sprite } from "../render/Sprite";
-import * as $array from "./Array";
+import { List } from "./List.js";
+import type { IDisposer } from "./Disposer.js";
+import type { Container } from "../render/Container.js";
+import type { Sprite } from "../render/Sprite.js";
+import * as $array from "./Array.js";
 
 /**
  * A version of [[List]] to hold children of the [[Container]].

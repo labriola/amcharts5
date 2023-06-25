@@ -1,4 +1,4 @@
-import { Scrollbar, IScrollbarPrivate, IScrollbarSettings, IScrollbarEvents } from "./Scrollbar";
+import { Scrollbar, IScrollbarPrivate, IScrollbarSettings, IScrollbarEvents } from "./Scrollbar.js";
 
 export interface ISliderSettings extends IScrollbarSettings {
 }

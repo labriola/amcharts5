@@ -1,10 +1,10 @@
-import type { IIndicatorEditableSetting } from "./Indicator";
-import type { Color } from "../../../core/util/Color";
+import type { IIndicatorEditableSetting } from "./Indicator.js";
+import type { Color } from "../../../core/util/Color.js";
 
-import { MovingAverage, IMovingAverageSettings, IMovingAveragePrivate, IMovingAverageEvents } from "./MovingAverage";
-import { LineSeries } from "../../xy/series/LineSeries";
+import { MovingAverage, IMovingAverageSettings, IMovingAveragePrivate, IMovingAverageEvents } from "./MovingAverage.js";
+import { LineSeries } from "../../xy/series/LineSeries.js";
 
-import * as $array from "../../../core/util/Array";
+import * as $array from "../../../core/util/Array.js";
 
 export interface IMovingAverageEnvelopeSettings extends IMovingAverageSettings {
 

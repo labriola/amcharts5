@@ -1,11 +1,11 @@
-import type { ISpritePointerEvent } from "../../../core/render/Sprite";
-import type { IPoint } from "../../../core/util/IPoint";
-import type { Line } from "../../../core/render/Line";
-import type { Template } from "../../../core/util/Template";
+import type { ISpritePointerEvent } from "../../../core/render/Sprite.js";
+import type { IPoint } from "../../../core/util/IPoint.js";
+import type { Line } from "../../../core/render/Line.js";
+import type { Template } from "../../../core/util/Template.js";
 
-import { SimpleLineSeries, ISimpleLineSeriesSettings, ISimpleLineSeriesPrivate, ISimpleLineSeriesDataItem } from "./SimpleLineSeries";
+import { SimpleLineSeries, ISimpleLineSeriesSettings, ISimpleLineSeriesPrivate, ISimpleLineSeriesDataItem } from "./SimpleLineSeries.js";
 
-import * as $math from "../../../core/util/Math";
+import * as $math from "../../../core/util/Math.js";
 
 export interface IHorizontalRaySeriesDataItem extends ISimpleLineSeriesDataItem {
 

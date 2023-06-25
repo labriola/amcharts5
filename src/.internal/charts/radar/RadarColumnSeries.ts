@@ -1,18 +1,18 @@
-import type { DataItem } from "../../core/render/Component";
-import type { IPoint } from "../../core/util/IPoint";
-import type { AxisRendererCircular } from "./AxisRendererCircular";
-import type { AxisRendererRadial } from "./AxisRendererRadial";
-import type { Bullet } from "../../core/render/Bullet";
-import type { RadarChart } from "./RadarChart";
+import type { DataItem } from "../../core/render/Component.js";
+import type { IPoint } from "../../core/util/IPoint.js";
+import type { AxisRendererCircular } from "./AxisRendererCircular.js";
+import type { AxisRendererRadial } from "./AxisRendererRadial.js";
+import type { Bullet } from "../../core/render/Bullet.js";
+import type { RadarChart } from "./RadarChart.js";
 
-import { BaseColumnSeries, IBaseColumnSeriesPrivate, IBaseColumnSeriesSettings, IBaseColumnSeriesDataItem, IBaseColumnSeriesAxisRange } from "../xy/series/BaseColumnSeries";
-import { Slice } from "../../core/render/Slice";
-import { Graphics } from "../../core/render/Graphics";
-import { Template } from "../../core/util/Template";
-import { ListTemplate } from "../../core/util/List";
+import { BaseColumnSeries, IBaseColumnSeriesPrivate, IBaseColumnSeriesSettings, IBaseColumnSeriesDataItem, IBaseColumnSeriesAxisRange } from "../xy/series/BaseColumnSeries.js";
+import { Slice } from "../../core/render/Slice.js";
+import { Graphics } from "../../core/render/Graphics.js";
+import { Template } from "../../core/util/Template.js";
+import { ListTemplate } from "../../core/util/List.js";
 
-import * as $math from "../../core/util/Math";
-import * as $utils from "../../core/util/Utils";
+import * as $math from "../../core/util/Math.js";
+import * as $utils from "../../core/util/Utils.js";
 
 
 export interface IRadarColumnSeriesDataItem extends IBaseColumnSeriesDataItem {

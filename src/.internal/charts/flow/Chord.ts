@@ -1,18 +1,18 @@
-import type { DataItem } from "../../core/render/Component";
-import type { RadialLabel } from "../../core/render/RadialLabel";
+import type { DataItem } from "../../core/render/Component.js";
+import type { RadialLabel } from "../../core/render/RadialLabel.js";
 
-import { Flow, IFlowSettings, IFlowDataItem, IFlowPrivate, IFlowEvents } from "./Flow";
+import { Flow, IFlowSettings, IFlowDataItem, IFlowPrivate, IFlowEvents } from "./Flow.js";
 import { chord, ribbon, RibbonGenerator, RibbonSubgroup, Ribbon } from "d3-chord";
 import { ascending, descending } from "d3";
-import { Template } from "../../core/util/Template";
-import { ListTemplate } from "../../core/util/List";
-import { ChordNodes, IChordNodesDataItem } from "./ChordNodes";
-import { ChordLink } from "./ChordLink";
-import { Percent, p100, p50 } from "../../core/util/Percent";
+import { Template } from "../../core/util/Template.js";
+import { ListTemplate } from "../../core/util/List.js";
+import { ChordNodes, IChordNodesDataItem } from "./ChordNodes.js";
+import { ChordLink } from "./ChordLink.js";
+import { Percent, p100, p50 } from "../../core/util/Percent.js";
 
-import * as $array from "../../core/util/Array";
-import * as $utils from "../../core/util/Utils";
-import * as $math from "../../core/util/Math";
+import * as $array from "../../core/util/Array.js";
+import * as $utils from "../../core/util/Utils.js";
+import * as $math from "../../core/util/Math.js";
 
 
 export interface IChordDataItem extends IFlowDataItem {

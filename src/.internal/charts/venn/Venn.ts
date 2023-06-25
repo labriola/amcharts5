@@ -1,19 +1,19 @@
-import type { DataItem } from "../../core/render/Component";
+import type { DataItem } from "../../core/render/Component.js";
 
-import { VennDefaultTheme } from "./VennDefaultTheme";
-import { Series, ISeriesSettings, ISeriesDataItem, ISeriesPrivate } from "../../core/render/Series";
-import { Template } from "../../core/util/Template";
-import { Graphics, visualSettings } from "../../core/render/Graphics";
-import { Container } from "../../core/render/Container";
-import { Label } from "../../core/render/Label";
-import { ListTemplate } from "../../core/util/List";
-import type { ILegendDataItem } from "../../core/render/Legend";
-import type { Color } from "../../core/util/Color";
-import type { ColorSet } from "../../core/util/ColorSet";
+import { VennDefaultTheme } from "./VennDefaultTheme.js";
+import { Series, ISeriesSettings, ISeriesDataItem, ISeriesPrivate } from "../../core/render/Series.js";
+import { Template } from "../../core/util/Template.js";
+import { Graphics, visualSettings } from "../../core/render/Graphics.js";
+import { Container } from "../../core/render/Container.js";
+import { Label } from "../../core/render/Label.js";
+import { ListTemplate } from "../../core/util/List.js";
+import type { ILegendDataItem } from "../../core/render/Legend.js";
+import type { Color } from "../../core/util/Color.js";
+import type { ColorSet } from "../../core/util/ColorSet.js";
 
-import * as $utils from "../../core/util/Utils";
-import * as $array from "../../core/util/Array";
-import * as $type from "../../core/util/Type";
+import * as $utils from "../../core/util/Utils.js";
+import * as $array from "../../core/util/Array.js";
+import * as $type from "../../core/util/Type.js";
 import * as venn from "./vennjs/index.js";
 
 export interface IVennDataItem extends ISeriesDataItem {

@@ -1,13 +1,13 @@
-import type { ISpritePointerEvent } from "../../../core/render/Sprite";
-import type { DataItem } from "../../../core/render/Component";
-import type { IPoint } from "../../../core/util/IPoint";
+import type { ISpritePointerEvent } from "../../../core/render/Sprite.js";
+import type { DataItem } from "../../../core/render/Component.js";
+import type { IPoint } from "../../../core/util/IPoint.js";
 
-import { DrawingSeries, IDrawingSeriesSettings, IDrawingSeriesPrivate, IDrawingSeriesDataItem } from "./DrawingSeries";
-import { Line } from "../../../core/render/Line";
-import { ListTemplate } from "../../../core/util/List";
-import { Template } from "../../../core/util/Template";
+import { DrawingSeries, IDrawingSeriesSettings, IDrawingSeriesPrivate, IDrawingSeriesDataItem } from "./DrawingSeries.js";
+import { Line } from "../../../core/render/Line.js";
+import { ListTemplate } from "../../../core/util/List.js";
+import { Template } from "../../../core/util/Template.js";
 
-import * as $math from "../../../core/util/Math";
+import * as $math from "../../../core/util/Math.js";
 
 export interface ISimpleLineSeriesDataItem extends IDrawingSeriesDataItem {
 }

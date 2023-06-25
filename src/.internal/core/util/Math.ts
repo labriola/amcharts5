@@ -1,6 +1,6 @@
-import type { IPoint } from "./IPoint";
-import { isNumber } from "./Type";
-import type { IBounds } from "./IBounds";
+import type { IPoint } from "./IPoint.js";
+import { isNumber } from "./Type.js";
+import type { IBounds } from "./IBounds.js";
 
 /**
  * ============================================================================

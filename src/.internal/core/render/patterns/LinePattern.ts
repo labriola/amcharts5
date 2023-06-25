@@ -1,5 +1,5 @@
-import { Pattern, IPatternSettings, IPatternPrivate } from "./Pattern";
-import * as $type from "../../util//Type";
+import { Pattern, IPatternSettings, IPatternPrivate } from "./Pattern.js";
+import * as $type from "../../util//Type.js";
 
 export interface ILinePatternSettings extends IPatternSettings {
 

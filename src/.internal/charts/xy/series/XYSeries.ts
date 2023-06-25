@@ -1,25 +1,25 @@
-import type { Axis, IAxisPrivate, IAxisDataItem } from "../axes/Axis";
-import type { AxisRenderer } from "../axes/AxisRenderer";
-import type { IPoint } from "../../../core/util/IPoint";
-import type { Sprite } from "../../../core/render/Sprite";
-import type { Bullet } from "../../../core/render/Bullet";
-import type { XYChart } from "../XYChart";
-//import type { CategoryAxis } from "../axes/CategoryAxis";
-import type { DateAxis } from "../axes/DateAxis";
-import type { ITimeInterval } from "../../../core/util/Time";
+import type { Axis, IAxisPrivate, IAxisDataItem } from "../axes/Axis.js";
+import type { AxisRenderer } from "../axes/AxisRenderer.js";
+import type { IPoint } from "../../../core/util/IPoint.js";
+import type { Sprite } from "../../../core/render/Sprite.js";
+import type { Bullet } from "../../../core/render/Bullet.js";
+import type { XYChart } from "../XYChart.js";
+//import type { CategoryAxis } from "../axes/CategoryAxis.js";
+import type { DateAxis } from "../axes/DateAxis.js";
+import type { ITimeInterval } from "../../../core/util/Time.js";
 
-import { DataItem } from "../../../core/render/Component";
-import { Series, ISeriesSettings, ISeriesDataItem, ISeriesPrivate, ISeriesEvents } from "../../../core/render/Series";
-import { List } from "../../../core/util/List";
-import { Container } from "../../../core/render/Container";
-import { Graphics } from "../../../core/render/Graphics";
+import { DataItem } from "../../../core/render/Component.js";
+import { Series, ISeriesSettings, ISeriesDataItem, ISeriesPrivate, ISeriesEvents } from "../../../core/render/Series.js";
+import { List } from "../../../core/util/List.js";
+import { Container } from "../../../core/render/Container.js";
+import { Graphics } from "../../../core/render/Graphics.js";
 
-import type { IDisposer } from "../../../core/util/Disposer";
+import type { IDisposer } from "../../../core/util/Disposer.js";
 
-import * as $type from "../../../core/util/Type";
-import * as $object from "../../../core/util/Object";
-import * as $array from "../../../core/util/Array";
-import * as $utils from "../../../core/util/Utils";
+import * as $type from "../../../core/util/Type.js";
+import * as $object from "../../../core/util/Object.js";
+import * as $array from "../../../core/util/Array.js";
+import * as $utils from "../../../core/util/Utils.js";
 
 /**
  * @ignore

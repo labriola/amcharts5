@@ -6,7 +6,7 @@
  * ============================================================================
  * @hidden
  */
-import * as $array from "./Array";
+import * as $array from "./Array.js";
 
 /**
  * [Listener description]

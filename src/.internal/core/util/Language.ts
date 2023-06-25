@@ -1,7 +1,7 @@
-import { Entity, IEntitySettings, IEntityPrivate } from "./Entity"
-import * as $array from "./Array"
-import * as $object from "./Object"
-import en from "../../../locales/en";
+import { Entity, IEntitySettings, IEntityPrivate } from "./Entity.js"
+import * as $array from "./Array.js"
+import * as $object from "./Object.js"
+import en from "../../../locales/en.js";
 
 /**
  * Defines properties that exist for the locale.

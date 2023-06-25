@@ -1,42 +1,42 @@
-import type { IAnimation } from "./util/Animation";
-import type { Entity } from "./util/Entity";
-import type { Sprite } from "./render/Sprite";
-import type { Theme } from "./Theme";
-import type { IPoint } from "./util/IPoint";
-import type { IRenderer, IPointerEvent } from "./render/backend/Renderer";
-import type { Timezone } from "./util/Timezone";
+import type { IAnimation } from "./util/Animation.js";
+import type { Entity } from "./util/Entity.js";
+import type { Sprite } from "./render/Sprite.js";
+import type { Theme } from "./Theme.js";
+import type { IPoint } from "./util/IPoint.js";
+import type { IRenderer, IPointerEvent } from "./render/backend/Renderer.js";
+import type { Timezone } from "./util/Timezone.js";
 
-import { Container } from "./render/Container";
-import { Text } from "./render/Text";
-import { HorizontalLayout } from "./render/HorizontalLayout";
-import { VerticalLayout } from "./render/VerticalLayout";
-import { GridLayout } from "./render/GridLayout";
-import { IDisposer, Disposer } from "./util/Disposer";
-import { ResizeSensor } from "./util/ResizeSensor";
-import { InterfaceColors } from "./util/InterfaceColors";
-import { Graphics } from "./render/Graphics";
-import { Rectangle } from "./render/Rectangle";
-import { Tooltip } from "./render/Tooltip";
-import { NumberFormatter } from "./util/NumberFormatter";
-import { DateFormatter } from "./util/DateFormatter";
-import { DurationFormatter } from "./util/DurationFormatter";
-import { ILocale, Language } from "./util/Language";
-import { Events, EventDispatcher } from "./util/EventDispatcher";
-import { DefaultTheme } from "../themes/DefaultTheme";
-import { CanvasRenderer } from "./render/backend/CanvasRenderer";
-import { p100, percent } from "./util/Percent";
-import { color } from "./util/Color";
-import { populateString } from "./util/PopulateString";
-import { registry } from "./Registry";
+import { Container } from "./render/Container.js";
+import { Text } from "./render/Text.js";
+import { HorizontalLayout } from "./render/HorizontalLayout.js";
+import { VerticalLayout } from "./render/VerticalLayout.js";
+import { GridLayout } from "./render/GridLayout.js";
+import { IDisposer, Disposer } from "./util/Disposer.js";
+import { ResizeSensor } from "./util/ResizeSensor.js";
+import { InterfaceColors } from "./util/InterfaceColors.js";
+import { Graphics } from "./render/Graphics.js";
+import { Rectangle } from "./render/Rectangle.js";
+import { Tooltip } from "./render/Tooltip.js";
+import { NumberFormatter } from "./util/NumberFormatter.js";
+import { DateFormatter } from "./util/DateFormatter.js";
+import { DurationFormatter } from "./util/DurationFormatter.js";
+import { ILocale, Language } from "./util/Language.js";
+import { Events, EventDispatcher } from "./util/EventDispatcher.js";
+import { DefaultTheme } from "../themes/DefaultTheme.js";
+import { CanvasRenderer } from "./render/backend/CanvasRenderer.js";
+import { p100, percent } from "./util/Percent.js";
+import { color } from "./util/Color.js";
+import { populateString } from "./util/PopulateString.js";
+import { registry } from "./Registry.js";
 
-import * as $order from "./util/Order";
-import * as $array from "./util/Array";
-import * as $object from "./util/Object";
-import * as $utils from "./util/Utils";
-import * as $type from "./util/Type";
+import * as $order from "./util/Order.js";
+import * as $array from "./util/Array.js";
+import * as $object from "./util/Object.js";
+import * as $utils from "./util/Utils.js";
+import * as $type from "./util/Type.js";
 
 
-import en from "../../locales/en";
+import en from "../../locales/en.js";
 
 
 function rAF(fps: number | undefined, callback: (currentTime: number) => void): void {

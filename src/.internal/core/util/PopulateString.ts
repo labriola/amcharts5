@@ -1,9 +1,9 @@
 /** @ignore *//** */
 
-import * as $type from "./Type";
-import * as $utils from "./Utils";
-import { Sprite } from "../render/Sprite";
-import { TextFormatter } from "./TextFormatter";
+import * as $type from "./Type.js";
+import * as $utils from "./Utils.js";
+import { Sprite } from "../render/Sprite.js";
+import { TextFormatter } from "./TextFormatter.js";
 
 /**
  * @ignore

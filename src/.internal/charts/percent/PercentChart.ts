@@ -1,6 +1,6 @@
-import type { PercentSeries } from "./PercentSeries";
-import { SerialChart, ISerialChartPrivate, ISerialChartSettings } from "../../core/render/SerialChart";
-import { PercentDefaultTheme } from "./PercentDefaultTheme";
+import type { PercentSeries } from "./PercentSeries.js";
+import { SerialChart, ISerialChartPrivate, ISerialChartSettings } from "../../core/render/SerialChart.js";
+import { PercentDefaultTheme } from "./PercentDefaultTheme.js";
 
 export interface IPercentChartSettings extends ISerialChartSettings {
 }

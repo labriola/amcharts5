@@ -1,10 +1,10 @@
-import { Color, color } from "../../../core/util/Color";
+import { Color, color } from "../../../core/util/Color.js";
 
-import { ColorSet } from "../../../core/util/ColorSet";
-import { Dropdown, IDropdownSettings, IDropdownPrivate, IDropdownEvents } from "./Dropdown"
+import { ColorSet } from "../../../core/util/ColorSet.js";
+import { Dropdown, IDropdownSettings, IDropdownPrivate, IDropdownEvents } from "./Dropdown.js"
 
-import * as $array from "../../../core/util/Array";
-import * as $utils from "../../../core/util/Utils";
+import * as $array from "../../../core/util/Array.js";
+import * as $utils from "../../../core/util/Utils.js";
 
 export interface IDropdownColorsSettings extends IDropdownSettings {
 	colors?: ColorSet;
