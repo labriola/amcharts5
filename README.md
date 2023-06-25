@@ -1,3 +1,7 @@
+# Fork
+
+This is an unofficial community FORK intended to explore making amCharts work properly when included in a SSR framework such as Sveltekit.
+
 ## amCharts 5 source code
 
 This repository is for amCharts 5 source code. For compiled options, look
