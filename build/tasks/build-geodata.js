@@ -1,6 +1,19 @@
 const $path = require("path");
 const { mkdir, cp, rm, tsc, readdir, readFile, writeFile, geodataToScript, mapFiles, eachFileRecursive, splitPath, posixPath } = require("../util");
 
+async function writePackage(state) {
+	const distPkgPath = state.path("dist", "geodata", "es2015", "package.json");
+	console.log(distPkgPath)
+	const root = JSON.parse(await readFile(distPkgPath));
+
+	await writeFile(
+		distPkgPath,
+		JSON.stringify({
+			...root,
+			type: "module"
+		}, null, 2),
+	);
+}
 
 async function generateJson(from, to_es2015, to_script) {
 	const files = await readdir(from);
@@ -112,4 +125,6 @@ module.exports = async (state) => {
 
 	await cp(state.path("packages", "shared"), state.path("dist", "geodata", "script"));
 	await cp(state.path("packages", "geodata"), state.path("dist", "geodata", "script"));
+
+	await writePackage(state);
 };
